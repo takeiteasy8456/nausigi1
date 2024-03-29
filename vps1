@@ -24,7 +24,7 @@ getgenv().Config = {
     ["RequiredGem"] = 1000,
     ["AutoMail"] = true,
     ["WH_MatchComplete"] = true,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/1090910529658302464/gOtVs1OA1KZPAYtNm_R_aGeWcSEl8n8KbIeVSqusbIw6DXXfetVzrEOgKhOrWkHmBPvP",
+    ["WebhookURL"] = "https://discord.com/api/webhooks/1073957496252813332/chEA7SEhrmnwJ9dS-DYiJNxWfozLrpxGL0wLK7VjZ3hWjZUeJSamp4z4px8OXh-fO2zm",
 }
 _G.key = "keyditmemaydo"
 
