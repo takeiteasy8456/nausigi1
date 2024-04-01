@@ -25,6 +25,12 @@ getgenv().Config = {
     ["AutoMail"] = true,
     ["WH_MatchComplete"] = true,
     ["IgnoreMacroTiming"] = true,
+    ["AutoUseBoost"] = true,
+    ["UseBoosts"] = {
+        ["2xCoinsBoost"] = true,
+        ["2xEggsBoost"] = true,
+    },
+    ["UseAll"] = true,
     ["WebhookURL"] = "https://discord.com/api/webhooks/1073957496252813332/chEA7SEhrmnwJ9dS-DYiJNxWfozLrpxGL0wLK7VjZ3hWjZUeJSamp4z4px8OXh-fO2zm",
 }
 getgenv().Key = "kafa2dbc9d679497ac82eddf"
