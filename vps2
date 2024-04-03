@@ -1,6 +1,6 @@
 getgenv().Config = {
     ["SellRarities"] = {
-        ["Legendary"] = true,
+        ["Legendary"] = false,
         ["Basic"] = true,
         ["Epic"] = true,
         ["Uncommon"] = true,
@@ -9,7 +9,7 @@ getgenv().Config = {
     ["SelectCase"] = "JesterCrate",
     ["AutoSummonTroop"] = true,
     ["Summonx10"] = true,
-    ["RequireRoll"] = 50,
+    ["RequireRoll"] = 1,
     ["AutoUseBoost"] = true,
     ["UseBoosts"] = {
         ["2xLuckBoost"] = true,
