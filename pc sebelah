@@ -32,6 +32,21 @@ getgenv().Config = {
         ["2xEggsBoost"] = true,
     },
     ["UseAll"] = true,
+    ["SellRarities"] = {
+        ["Legendary"] = true,
+        ["Basic"] = true,
+        ["Epic"] = true,
+        ["Uncommon"] = true,
+        ["Rare"] = true,
+    },
+    ["SelectCase"] = "JesterCrate",
+    ["AutoSummonTroop"] = true,
+    ["Summonx10"] = true,
+    ["RequireRoll"] = 50,
+    ["AutoUseBoost"] = true,
+    ["UseBoosts"] = {
+        ["2xLuckBoost"] = true,
+    },
 }
 _G.key = "48de42142852493690337181849818ac"
 
