@@ -48,6 +48,6 @@ getgenv().Config = {
         ["2xLuckBoost"] = true,
     },
 }
-_G.key = "48de42142852493690337181849818ac"
+_G.key = "321367e79777455a98db134faedbf64f"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
