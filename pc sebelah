@@ -2,7 +2,7 @@ getgenv().Config = {
     
     ["UseAll"] = true,
     ["SellRarities"] = {
-        ["Legendary"] = true,
+        ["Legendary"] = false,
         ["Basic"] = true,
         ["Epic"] = true,
         ["Uncommon"] = true,
