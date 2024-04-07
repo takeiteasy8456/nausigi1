@@ -7,7 +7,7 @@ getgenv().Config = {
         ["Rare"] = true,
     },
     ["SelectCase"] = "JesterCrate",
-    ["AutoSummonTroop"] = false,
+    ["AutoSummonTroop"] = true,
     ["Summonx10"] = true,
     ["RequireRoll"] = 1,
     ["AutoUseBoost"] = true,
