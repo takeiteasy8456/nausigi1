@@ -1,6 +1,10 @@
---print("KE 1 CLAIM SEND MAIL")
 getgenv().Config = {
-    ["AutoMail"] = true,
+    ["AutoListForSale"] = true,
+    ["SelectProduct"] = "ClockCrate",
+    ["ALFS_HopServer"] = true,
+    ["ALFS_DelayHop"] = 10, --Auto List For Sale minutes
+    ["GemPrice"] = "75", --GANTI HARGANYA
+    ["WH_MailSent"] = false,
     ["MailName"] = "Gansdangvp2t",
     ["RequiredGem"] = 2000,
     ["DelayJoin"] = 15,
@@ -15,6 +19,7 @@ getgenv().Config = {
     ["AutoRejoin"] = true,
     ["BoostFPS"] = true,
 }
+
 
 getgenv().Key = "k0ba3ceeb1c11b6f62aebedd"
 
