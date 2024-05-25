@@ -1,53 +1,23 @@
+--print("KE 1 CLAIM SEND MAIL")
 getgenv().Config = {
-    ["SellRarities"] = {
-        ["Legendary"] = false,
-        ["Basic"] = false,
-        ["Epic"] = false,
-        ["Uncommon"] = false,
-        ["Rare"] = false,
-    },
-    ["SelectCase"] = "JesterCrate",
-    ["AutoSummonTroop"] = false,
-    ["Summonx10"] = false,
-    ["RequireRoll"] = 50,
-    ["AutoUseBoost"] = false,
-    ["UseBoosts"] = {
-        ["2xLuckBoost"] = false,
-    },
-    ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = true,
-    ["TPLobbyIfPlayer"] = true,
-    ["SelectMap"] = "TimeFactory (Rewind)",
-    ["AutoVoteDifficulty"] = "true",
-    ["SelectDifficulty"] = "Endless",
-    ["SelectMacro"] = "gojo3",
-    ["AutoSkip"] = true,
-    ["DeleteMap"] = true,
-    ["PlayMacro"] = true,
-    ["AutoSave"] = true,
-    ["BoostFPS"] = true,
-    ["AutoClaimQuest"] = true,
-    ["AutoClaimEasterQuest"] = true,
-    ["AutoClaimEventPass"] = true,
-    ["WhiteScreen"] = false,
-    ["DelayJoin"] = "10",
-    ["PlacingFailsafe"] = true,
-    ["IgnoreTiming"] = true,
-    ["ExchangeTier"] = "1",
-    ["AutoExchangeEvent"] = false,
-    ["MailName"] = "kayu777777777",
-    ["RequiredGem"] = 1000,
     ["AutoMail"] = true,
-    ["WH_MatchComplete"] = true,
-    ["IgnoreMacroTiming"] = true,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/1224325789537800283/UYJohxt6xl7IYLSeVFefWoYnbtv3tKkL5BIUHaCU7k38L0S0zeswE4acc0umpKG6ZHUj",
-        ["AutoUseBoost"] = true,
-    ["UseBoosts"] = {
-        ["2xCoinsBoost"] = true,
-        ["2xEggsBoost"] = true,
-    },
-    ["UseAll"] = true,
+    ["MailName"] = "Gansdangvp2t",
+    ["RequiredGem"] = 2000,
+    ["DelayJoin"] = 15,
+    ["AutoExchangeEvent"] = false,
+    ["ExchangeTier"] = 1,
+    ["AutoClaimEventPass"] = true,
+    ["AutoExchange"] = false,
+    ["AutoBuyEvent"] = true, --buy crates event
+    ["AutoClaimQuest"] = true,
+    ["AutoClaimEventQuest"] = true,
+    ["DeleteMap"] = true,
+    ["AutoRejoin"] = true,
+    ["BoostFPS"] = true,
 }
+getgenv().Key = "KEY"
+
+repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
 getgenv().Key = "k0ba3ceeb1c11b6f62aebedd"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
