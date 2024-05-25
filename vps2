@@ -3,7 +3,7 @@ getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1094375113312444
 getgenv().Config = {
 ["AutoClaimQuest"] = true,
 ["AutoClaimEventQuest"] = true,
-    ["SelectMacro"] = "gojo1",
+    ["SelectMacro"] = "gojo3",
 }
 getgenv().Key = "k0ba3ceeb1c11b6f62aebedd"
 
