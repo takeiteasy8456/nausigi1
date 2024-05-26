@@ -50,6 +50,7 @@ getgenv().Config = {
         ["2xEggsBoost"] = true,
     },
     ["UseAll"] = true,
+}
 getgenv().Key = "kfed1afd6a25dd6f00089ea9"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
