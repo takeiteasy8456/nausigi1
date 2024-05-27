@@ -1,5 +1,5 @@
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1094375113312444526/1243945003986981005/gojo3.txt?ex=66554bd0&is=6653fa50&hm=ebdaefda69ca7f4f03bbabf076457b938c33c85520abcde9bd866030f22517fb&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1244642739736416256/gojo3.txt?ex=6655db61&is=665489e1&hm=b27cb618db173ee3d1835559d5afa2b3983173df587e504425485032e2283fa0&"
 getgenv().Config = {
     ["AutoClaimEventQuest"] = true,
     ["AutoClaimEventPass"] = true,
