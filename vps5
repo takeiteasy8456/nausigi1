@@ -6,7 +6,7 @@ getgenv().Config = {
 	["AutoSummon"] = false,
 	["AutoClaimQuest"] = true,
 	["TPLobbyIfPlayer"] = false,
-	["AutoJoinHoster"] = true,
+	["AutoJoinHoster"] = false,
 	["WH_MailSent"] = false,
 	["IgnoreMacroTiming"] = true,
 	["SelectMacro"] = "bokir1",
@@ -71,7 +71,7 @@ getgenv().Config = {
 	["HardMode"] = false,
 	["AutoBuyEvent"] = true,
 	["ALFS_HopServer"] = true,
-	["AutoJoinWorld"] = false,
+	["AutoJoinWorld"] = true,
 	["WH_BannerSummoned"] = false,
 	["SelectChallengeMacro"] = {
 
