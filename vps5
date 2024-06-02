@@ -1,5 +1,5 @@
 getgenv().Config = {
-	["SelectChapter"] = "Chapter 1",
+	["SelectChapter"] = "Chapter 2",
 	["RequiredGem"] = 1000,
 	["ExchangeTier"] = 1,
 	["WH_MatchComplete"] = true,
