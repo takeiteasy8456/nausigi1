@@ -68,7 +68,7 @@ getgenv().Config = {
 	},
 	["AutoJoinChallenge"] = false,
 	["UnselectIfSummoned"] = false,
-	["AutoJoinWorld"] = false,
+	["AutoJoinWorld"] = true,
 	["SelectReward"] = {
 		["Trait Crystal"] = false,
 		["Risky Dice"] = false,
