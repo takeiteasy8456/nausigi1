@@ -1,113 +1,79 @@
-getgenv().Config = {
-	["SelectChapter"] = "Chapter 4",
-	["RequiredGem"] = 1000,
-	["ExchangeTier"] = 1,
-	["WH_MatchComplete"] = true,
-	["AutoSummon"] = false,
-	["AutoClaimQuest"] = true,
-	["TPLobbyIfPlayer"] = false,
-	["AutoJoinHoster"] = false,
-	["WH_MailSent"] = false,
-	["IgnoreMacroTiming"] = true,
-	["SelectMacro"] = "bokir1",
-	["ALFS_DelayHop"] = 10,
-	["SummonUnit"] = {
-		["The Beast"] = false,
-		["Shinobi Form 3"] = false,
-		["The Gamer"] = false,
-		["Strongest Swordsman"] = false,
-		["Admiral Of Lava"] = false,
-		["Elf Wizardess"] = false,
-		["Admiral Of Light"] = false,
-		["Dragon Slayer"] = false,
-		["Carp"] = false,
-		["Cursed Fighter"] = false,
-		["Curse Prince"] = false,
-		["Flame Dragon King"] = false,
-		["Fire Leg Master"] = false,
-		["Esper"] = false,
-		["Maxed Qi Master"] = false,
-		["Thunder Shinobi"] = false,
-		["Ascended Qi Master"] = false,
-		["Spirit Hybrid"] = false,
-		["Soulforce Reaper"] = false,
-		["Admiral Of Ice"] = false,
-		["Inferno Commander"] = false,
-		["Pink Rockstar"] = false,
-		["Ant King"] = false,
-		["Sharpshooter"] = false,
-		["Skull Warrior"] = false,
-		["Vengeful Shinobi"] = false,
-		["Chance Taker"] = false,
-		["Bloomer"] = false,
-		["Master Swordsman"] = false
-	},
-	["PlayMacro"] = true,
-	["AutoSell"] = false,
-	["SelectWorld"] = "Windmill Village",
-	["DeleteMap"] = true,
-	["BoostFPS"] = true,
-	["AutoExchangeEvent"] = false,
-	["SelectDifficulty"] = {
-		["All units lowered range"] = false,
-		["All enemies regen health"] = false,
-		["All enemies +1 shield"] = false,
-		["All units increased cost"] = false,
-		["All enemies 2x health"] = false,
-		["All enemies 2x speed"] = false
-	},
-	["JoinerCooldown"] = 0,
-	["UnselectIfSummoned"] = false,
-	["GemPrice"] = 50,
-	["BlackScreen"] = false,
-	["AutoReturnLobby"] = false,
-	["JoinerList"] = {
-		[1] = "No joiner in the list"
-	},
-	["SelectProduct"] = "ClockCrate",
-	["AutoClaimEventPass"] = true,
-	["AutoReplay"] = true,
-	["AutoExchange"] = false,
-	["HardMode"] = false,
-	["AutoBuyEvent"] = true,
-	["ALFS_HopServer"] = true,
-	["AutoJoinWorld"] = true,
-	["WH_BannerSummoned"] = false,
-	["SelectChallengeMacro"] = {
-
-	},
-	["AutoSkip"] = true,
-	["MailName"] = "kayu777777777",
-	["AutoJoinChallenge"] = false,
-	["JoinHighest"] = true,
-	["SelectChallengeWorld"] = {
-		["Mob City"] = false,
-		["Cursed Academy"] = false,
-		["Windmill Village"] = false
-	},
-	["AutoListForSale"] = true,
-	["LeaveSellWave"] = 1,
-	["AutoClaimEventQuest"] = true,
-	["AutoRejoin"] = true,
-	["WebhookURL"] = "https://discord.com/api/webhooks/1245029873764798505/_Hfuy7riuRRSJuEqHtWtGXV6312W2CgVZhAUETzgEgkQBTUiP_mHk3a5jEkJulCrAvpV",
-	["AutoSave"] = true,
-	["DelayJoin"] = 15,
-	["DeleteRarity"] = {
-		["Epic"] = false,
-		["Legendary"] = false,
-		["Rare"] = false
-	},
-	["WaitForJoiner"] = false,
-	["AutoLeave"] = false,
-	["SelectReward"] = {
-		["Trait Crystal"] = false,
-		["Gold"] = false,
-		["Star Rift (Rainbow)"] = false,
-		["Gems"] = false,
-		["Risky Dice"] = false,
-		["Star Rift "] = false
-	}
+task.wait(10)
+local args = {
+    [1] = "adontop"
 }
-getgenv().Key = "ke16acda82c23c5f27534727"
 
-loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("UseCode"):InvokeServer(unpack(args))
+
+local args = {
+    [1] = "subcool"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("UseCode"):InvokeServer(unpack(args))
+
+local args = {
+    [1] = "sub2toadboigaming"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("UseCode"):InvokeServer(unpack(args))
+
+local args = {
+    [1] = "sub2jonaslyz"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("UseCode"):InvokeServer(unpack(args))
+
+local args = {
+    [1] = "sub2riktime"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("UseCode"):InvokeServer(unpack(args))
+
+local args = {
+    [1] = "sub2mozking"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("UseCode"):InvokeServer(unpack(args))
+
+local args = {
+    [1] = "sub2nagblox"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("UseCode"):InvokeServer(unpack(args))
+
+local args = {
+    [1] = "sub2karizmaqt"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("UseCode"):InvokeServer(unpack(args))
+
+local args = {
+    [1] = "raidsarecool"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("UseCode"):InvokeServer(unpack(args))
+
+local args = {
+    [1] = "sorry4delay"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("UseCode"):InvokeServer(unpack(args))
+
+local args = {
+    [1] = "thanks400k"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("UseCode"):InvokeServer(unpack(args))
+
+local args = {
+    [1] = "dayum100m"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("UseCode"):InvokeServer(unpack(args))
+
+local args = {
+    [1] = "wsindach4ht"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("UseCode"):InvokeServer(unpack(args))
+
