@@ -1,3 +1,5 @@
+getgenv().EquipMacroUnit = true
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1247329166160957481/haha.txt?ex=665fa14f&is=665e4fcf&hm=852e661bb576a237a3809674039b4bec4327997fca51837ad274add9f6be0ee2&"
 getgenv().Config = {
 	["SelectChapter"] = "Chapter 1",
 	["AutoSave"] = true,
