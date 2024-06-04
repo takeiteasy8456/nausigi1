@@ -13,7 +13,7 @@ getgenv().Config = {
 	["SelectRaidMacro"] = {
 
 	},
-	["AutoSummonStandard"] = false,
+	["AutoSummonStandard"] = true,
 	["SelectReward"] = {
 		["Trait Crystal"] = false,
 		["Risky Dice"] = false,
