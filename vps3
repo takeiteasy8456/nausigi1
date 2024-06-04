@@ -1,5 +1,5 @@
 getgenv().EquipMacroUnit = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1247329166160957481/haha.txt?ex=665fa14f&is=665e4fcf&hm=852e661bb576a237a3809674039b4bec4327997fca51837ad274add9f6be0ee2&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1247376316022394880/pussy.txt?ex=665fcd38&is=665e7bb8&hm=c9e0a263b112bbc3dde00882b1e2c8a23df1a28df368449190e1552813b9532e&"
 getgenv().Config = {
 	["SelectChapter"] = "Chapter 1",
 	["AutoSave"] = true,
@@ -9,7 +9,7 @@ getgenv().Config = {
 	["TPLobbyIfPlayer"] = false,
 	["AutoJoinHoster"] = false,
 	["IgnoreMacroTiming"] = true,
-	["SelectMacro"] = "haha",
+	["SelectMacro"] = "pussy",
 	["SelectRaidMacro"] = {
 
 	},
