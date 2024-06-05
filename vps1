@@ -1,7 +1,7 @@
 getgenv().EquipMacroUnit = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1094375113312444526/1247779193421565972/edan.txt?ex=6661446e&is=665ff2ee&hm=1b67fd60ad7fd36ccd87bfa2426180d4f5a215644ba3e2d24b9296345103f937&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1247758771061788712/korekpantad.txt?ex=66613169&is=665fdfe9&hm=edb3c1a272209eccdefbbb8c91768a484c7459ab1fa765123f4a415181dd22d8&"
 getgenv().Config = {
-	["SelectChapter"] = "Chapter 1",
+	["SelectChapter"] = "chapter 1",
 	["AutoSave"] = true,
 	["WH_MatchComplete"] = true,
 	["AutoSkip"] = true,
@@ -26,7 +26,7 @@ getgenv().Config = {
 	["JoinerCooldown"] = 0,
 	["AutoSell"] = false,
 	["AutoReplay"] = true,
-	["AutoReturnLobby"] = false,
+	["AutoReturnLobby"] = ture,
 	["StandardSummonUnit"] = {
 		["Dragon Slayer"] = false,
 		["Shinobi Form 3"] = false,
