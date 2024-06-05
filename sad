@@ -1,1 +1,9 @@
 
+["AutoSummonLimited"] = true,
+	["LimitedSummonUnit"] = {
+		["Donut Warrior"] = false,
+		["The Cursed Knight"] = false,
+		["Warrior Princess"] = true,
+		["Ocean Guardian"] = false,
+		["Electric Cyborg"] = false
+	},
