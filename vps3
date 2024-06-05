@@ -1,5 +1,5 @@
 getgenv().EquipMacroUnit = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1247743620170387550/ngentodkaki.txt?ex=6661234d&is=665fd1cd&hm=51f161e17efb9d19678c20dce880e8462610fe75acb66536a1ccfb49380c70a1&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1247758771061788712/korekpantad.txt?ex=66613169&is=665fdfe9&hm=edb3c1a272209eccdefbbb8c91768a484c7459ab1fa765123f4a415181dd22d8&"
 getgenv().Config = {
 	["SelectChapter"] = "Infinite",
 	["AutoSave"] = true,
@@ -15,7 +15,7 @@ getgenv().Config = {
 		["Windmill Village"] = false
 	},
 	["IgnoreMacroTiming"] = true,
-	["SelectMacro"] = "ngentodkaki",
+	["SelectMacro"] = "korekpantad",
 	["JoinerList"] = {
 		[1] = "No joiner in the list"
 	},
