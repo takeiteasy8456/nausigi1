@@ -15,7 +15,7 @@ getgenv().Config = {
 		["Windmill Village"] = false
 	},
 	["IgnoreMacroTiming"] = true,
-	["SelectMacro"] = "edan",
+	["SelectMacro"] = "korekpantad",
 	["JoinerList"] = {
 		[1] = "No joiner in the list"
 	},
@@ -80,7 +80,7 @@ getgenv().Config = {
 		["Star Rift (Rainbow)"] = false
 	},
 	["LeaveSellWave"] = 31,
-	["JoinHighest"] = false,
+	["JoinHighest"] = true,
 	["AutoRejoin"] = true,
 	["WebhookURL"] = "https://discord.com/api/webhooks/1224325789537800283/UYJohxt6xl7IYLSeVFefWoYnbtv3tKkL5BIUHaCU7k38L0S0zeswE4acc0umpKG6ZHUj",
 	["BlackScreen"] = false,
