@@ -14,6 +14,14 @@ getgenv().Config = {
 		["Mob City"] = false,
 		["Windmill Village"] = false
 	},
+        ["AutoSummonLimited"] = true,
+	["LimitedSummonUnit"] = {
+		["Donut Warrior"] = false,
+		["The Cursed Knight"] = false,
+		["Warrior Princess"] = true,
+		["Ocean Guardian"] = false,
+		["Electric Cyborg"] = false
+	},
 	["IgnoreMacroTiming"] = true,
 	["SelectMacro"] = "edan",
 	["JoinerList"] = {
