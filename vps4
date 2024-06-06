@@ -1,3 +1,20 @@
+getgenv().EquipMacroTroop = true
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1094375113312444526/1247779193421565972/edan.txt?ex=666295ee&is=6661446e&hm=63742e6b533b87ca4059fd4c165e4d5c3c4b23237d763fdc6c9d046dd4965025& "
+getgenv().Config = {
+    ["AutoReplay"] = true,
+
+	["AutoSell"] = false,
+	["AutoJoinChallenge"] = false,
+	["LimitedSummonUnit"] = {
+		["Donut Warrior"] = false,
+		["The Cursed Knight"] = false,
+		["Warrior Princess"] = true,
+		["Ocean Guardian"] = false,
+		["Electric Cyborg"] = false
+	},
+}
+
+
 getgenv().Key = "k82ae6713d33a61b4b2b5dac"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
