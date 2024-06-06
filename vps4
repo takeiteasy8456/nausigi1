@@ -1,18 +1,4 @@
-getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1094375113312444526/1247779193421565972/edan.txt?ex=666295ee&is=6661446e&hm=63742e6b533b87ca4059fd4c165e4d5c3c4b23237d763fdc6c9d046dd4965025& "
 getgenv().Config = {
-    ["AutoReplay"] = true,
-
-	["AutoSell"] = false,
-	["AutoJoinChallenge"] = false,
-	["LimitedSummonUnit"] = {
-		["Donut Warrior"] = false,
-		["The Cursed Knight"] = false,
-		["Warrior Princess"] = true,
-		["Ocean Guardian"] = false,
-		["Electric Cyborg"] = false
-	},
-
 	["SelectChapter"] = "Chapter 1",
 	["AutoSave"] = true,
 	["WH_MatchComplete"] = false,
@@ -30,101 +16,99 @@ getgenv().Config = {
 	["SelectReward"] = {
 		["Trait Crystal"] = false,
 		["Risky Dice"] = false,
-		["Gold"] = false,
 		["Star Rift (Rainbow)"] = false,
+		["Gems"] = false,
 		["Star Rift "] = false,
-		["Gems"] = false
+		["Gold"] = false
 	},
 	["BoostFPS"] = false,
 	["SelectDifficulty"] = {
 		["All units lowered range"] = false,
 		["All enemies regen health"] = false,
-		["All units increased cost"] = false,
 		["All enemies +1 shield"] = false,
+		["All units increased cost"] = false,
 		["All enemies 2x health"] = false,
 		["All enemies 2x speed"] = false
 	},
 	["JoinerCooldown"] = 0,
 	["UnselectIfSummoned"] = false,
-	["AutoReplay"] = true,
+	["BlackScreen"] = false,
 	["AutoReturnLobby"] = false,
 	["OFARecord"] = false,
-	["SelectWorld"] = "Windmill Village",
-	["IgnoreMacroTiming"] = true,
-	["AutoRejoin"] = false,
+	["AutoJoinRaid"] = false,
+	["AutoSell"] = false,
+	["AutoJoinWorld"] = true,
 	["HardMode"] = false,
 	["WH_BannerSummoned"] = false,
 	["StandardSummonUnit"] = {
 		["Dragon Slayer"] = false,
 		["Shinobi Form 3"] = false,
-		["Vengeful Shinobi"] = false,
-		["Strongest Swordsman"] = false,
-		["Admiral Of Lava"] = false,
 		["The Gamer"] = false,
-		["Chance Taker"] = false,
-		["Ant King"] = false,
-		["Esper"] = false,
-		["Elf Wizardess"] = false,
-		["Cursed Fighter"] = false,
-		["Skull Warrior"] = false,
-		["Thunder Shinobi"] = false,
-		["Flame Dragon King"] = false,
-		["Curse Prince"] = false,
-		["Maxed Qi Master"] = false,
 		["Carp"] = false,
+		["Admiral Of Lava"] = false,
+		["Bloomer"] = false,
+		["The Beast"] = false,
+		["Admiral Of Light"] = false,
+		["Pink Rockstar"] = false,
+		["Clay"] = false,
+		["Cursed Fighter"] = false,
 		["Ascended Qi Master"] = false,
+		["Fire Leg Master"] = false,
+		["Esper"] = false,
+		["Maxed Qi Master"] = false,
+		["Flame Dragon King"] = false,
+		["Thunder Shinobi"] = false,
+		["Curse Prince"] = false,
 		["Spirit Hybrid"] = false,
 		["Soulforce Reaper"] = false,
 		["Admiral Of Ice"] = false,
 		["Inferno Commander"] = false,
-		["Pink Rockstar"] = false,
-		["Fire Leg Master"] = false,
+		["Elf Wizardess"] = false,
+		["Ant King"] = false,
 		["Sharpshooter"] = false,
-		["Clay"] = false,
-		["Admiral Of Light"] = false,
-		["The Beast"] = false,
-		["Bloomer"] = false,
+		["Skull Warrior"] = false,
+		["Vengeful Shinobi"] = false,
+		["Strongest Swordsman"] = false,
+		["Chance Taker"] = false,
 		["Master Swordsman"] = false
 	},
-	["SelectRaidMacro"] = {
-
-	},
-	["AutoSell"] = false,
+	["AutoSummonLimited"] = false,
+	["AutoLeave"] = false,
 	["AutoJoinChallenge"] = false,
 	["LimitedSummonUnit"] = {
 		["Donut Warrior"] = false,
 		["The Cursed Knight"] = false,
-		["Warrior Princess"] = true,
 		["Ocean Guardian"] = false,
+		["Warrior Princess"] = true,
 		["Electric Cyborg"] = false
 	},
-	["SelectChallengeMacro"] = {
-
-	},
-	["BlackScreen"] = false,
+	["PlayMacro"] = true,
 	["JoinHighest"] = false,
+	["LeaveSellWave"] = 1,
+	["DeleteMap"] = false,
+	["AutoRejoin"] = false,
 	["SelectChallengeWorld"] = {
 		["Cursed Academy"] = false,
 		["Blue Planet"] = false,
-		["Underwater Temple"] = false,
+		["Windmill Village"] = false,
 		["Mob City"] = false,
-		["Windmill Village"] = false
+		["Underwater Temple"] = false
 	},
-	["DeleteMap"] = false,
-	["PlayMacro"] = true,
-	["AutoLeave"] = false,
-	["AutoJoinWorld"] = true,
+	["AutoReplay"] = true,
+	["SelectChallengeMacro"] = {
+
+	},
 	["DeleteRarity"] = {
 		["Epic"] = false,
 		["Legendary"] = false,
 		["Rare"] = false
 	},
-	["LeaveSellWave"] = 1,
-	["AutoSummonLimited"] = false,
-	["AutoJoinRaid"] = false
-}
-}
+	["SelectWorld"] = "Windmill Village",
+	["IgnoreMacroTiming"] = true,
+	["SelectRaidMacro"] = {
 
+	}
+}
 
 getgenv().Key = "k82ae6713d33a61b4b2b5dac"
 
