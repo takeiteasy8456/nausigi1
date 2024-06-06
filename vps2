@@ -1,5 +1,5 @@
 getgenv().EquipMacroUnit = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1247758771061788712/korekpantad.txt?ex=66613169&is=665fdfe9&hm=edb3c1a272209eccdefbbb8c91768a484c7459ab1fa765123f4a415181dd22d8&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1247758771061788712/korekpantad.txt?ex=66632ba9&is=6661da29&hm=9d73dd3fc12e48c73e4441fe606414d71bb2b0023b25194b0dad0bc03e792329&"
 getgenv().Config = {
 	["SelectChapter"] = "Infinite",
 	["AutoSave"] = true,
@@ -82,7 +82,7 @@ getgenv().Config = {
 	["LeaveSellWave"] = 31,
 	["JoinHighest"] = false,
 	["AutoRejoin"] = true,
-	["WebhookURL"] = "https://discord.com/api/webhooks/1224325789537800283/UYJohxt6xl7IYLSeVFefWoYnbtv3tKkL5BIUHaCU7k38L0S0zeswE4acc0umpKG6ZHUj",
+	["WebhookURL"] = "https://discord.com/api/webhooks/1095151049398038599/Wlp27fv6kxEgjyTjA-szlVc91f5wPD9Wmc1DRe1YPF6_RlH0bJQBDf_vh_PLh5wJR3xV",
 	["BlackScreen"] = false,
 	["WaitForJoiner"] = false,
 	["DeleteRarity"] = {
@@ -101,7 +101,6 @@ getgenv().Config = {
 		["All enemies 2x speed"] = false
 	}
 }
-
 getgenv().Key = "k66db05c0579323c623c84cc"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
