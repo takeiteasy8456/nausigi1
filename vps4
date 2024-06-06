@@ -12,6 +12,117 @@ getgenv().Config = {
 		["Ocean Guardian"] = false,
 		["Electric Cyborg"] = false
 	},
+getgenv().Config = {
+	["SelectChapter"] = "Chapter 1",
+	["AutoSave"] = true,
+	["WH_MatchComplete"] = false,
+	["AutoSkip"] = true,
+	["AutoClaimQuest"] = true,
+	["TPLobbyIfPlayer"] = false,
+	["AutoJoinHoster"] = false,
+	["WaitForJoiner"] = false,
+	["SelectMacro"] = "edan",
+	["JoinerList"] = {
+		[1] = "No joiner in the list"
+	},
+	["TeleportLobbyNewBanner"] = true,
+	["AutoSummonStandard"] = false,
+	["SelectReward"] = {
+		["Trait Crystal"] = false,
+		["Risky Dice"] = false,
+		["Gold"] = false,
+		["Star Rift (Rainbow)"] = false,
+		["Star Rift "] = false,
+		["Gems"] = false
+	},
+	["BoostFPS"] = false,
+	["SelectDifficulty"] = {
+		["All units lowered range"] = false,
+		["All enemies regen health"] = false,
+		["All units increased cost"] = false,
+		["All enemies +1 shield"] = false,
+		["All enemies 2x health"] = false,
+		["All enemies 2x speed"] = false
+	},
+	["JoinerCooldown"] = 0,
+	["UnselectIfSummoned"] = false,
+	["AutoReplay"] = true,
+	["AutoReturnLobby"] = false,
+	["OFARecord"] = false,
+	["SelectWorld"] = "Windmill Village",
+	["IgnoreMacroTiming"] = true,
+	["AutoRejoin"] = false,
+	["HardMode"] = false,
+	["WH_BannerSummoned"] = false,
+	["StandardSummonUnit"] = {
+		["Dragon Slayer"] = false,
+		["Shinobi Form 3"] = false,
+		["Vengeful Shinobi"] = false,
+		["Strongest Swordsman"] = false,
+		["Admiral Of Lava"] = false,
+		["The Gamer"] = false,
+		["Chance Taker"] = false,
+		["Ant King"] = false,
+		["Esper"] = false,
+		["Elf Wizardess"] = false,
+		["Cursed Fighter"] = false,
+		["Skull Warrior"] = false,
+		["Thunder Shinobi"] = false,
+		["Flame Dragon King"] = false,
+		["Curse Prince"] = false,
+		["Maxed Qi Master"] = false,
+		["Carp"] = false,
+		["Ascended Qi Master"] = false,
+		["Spirit Hybrid"] = false,
+		["Soulforce Reaper"] = false,
+		["Admiral Of Ice"] = false,
+		["Inferno Commander"] = false,
+		["Pink Rockstar"] = false,
+		["Fire Leg Master"] = false,
+		["Sharpshooter"] = false,
+		["Clay"] = false,
+		["Admiral Of Light"] = false,
+		["The Beast"] = false,
+		["Bloomer"] = false,
+		["Master Swordsman"] = false
+	},
+	["SelectRaidMacro"] = {
+
+	},
+	["AutoSell"] = false,
+	["AutoJoinChallenge"] = false,
+	["LimitedSummonUnit"] = {
+		["Donut Warrior"] = false,
+		["The Cursed Knight"] = false,
+		["Warrior Princess"] = true,
+		["Ocean Guardian"] = false,
+		["Electric Cyborg"] = false
+	},
+	["SelectChallengeMacro"] = {
+
+	},
+	["BlackScreen"] = false,
+	["JoinHighest"] = false,
+	["SelectChallengeWorld"] = {
+		["Cursed Academy"] = false,
+		["Blue Planet"] = false,
+		["Underwater Temple"] = false,
+		["Mob City"] = false,
+		["Windmill Village"] = false
+	},
+	["DeleteMap"] = false,
+	["PlayMacro"] = true,
+	["AutoLeave"] = false,
+	["AutoJoinWorld"] = true,
+	["DeleteRarity"] = {
+		["Epic"] = false,
+		["Legendary"] = false,
+		["Rare"] = false
+	},
+	["LeaveSellWave"] = 1,
+	["AutoSummonLimited"] = false,
+	["AutoJoinRaid"] = false
+}
 }
 
 
