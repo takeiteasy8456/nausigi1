@@ -14,7 +14,7 @@ getgenv().Config = {
 		["Mob City"] = false,
 		["Windmill Village"] = false
 	},
-        ["AutoSummonLimited"] = false,
+        ["AutoSummonLimited"] = true,
 	["LimitedSummonUnit"] = {
 		["Donut Warrior"] = false,
 		["The Cursed Knight"] = false,
