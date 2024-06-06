@@ -1,7 +1,7 @@
 getgenv().EquipMacroUnit = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1094375113312444526/1247779193421565972/edan.txt?ex=666295ee&is=6661446e&hm=63742e6b533b87ca4059fd4c165e4d5c3c4b23237d763fdc6c9d046dd4965025&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1247758771061788712/korekpantad.txt?ex=66613169&is=665fdfe9&hm=edb3c1a272209eccdefbbb8c91768a484c7459ab1fa765123f4a415181dd22d8&"
 getgenv().Config = {
-	["SelectChapter"] = "Chapter 1",
+	["SelectChapter"] = "Infinite",
 	["AutoSave"] = true,
 	["WH_MatchComplete"] = true,
 	["AutoSkip"] = true,
@@ -14,16 +14,8 @@ getgenv().Config = {
 		["Mob City"] = false,
 		["Windmill Village"] = false
 	},
-        ["AutoSummonLimited"] = true,
-	["LimitedSummonUnit"] = {
-		["Donut Warrior"] = false,
-		["The Cursed Knight"] = false,
-		["Warrior Princess"] = true,
-		["Ocean Guardian"] = false,
-		["Electric Cyborg"] = false
-	},
 	["IgnoreMacroTiming"] = true,
-	["SelectMacro"] = "edan",
+	["SelectMacro"] = "korekpantad",
 	["JoinerList"] = {
 		[1] = "No joiner in the list"
 	},
@@ -34,7 +26,7 @@ getgenv().Config = {
 	["JoinerCooldown"] = 0,
 	["AutoSell"] = false,
 	["AutoReplay"] = true,
-	["AutoReturnLobby"] = false,
+	["AutoReturnLobby"] = true,
 	["StandardSummonUnit"] = {
 		["Dragon Slayer"] = false,
 		["Shinobi Form 3"] = false,
@@ -90,7 +82,7 @@ getgenv().Config = {
 	["LeaveSellWave"] = 31,
 	["JoinHighest"] = false,
 	["AutoRejoin"] = true,
-	["WebhookURL"] = "https://discord.com/api/webhooks/1073957482562588723/tmF0r9v1SxOSKFgpDmS2D4CKAr-dT-1B5eBpbTLBUwT5KAEcuo04Ko5EAea-gRbvODYC",
+	["WebhookURL"] = "https://discord.com/api/webhooks/1095151049398038599/Wlp27fv6kxEgjyTjA-szlVc91f5wPD9Wmc1DRe1YPF6_RlH0bJQBDf_vh_PLh5wJR3xV",
 	["BlackScreen"] = false,
 	["WaitForJoiner"] = false,
 	["DeleteRarity"] = {
@@ -109,6 +101,7 @@ getgenv().Config = {
 		["All enemies 2x speed"] = false
 	}
 }
+
 getgenv().Key = "k6eb91281f68fb13b83b6fc7"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
