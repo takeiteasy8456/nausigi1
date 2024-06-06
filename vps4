@@ -12,7 +12,7 @@ getgenv().Config = {
 		["Ocean Guardian"] = false,
 		["Electric Cyborg"] = false
 	},
-getgenv().Config = {
+
 	["SelectChapter"] = "Chapter 1",
 	["AutoSave"] = true,
 	["WH_MatchComplete"] = false,
