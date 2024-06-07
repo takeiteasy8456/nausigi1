@@ -1,3 +1,5 @@
+getgenv().EquipMacroUnit = true
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1247758771061788712/korekpantad.txt?ex=66647d29&is=66632ba9&hm=622a09d067c854938d7b877c69eb0400702594c9b6bc146c38977bc6910d098d&"
 getgenv().Config = {
 	["AutoSave"] = true,
 	["WH_MatchComplete"] = false,
