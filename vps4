@@ -1,7 +1,7 @@
 getgenv().Config = {
 	["SelectChapter"] = "Chapter 1",
 	["AutoSave"] = true,
-	["WH_MatchComplete"] = false,
+	["WH_MatchComplete"] = true,
 	["AutoSkip"] = true,
 	["AutoClaimQuest"] = true,
 	["TPLobbyIfPlayer"] = false,
