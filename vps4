@@ -1,7 +1,7 @@
 getgenv().EquipMacroUnit = true
 getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1247758771061788712/korekpantad.txt?ex=66647d29&is=66632ba9&hm=622a09d067c854938d7b877c69eb0400702594c9b6bc146c38977bc6910d098d&"
 getgenv().Config = {
-	["SelectChapter"] = "Chapter 1",
+	["SelectChapter"] = "Infinite",
 	["AutoSave"] = true,
 	["WH_MatchComplete"] = true,
 	["AutoSkip"] = true,
@@ -25,7 +25,7 @@ getgenv().Config = {
 	["AutoLeave"] = true,
 	["JoinerCooldown"] = 0,
 	["AutoSell"] = false,
-	["AutoReplay"] = false,
+	["AutoReplay"] = true,
 	["AutoReturnLobby"] = true,
 	["StandardSummonUnit"] = {
 		["Dragon Slayer"] = false,
@@ -80,9 +80,9 @@ getgenv().Config = {
 		["Star Rift (Rainbow)"] = false
 	},
 	["LeaveSellWave"] = 31,
-	["JoinHighest"] = true,
+	["JoinHighest"] = false,
 	["AutoRejoin"] = true,
-	["WebhookURL"] = "https://discord.com/api/webhooks/1090910529658302464/gOtVs1OA1KZPAYtNm_R_aGeWcSEl8n8KbIeVSqusbIw6DXXfetVzrEOgKhOrWkHmBPvP",
+	["WebhookURL"] = "https://discord.com/api/webhooks/1095151049398038599/Wlp27fv6kxEgjyTjA-szlVc91f5wPD9Wmc1DRe1YPF6_RlH0bJQBDf_vh_PLh5wJR3xV",
 	["BlackScreen"] = false,
 	["WaitForJoiner"] = false,
 	["DeleteRarity"] = {
