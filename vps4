@@ -1,38 +1,72 @@
 getgenv().EquipMacroUnit = true
 getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1247758771061788712/korekpantad.txt?ex=66647d29&is=66632ba9&hm=622a09d067c854938d7b877c69eb0400702594c9b6bc146c38977bc6910d098d&"
 getgenv().Config = {
-	["SelectChapter"] = "Infinite",
 	["AutoSave"] = true,
-	["WH_MatchComplete"] = true,
-	["AutoSkip"] = true,
+	["WH_MatchComplete"] = false,
+	["AutoSkip"] = false,
 	["AutoClaimQuest"] = true,
-	["TPLobbyIfPlayer"] = true,
-	["SelectChallengeWorld"] = {
-		["Cursed Academy"] = false,
-		["Blue Planet"] = false,
-		["Underwater Temple"] = false,
-		["Mob City"] = false,
-		["Windmill Village"] = false
-	},
-	["IgnoreMacroTiming"] = true,
-	["SelectMacro"] = "korekpantad",
+	["TPLobbyIfPlayer"] = false,
+	["AutoJoinHoster"] = false,
+	["WaitForJoiner"] = false,
 	["JoinerList"] = {
 		[1] = "No joiner in the list"
 	},
+	["TeleportLobbyNewBanner"] = true,
 	["AutoJoinRaid"] = false,
-	["PlayMacro"] = true,
+	["SelectReward"] = {
+		["Trait Crystal"] = false,
+		["Risky Dice"] = false,
+		["Gold"] = false,
+		["Star Rift (Rainbow)"] = false,
+		["Star Rift "] = false,
+		["Gems"] = false
+	},
 	["BoostFPS"] = false,
-	["AutoLeave"] = true,
+	["SelectDifficulty"] = {
+		["All units lowered range"] = false,
+		["All enemies regen health"] = false,
+		["All units increased cost"] = false,
+		["All enemies +1 shield"] = false,
+		["All enemies 2x health"] = false,
+		["All enemies 2x speed"] = false
+	},
 	["JoinerCooldown"] = 0,
 	["AutoSell"] = false,
-	["AutoReplay"] = true,
-	["AutoReturnLobby"] = true,
+	["IgnoreMacroTiming"] = false,
+	["BlackScreen"] = false,
+	["AutoReturnLobby"] = false,
+	["AutoRejoin"] = false,
+	["WH_BannerSummoned"] = false,
+	["SelectRaidMacro"] = {
+
+	},
+	["OFARecord"] = false,
+	["SelectChallengeMacro"] = {
+
+	},
+	["PlayMacro"] = false,
+	["HillHeight"] = {
+		["Cursed Academy"] = 2,
+		["Blue Planet"] = 2,
+		["Underwater Temple"] = 2,
+		["Mob City"] = 2,
+		["Windmill Village"] = 2
+	},
+	["PlaceGap"] = {
+		["Cursed Academy"] = 3.25,
+		["Blue Planet"] = 3.25,
+		["Underwater Temple"] = 3.25,
+		["Mob City"] = 3.25,
+		["Windmill Village"] = 3.25
+	},
+	["AutoJoinWorld"] = false,
+	["AutoUpgrade"] = false,
 	["StandardSummonUnit"] = {
 		["Dragon Slayer"] = false,
 		["Shinobi Form 3"] = false,
 		["Vengeful Shinobi"] = false,
 		["Strongest Swordsman"] = false,
-		["Admiral Of Lava"] = false,
+		["Admiral Of Lava"] = true,
 		["The Gamer"] = false,
 		["Chance Taker"] = false,
 		["Ant King"] = false,
@@ -59,49 +93,41 @@ getgenv().Config = {
 		["Bloomer"] = false,
 		["Master Swordsman"] = false
 	},
-	["HardMode"] = false,
-	["WH_BannerSummoned"] = true,
-	["SelectChallengeMacro"] = {
+	["MiddlePos"] = {
 
 	},
-	["AutoSummonStandard"] = false,
-	["SelectRaidMacro"] = {
-
+	["UnselectIfSummoned"] = true,
+	["AutoSummonLimited"] = false,
+	["LimitedSummonUnit"] = {
+		["Donut Warrior"] = false,
+		["The Cursed Knight"] = false,
+		["Warrior Princess"] = false,
+		["Ocean Guardian"] = false,
+		["Electric Cyborg"] = false
 	},
-	["AutoJoinChallenge"] = false,
-	["UnselectIfSummoned"] = false,
-	["AutoJoinWorld"] = true,
-	["SelectReward"] = {
-		["Trait Crystal"] = false,
-		["Risky Dice"] = false,
-		["Gold"] = false,
-		["Gems"] = false,
-		["Star Rift "] = false,
-		["Star Rift (Rainbow)"] = false
-	},
-	["LeaveSellWave"] = 31,
+	["UpgradeAndPlace"] = false,
+	["AutoReplay"] = false,
 	["JoinHighest"] = false,
-	["AutoRejoin"] = true,
-	["WebhookURL"] = "https://discord.com/api/webhooks/1095151049398038599/Wlp27fv6kxEgjyTjA-szlVc91f5wPD9Wmc1DRe1YPF6_RlH0bJQBDf_vh_PLh5wJR3xV",
-	["BlackScreen"] = false,
-	["WaitForJoiner"] = false,
+	["AutoPlay"] = false,
+	["DeleteMap"] = false,
+	["SelectChallengeWorld"] = {
+		["Cursed Academy"] = false,
+		["Blue Planet"] = false,
+		["Underwater Temple"] = false,
+		["Mob City"] = false,
+		["Windmill Village"] = false
+	},
+	["LeaveSellWave"] = 1,
+	["HardMode"] = false,
 	["DeleteRarity"] = {
 		["Epic"] = false,
 		["Legendary"] = false,
 		["Rare"] = false
 	},
-	["SelectWorld"] = "Windmill Village",
-	["AutoJoinHoster"] = false,
-	["SelectDifficulty"] = {
-		["All units lowered range"] = false,
-		["All enemies regen health"] = false,
-		["All units increased cost"] = false,
-		["All enemies +1 shield"] = false,
-		["All enemies 2x health"] = false,
-		["All enemies 2x speed"] = false
-	}
+	["AutoLeave"] = false,
+	["AutoJoinChallenge"] = false,
+	["AutoSummonStandard"] = true
 }
-
 getgenv().Key = "k82ae6713d33a61b4b2b5dac"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
