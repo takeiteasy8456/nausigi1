@@ -1,36 +1,56 @@
+--print("GACHA SUMMON") --GACHA SUMMON INI
+getgenv().EquipMacroUnit = true
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1247758771061788712/korekpantad.txt?ex=666871a9&is=66672029&hm=6e35aeb21bd3fb3815364c917fca074ea49fe921963596f571cabadb7a4f1d65&"
 getgenv().Config = {
-    ["JoinerCooldown"] = 3,
-    ["JoinHighest"] = false, --untuk naikin level
-    ["SelectChapter"] = "Chapter 1",
-    ["SelectWorld"] = "Windmill Village",
-    ["AutoClaimQuest"] = true,
-    ["AutoSell"] = false,
-    ["BlackScreen"] = false,
-    ["AutoReturnLobby"] = true,
-    ["AutoSkip"] = true,
-    ["TPLobbyIfPlayer"] = true,
-    ["IgnoreMacroTiming"] = true,
-    ["SelectMacro"] = "edan",
-    ["AutoJoinChallenge"] = false,
-    ["HardMode"] = false,
-    ["LeaveSellWave"] = 31,
-    ["AutoRejoin"] = true,
-    ["SelectReward"] = {
-        ["Trait Crystal"] = false,
-        ["Gold"] = false,
-        ["Star Rift (Rainbow)"] = false,
-        ["Gems"] = false,
-        ["Risky Dice"] = false,
-        ["Star Rift "] = false
+["AutoSummonStandard"] = true,
+["UnselectIfSummoned"] = true, --jika hero sudah dapat dia gk summon terus
+["DeleteRarity"] = {
+        ["Epic"] = false,
+        ["Legendary"] = false,
+        ["Rare"] = false
+},
+["AutoSummonLimited"] = false,
+["LimitedSummonUnit"] = {
+        ["Donut Warrior"] = true,
+        ["The Cursed Knight"] = true,
+        ["Ocean Guardian"] = false,
+        ["Warrior Princess"] = true,--Penting
+        ["Electric Cyborg"] = false
+},
+["StandardSummonUnit"] = {
+        ["Dragon Slayer"] = false,
+        ["Shinobi Form 3"] = false,
+        ["Vengeful Shinobi"] = false,
+        ["Strongest Swordsman"] = false,
+        ["Admiral Of Lava"] = true,--Penting
+        ["The Gamer"] = false,
+        ["Chance Taker"] = false,
+        ["Ant King"] = false,
+        ["Esper"] = false,
+        ["Elf Wizardess"] = false,
+        ["Cursed Fighter"] = false,
+        ["Skull Warrior"] = false,
+        ["Thunder Shinobi"] = false,
+        ["Flame Dragon King"] = false,
+        ["Curse Prince"] = false,
+        ["Maxed Qi Master"] = false,
+        ["Carp"] = false,
+        ["Ascended Qi Master"] = false,
+        ["Spirit Hybrid"] = false,
+        ["Soulforce Reaper"] = false,
+        ["Admiral Of Ice"] = false,
+        ["Inferno Commander"] = false,
+        ["Pink Rockstar"] = false,
+        ["Fire Leg Master"] = false,
+        ["Sharpshooter"] = false,
+        ["Clay"] = false,--Penting
+        ["Admiral Of Light"] = false,
+        ["The Beast"] = false,
+        ["Bloomer"] = false, --Penting
+        ["Master Swordsman"] = false
     },
-    ["AutoSave"] = false,
-    ["AutoReplay"] = true,
-    ["AutoJoinWorld"] = true,
-    ["BoostFPS"] = true,
-    ["PlayMacro"] = true,
-    ["AutoLeave"] = true,
-    ["WH_MatchComplete"] = true,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/",
+    ["AutoClaimQuest"] = true,
+    ["SelectMacro"] = "edan",
 }
 getgenv().Key = "k38b80a7891ceb96ef8ba16f"
 
