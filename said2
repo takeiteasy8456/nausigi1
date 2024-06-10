@@ -34,8 +34,6 @@ getgenv().Config = {
     ["WebhookURL"] = "https://discord.com/api/webhooks/",
 }
 
-getgenv().Key = "k51882ec5c978f50e45d7de9"
-
 
 getgenv().Key = "ke6f68f4ca88a9ba5ff0babb"
 
