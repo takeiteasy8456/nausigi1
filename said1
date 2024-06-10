@@ -1,4 +1,5 @@
 --print("VPS 6") --GACHA CLAY ADMIRAL LAVA
+getgenv().EquipMacroTroop = true
 getgenv().Config = {
     ["JoinerCooldown"] = 3,
     ["JoinHighest"] = true, --untuk naikin level
