@@ -11,11 +11,11 @@ getgenv().Config = {
     ["AutoSkip"] = true,
     ["TPLobbyIfPlayer"] = true,
     ["IgnoreMacroTiming"] = true,
-    ["SelectMacro"] = "edan",
+    ["SelectMacro"] = "korekpantad",
     ["AutoJoinChallenge"] = false,
     ["HardMode"] = false,
     ["LeaveSellWave"] = 31,
-    ["AutoRejoin"] = true,
+    ["AutoRejoin"] = false,
     ["SelectReward"] = {
         ["Trait Crystal"] = false,
         ["Gold"] = false,
@@ -25,7 +25,7 @@ getgenv().Config = {
         ["Star Rift "] = false
     },
     ["AutoSave"] = false,
-    ["AutoReplay"] = true,
+    ["AutoReplay"] = false,
     ["AutoJoinWorld"] = true,
     ["BoostFPS"] = true,
     ["PlayMacro"] = true,
@@ -33,6 +33,7 @@ getgenv().Config = {
     ["WH_MatchComplete"] = true,
     ["WebhookURL"] = "https://discord.com/api/webhooks/",
 }
+
 getgenv().Key = "k6dffba0c2a2ec5b5cd8d1fd"
 
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
