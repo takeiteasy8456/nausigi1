@@ -15,7 +15,7 @@ getgenv().Config = {
     ["AutoJoinChallenge"] = false,
     ["HardMode"] = false,
     ["LeaveSellWave"] = 31,
-    ["AutoRejoin"] = true,
+    ["AutoRejoin"] = false,
     ["SelectReward"] = {
         ["Trait Crystal"] = false,
         ["Gold"] = false,
@@ -25,7 +25,7 @@ getgenv().Config = {
         ["Star Rift "] = false
     },
     ["AutoSave"] = false,
-    ["AutoReplay"] = true,
+    ["AutoReplay"] = false,
     ["AutoJoinWorld"] = true,
     ["BoostFPS"] = true,
     ["PlayMacro"] = true,
