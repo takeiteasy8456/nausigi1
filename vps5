@@ -1,5 +1,5 @@
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1247758771061788712/korekpantad.txt?ex=6667c8e9&is=66667769&hm=57800022a6b40f87178cc93d73dc8def4b2a71f90a934d2ab2d304addde96d72&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1247758771061788712/korekpantad.txt?ex=666871a9&is=66672029&hm=6e35aeb21bd3fb3815364c917fca074ea49fe921963596f571cabadb7a4f1d65&"
 getgenv().Config = {
 	["SelectChapter"] = "Infinite",
 	["AutoSave"] = true,
