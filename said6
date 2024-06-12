@@ -52,7 +52,7 @@ getgenv().Config = {
     ["AutoClaimQuest"] = true,
     ["SelectMacro"] = "edan",
 }
-getgenv().Key = "kff61613f9cea86da2144f5e"
+getgenv().Key = "k82ae6713d33a61b4b2b5dac"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
 
