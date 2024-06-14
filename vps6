@@ -68,7 +68,7 @@ getgenv().Config = {
 		["Chance Taker"] = false,
 		["Master Swordsman"] = false
 	},
-	["AutoJoinWorld"] = false,
+	["AutoJoinWorld"] = true,
 	["OFARecord"] = false,
 	["WH_BannerSummoned"] = true,
 	["DeleteMap"] = false,
