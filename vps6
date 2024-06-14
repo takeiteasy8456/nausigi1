@@ -67,7 +67,7 @@ getgenv().Config = {
 		["Mob City"] = 3.25,
 		["Underwater Temple"] = 3.25
 	},
-	["JoinHighest"] = true,
+	["JoinHighest"] = false,
 	["AutoJoinWorld"] = true,
 	["AutoUpgrade"] = true,
 	["SelectChallengeMacro"] = {
