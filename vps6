@@ -1,3 +1,146 @@
+getgenv().Config = {
+	["SelectChapter"] = "Chapter 1",
+	["AutoSave"] = true,
+	["WH_MatchComplete"] = false,
+	["AutoPlay"] = true,
+	["AutoClaimQuest"] = true,
+	["TPLobbyIfPlayer"] = false,
+	["AutoJoinHoster"] = false,
+	["IgnoreMacroTiming"] = true,
+	["SelectMacro"] = "WindmillChallenger",
+	["SelectRaidMacro"] = {
+
+	},
+	["TeleportLobbyNewBanner"] = true,
+	["AutoJoinRaid"] = false,
+	["PlayMacro"] = false,
+	["UpgradeMethod"] = "Lowest Level (Spread Upgrade)",
+	["BoostFPS"] = false,
+	["HillHeight"] = {
+		["Cursed Academy"] = 2,
+		["Blue Planet"] = 2,
+		["Underwater Temple"] = 2,
+		["Mob City"] = 2,
+		["Windmill Village"] = 2.9
+	},
+	["JoinerList"] = {
+		[1] = "No joiner in the list"
+	},
+	["SelectDifficulty"] = {
+		["All units lowered range"] = true,
+		["All enemies regen health"] = true,
+		["All units increased cost"] = true,
+		["All enemies +1 shield"] = true,
+		["All enemies 2x health"] = true,
+		["All enemies 2x speed"] = true
+	},
+	["JoinerCooldown"] = 0,
+	["AutoSell"] = false,
+	["WaitForJoiner"] = false,
+	["BlackScreen"] = false,
+	["AutoReturnLobby"] = true,
+	["SelectWorld"] = "Windmill Village",
+	["MiddlePos"] = {
+		["Mob City"] = "99.6985092163086, 297.7572326660156, 149.72381591796875",
+		["Blue Planet"] = "-0.9216814041137695, 830.3976440429688, 437.4375305175781",
+		["Windmill Village"] = "-1711.33154296875, 24.114013671875, -547.4808349609375",
+		["Cursed Academy"] = "-1222.2698974609375, 532.3055419921875, -319.12445068359375",
+		["Underwater Temple"] = "541.5696411132812, 339.3208923339844, -1298.2662353515625"
+	},
+	["UnselectIfSummoned"] = true,
+	["OFARecord"] = false,
+	["HardMode"] = false,
+	["AutoRejoin"] = false,
+	["AutoUpgrade"] = true,
+	["JoinHighest"] = true,
+	["AutoJoinWorld"] = true,
+	["WH_BannerSummoned"] = true,
+	["SelectChallengeMacro"] = {
+		["Cursed Academy"] = "CursedAcademyChallenger",
+		["Blue Planet"] = "BluePlanetChallenger",
+		["Underwater Temple"] = "UnderWaterChallenger",
+		["Mob City"] = "MobCityChallenger",
+		["Windmill Village"] = "WindmillChallenger"
+	},
+	["PlaceGap"] = {
+		["Cursed Academy"] = 3.25,
+		["Blue Planet"] = 3.1,
+		["Underwater Temple"] = 3.25,
+		["Mob City"] = 3.25,
+		["Windmill Village"] = 3
+	},
+	["AutoSummonLimited"] = false,
+	["AutoJoinChallenge"] = true,
+	["LimitedSummonUnit"] = {
+		["Donut Warrior"] = false,
+		["The Cursed Knight"] = false,
+		["Warrior Princess"] = false,
+		["Ocean Guardian"] = false,
+		["Electric Cyborg"] = false
+	},
+	["UpgradeAndPlace"] = false,
+	["AutoReplay"] = false,
+	["LeaveSellWave"] = 1,
+	["StandardSummonUnit"] = {
+		["Maxed Qi Master"] = false,
+		["Shinobi Form 3"] = false,
+		["The Gamer"] = false,
+		["Carp"] = false,
+		["Chance Taker"] = false,
+		["Admiral Of Lava"] = true,
+		["Strongest Swordsman"] = false,
+		["Vengeful Shinobi"] = false,
+		["Esper"] = false,
+		["Skull Warrior"] = false,
+		["Cursed Fighter"] = false,
+		["Flame Dragon King"] = false,
+		["Ant King"] = false,
+		["Elf Wizardess"] = false,
+		["The Beast"] = false,
+		["Thunder Shinobi"] = false,
+		["Curse Prince"] = false,
+		["Ascended Qi Master"] = false,
+		["Spirit Hybrid"] = false,
+		["Soulforce Reaper"] = false,
+		["Admiral Of Ice"] = false,
+		["Inferno Commander"] = false,
+		["Pink Rockstar"] = false,
+		["Fire Leg Master"] = false,
+		["Sharpshooter"] = false,
+		["Clay"] = false,
+		["Admiral Of Light"] = false,
+		["Bloomer"] = true,
+		["Dragon Slayer"] = false,
+		["Master Swordsman"] = false
+	},
+	["DeleteMap"] = false,
+	["WebhookURL"] = "https://discord.com/api/webhooks/1225693572427284501/qlwZAG9zRfGAtHw4FHFwKgRT_lbP221Zhcy1TN514NJ0_71tgSTuUiq2vhN9x5Z8Atvk",
+	["AutoSkip"] = true,
+	["SelectReward"] = {
+		["Trait Crystal"] = true,
+		["Risky Dice"] = true,
+		["Gold"] = true,
+		["Star Rift (Rainbow)"] = true,
+		["Star Rift "] = true,
+		["Gems"] = true
+	},
+	["DeleteRarity"] = {
+		["Epic"] = false,
+		["Legendary"] = false,
+		["Rare"] = false
+	},
+	["SelectChallengeWorld"] = {
+		["Cursed Academy"] = true,
+		["Blue Planet"] = true,
+		["Underwater Temple"] = false,
+		["Mob City"] = true,
+		["Windmill Village"] = true
+	},
+	["AutoSummonStandard"] = true,
+	["AutoLeave"] = false
+}
+
+
 getgenv().Key = "kfb9f7ea4f20ba1834ea918c"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
