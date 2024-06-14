@@ -1,6 +1,6 @@
 --print("GACHA SUMMON") --GACHA SUMMON INI
 getgenv().EquipMacroUnit = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/GANTUASU"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1247758771061788712/korekpantad.txt?ex=666db7a9&is=666c6629&hm=9c3b64274fd26ab8b8dd9c9c02082efaa0ac42cc059c4416929f8610c4f7665d&"
 getgenv().Config = {
 ["AutoSummonStandard"] = true,
 ["UnselectIfSummoned"] = true, --jika hero sudah dapat dia gk summon terus
@@ -9,7 +9,7 @@ getgenv().Config = {
         ["Legendary"] = false,
         ["Rare"] = false
 },
-["AutoSummonLimited"] = true,
+["AutoSummonLimited"] = false,
 ["LimitedSummonUnit"] = {
         ["Donut Warrior"] = true,
         ["The Cursed Knight"] = true,
@@ -43,7 +43,7 @@ getgenv().Config = {
         ["Pink Rockstar"] = false,
         ["Fire Leg Master"] = false,
         ["Sharpshooter"] = false,
-        ["Clay"] = true,--Penting
+        ["Clay"] = false,--Penting
         ["Admiral Of Light"] = false,
         ["The Beast"] = false,
         ["Bloomer"] = false, --Penting
