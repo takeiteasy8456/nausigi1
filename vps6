@@ -1,5 +1,5 @@
 getgenv().Config = {
-	["SelectChapter"] = "Chapter 1",
+	["SelectChapter"] = "Infinite",
 	["AutoSave"] = true,
 	["WH_MatchComplete"] = true,
 	["AutoPlay"] = true,
