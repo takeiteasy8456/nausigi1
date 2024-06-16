@@ -1,1 +1,84 @@
+getgenv().Config = {
+	["SelectChapter"] = "Chapter 1",
+	["AutoSave"] = true,
+	["WH_MatchComplete"] = true,
+	["AutoSkip"] = true,
+	["AutoClaimQuest"] = true,
+	["TPLobbyIfPlayer"] = false,
+	["AutoJoinHoster"] = false,
+	["WaitForJoiner"] = false,
+	["JoinerList"] = {
+		[1] = "No joiner in the list"
+	},
+	["AutoJoinRaid"] = false,
+	["SelectReward"] = {
+		["Trait Crystal"] = false,
+		["Risky Dice"] = false,
+		["Gold"] = false,
+		["Star Rift (Rainbow)"] = false,
+		["Star Rift "] = false,
+		["Gems"] = false
+	},
+	["UpgradeMethod"] = "Lowest Level (Spread Upgrade)",
+	["BoostFPS"] = true,
+	["SelectDifficulty"] = {
+		["All units lowered range"] = false,
+		["All enemies regen health"] = false,
+		["All units increased cost"] = false,
+		["All enemies +1 shield"] = false,
+		["All enemies 2x health"] = false,
+		["All enemies 2x speed"] = false
+	},
+	["JoinerCooldown"] = 0,
+	["AutoSell"] = false,
+	["AutoReplay"] = true,
+	["AutoReturnLobby"] = false,
+	["OFARecord"] = false,
+	["PlayMacro"] = false,
+	["SelectWorld"] = "Windmill Village",
+	["IgnoreMacroTiming"] = true,
+	["AutoRejoin"] = true,
+	["HardMode"] = false,
+	["AutoUpgrade"] = true,
+	["PlaceGap"] = {
+		["Cursed Academy"] = 3.25,
+		["Blue Planet"] = 3.25,
+		["Underwater Temple"] = 3.25,
+		["Mob City"] = 3.25,
+		["Windmill Village"] = 3.25
+	},
+	["WH_BannerSummoned"] = false,
+	["SelectRaidMacro"] = {
 
+	},
+	["AutoJoinChallenge"] = false,
+	["BlackScreen"] = false,
+	["SelectChallengeMacro"] = {
+
+	},
+	["UpgradeAndPlace"] = false,
+	["JoinHighest"] = false,
+	["MiddlePos"] = {
+		["Windmill Village"] = "-1671.2098388671875, 24.114013671875, -539.2633666992188"
+	},
+	["DeleteMap"] = true,
+	["WebhookURL"] = "https://discord.com/api/webhooks/1251873620892979210/9dXffxGg7d06f0NnhC9JaXXw4xQpR4v4pDxhEFcHBGX7O4wHDUEJFiTf4c7Ol1MPsz5N",
+	["AutoPlay"] = true,
+	["AutoJoinWorld"] = true,
+	["HillHeight"] = {
+		["Cursed Academy"] = 2,
+		["Blue Planet"] = 2,
+		["Underwater Temple"] = 2,
+		["Mob City"] = 2,
+		["Windmill Village"] = 2
+	},
+	["LeaveSellWave"] = 1,
+	["SelectChallengeWorld"] = {
+		["Cursed Academy"] = false,
+		["Blue Planet"] = false,
+		["Underwater Temple"] = false,
+		["Mob City"] = false,
+		["Windmill Village"] = false
+	},
+	["AutoLeave"] = false
+}
