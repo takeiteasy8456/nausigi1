@@ -1,4 +1,4 @@
-
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1247758771061788712/korekpantad.txt?ex=66710369&is=666fb1e9&hm=35bb04634dc64d0bb770f49e11aabc57dad2deda23be9227a38c9706d83ee35a&"
 getgenv().Config = {
 	["SelectChapter"] = "Infinite",
 	["AutoSave"] = true,
