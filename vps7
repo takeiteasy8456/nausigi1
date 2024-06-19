@@ -31,7 +31,7 @@ getgenv().Config = {
 		["Shinobi Form 3"] = false,
 		["Vengeful Shinobi"] = false,
 		["Strongest Swordsman"] = false,
-		["Admiral Of Lava"] = false,
+		["Admiral Of Lava"] = true,
 		["The Gamer"] = false,
 		["Chance Taker"] = false,
 		["Ant King"] = false,
@@ -63,12 +63,12 @@ getgenv().Config = {
 	["SelectChallengeMacro"] = {
 
 	},
-	["AutoSummonStandard"] = false,
+	["AutoSummonStandard"] = true,
 	["SelectRaidMacro"] = {
 
 	},
 	["AutoJoinChallenge"] = false,
-	["UnselectIfSummoned"] = false,
+	["UnselectIfSummoned"] = true,
 	["AutoJoinWorld"] = true,
 	["SelectReward"] = {
 		["Trait Crystal"] = false,
