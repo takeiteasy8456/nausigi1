@@ -1,3 +1,5 @@
+getgenv().EquipMacroUnit = true
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1060874545646538752/1219980821511802880/loisprite.json?ex=660d46ad&is=65fad1ad&hm=fa7b4c13ebf2878b3178d63dc753e2f8432330fcbd3b1c587b732db4f4c83976&"
 getgenv().Config = {
 	["AutoSave"] = true,
 	["WH_MatchComplete"] = false,
