@@ -1,0 +1,151 @@
+getgenv().Config = {
+	["AutoSave"] = true,
+	["WH_MatchComplete"] = false,
+	["MiddlePos"] = {
+
+	},
+	["AutoClaimQuest"] = true,
+	["TPLobbyIfPlayer"] = false,
+	["SelectChallengeWorld"] = {
+		["Cursed Academy"] = false,
+		["Blue Planet"] = false,
+		["Underwater Temple"] = false,
+		["Snowy Woods"] = false,
+		["Swordsman Dojo"] = false,
+		["Mob City"] = false,
+		["Windmill Village"] = false
+	},
+	["WaitForJoiner"] = false,
+	["SelectMacro"] = "edan2",
+	["SelectRaidMacro"] = {
+
+	},
+	["TeleportLobbyNewBanner"] = true,
+	["AutoSummonStandard"] = true,
+	["AutoUseAbility"] = false,
+	["AutoPlayNext"] = true,
+	["PlayMacro"] = false,
+	["HillHeight"] = {
+		["Cursed Academy"] = 2,
+		["Underwater Temple"] = 2,
+		["Blue Planet"] = 2,
+		["Tower of Eternity"] = 2,
+		["Snowy Woods"] = 2,
+		["Swordsman Dojo"] = 2,
+		["Mob City"] = 2,
+		["Windmill Village"] = 2
+	},
+	["BoostFPS"] = true,
+	["AutoLeave"] = false,
+	["SelectDifficulty"] = {
+		["All units lowered range"] = false,
+		["All enemies regen health"] = false,
+		["All units increased cost"] = false,
+		["All enemies +1 shield"] = false,
+		["All enemies 2x health"] = false,
+		["All enemies 2x speed"] = false
+	},
+	["JoinerCooldown"] = 0,
+	["AutoSell"] = false,
+	["SelectReward"] = {
+		["Gold"] = false,
+		["Trait Crystal"] = false,
+		["Star Rift "] = false,
+		["Star Rift (Rainbow)"] = false,
+		["Gems"] = false,
+		["Star Rift (Dark)"] = false,
+		["Risky Dice"] = false
+	},
+	["AutoReplay"] = false,
+	["AutoReturnLobby"] = true,
+	["AutoJoinHoster"] = false,
+	["AutoSkip"] = true,
+	["PlaceGap"] = {
+		["Cursed Academy"] = 3.25,
+		["Underwater Temple"] = 3.25,
+		["Blue Planet"] = 3.25,
+		["Tower of Eternity"] = 3.25,
+		["Snowy Woods"] = 3.25,
+		["Swordsman Dojo"] = 3.25,
+		["Mob City"] = 3.25,
+		["Windmill Village"] = 3.25
+	},
+	["OFARecord"] = false,
+	["WH_BannerSummoned"] = false,
+	["AutoJoinTower"] = false,
+	["AutoRejoin"] = false,
+	["SelectChallengeMacro"] = {
+
+	},
+	["SelectRaidWorld"] = {
+		["Cursed Train"] = false,
+		["Cursed Dungeon"] = false
+	},
+	["AutoUpgrade"] = false,
+	["StandardSummonUnit"] = {
+		["Maxed Qi Master"] = false,
+		["Shinobi Form 3"] = false,
+		["The Gamer"] = false,
+		["Carp"] = false,
+		["Chance Taker"] = false,
+		["Admiral Of Lava"] = true,
+		["Strongest Swordsman"] = false,
+		["Vengeful Shinobi"] = false,
+		["Esper"] = false,
+		["Skull Warrior"] = false,
+		["Cursed Fighter"] = false,
+		["Flame Dragon King"] = false,
+		["Ant King"] = false,
+		["Elf Wizardess"] = false,
+		["The Beast"] = false,
+		["Thunder Shinobi"] = false,
+		["Curse Prince"] = false,
+		["Ascended Qi Master"] = false,
+		["Spirit Hybrid"] = false,
+		["Soulforce Reaper"] = false,
+		["Admiral Of Ice"] = false,
+		["Inferno Commander"] = false,
+		["Pink Rockstar"] = false,
+		["Fire Leg Master"] = false,
+		["Sharpshooter"] = false,
+		["Clay"] = false,
+		["Admiral Of Light"] = false,
+		["Bloomer"] = false,
+		["Dragon Slayer"] = false,
+		["Master Swordsman"] = false
+	},
+	["JoinHighest"] = false,
+	["UpgradeAndPlace"] = false,
+	["AutoSummonLimited"] = true,
+	["LimitedSummonUnit"] = {
+		["Muscular Sorcerer"] = false,
+		["The Rift Sorcerer"] = true,
+		["Blood Demon"] = false,
+		["Beast Sorcerer"] = false,
+		["Cursed Archer"] = false
+	},
+	["BlackScreen"] = false,
+	["AutoJoinChallenge"] = false,
+	["LeaveSellWave"] = 1,
+	["UnselectIfSummoned"] = true,
+	["DeleteMap"] = false,
+	["AutoJoinWorld"] = false,
+	["HardMode"] = false,
+	["AutoPlay"] = false,
+	["DeleteRarity"] = {
+		["Epic"] = false,
+		["Legendary"] = false,
+		["Rare"] = false
+	},
+	["IgnoreMacroTiming"] = true,
+	["JoinerList"] = {
+		[1] = "No joiner in the list"
+	},
+	["AutoJoinRaid"] = false
+}
+
+
+
+getgenv().Key = "k0ba3ceeb1c11b6f62aebedd"
+
+loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
