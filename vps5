@@ -30,12 +30,13 @@ getgenv().Config = {
 		["Windmill Village"] = false
 	},
 	["AutoUseAbility"] = false,
-	["AutoPlayNext"] = false,
+	["LeaveSellWave"] = 31,
+        ["AutoPlayNext"] = false,
 	["PlayMacro"] = false,
 	["MiddlePos"] = {
 		["Windmill Village"] = "-1686.4979248046875, 24.114013671875, -541.6858520507812"
 	},
-	["AutoLeave"] = false,
+	["AutoLeave"] = true,
 	["HillHeight"] = {
 		["Cursed Academy"] = 2,
 		["Underwater Temple"] = 2,
