@@ -29,7 +29,7 @@ getgenv().Config = {
 	["AutoJoinRaid"] = false,
 	["SelectWorld"] = "Windmill Village",
 	["AutoUseAbility"] = false,
-	["AutoPlayNext"] = true,
+	["AutoPlayNext"] = false,
 	["SelectReward"] = {
 		["Risky Dice"] = false,
 		["Trait Crystal"] = false,
@@ -140,7 +140,7 @@ getgenv().Config = {
 	["LSDelay"] = 0.4,
 	["DeleteMap"] = false,
 	["LSLoop"] = 2,
-	["AutoReplay"] = false,
+	["AutoReplay"] = true,
 	["AutoJoinHoster"] = false,
 	["DeleteRarity"] = {
 		["Epic"] = false,
@@ -151,7 +151,6 @@ getgenv().Config = {
 	["BoostFPS"] = false,
 	["PlayMacro"] = false
 }
-
 getgenv().Key = "kc27ccf51cc87b7afae31a62"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
