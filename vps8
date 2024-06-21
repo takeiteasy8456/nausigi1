@@ -65,7 +65,7 @@ getgenv().Config = {
 	["AutoSell"] = false,
 	["LSImplosion"] = 100000,
 	["BlackScreen"] = false,
-	["AutoReturnLobby"] = true,
+	["AutoReturnLobby"] = false,
 	["MiddlePos"] = {
 		["Windmill Village"] = "-1687.0323486328125, 24.114013671875, -539.5991821289062"
 	},
