@@ -19,7 +19,8 @@ getgenv().Config = {
 	},
 	["IgnoreMacroTiming"] = true,
 	["TeleportLobbyNewBanner"] = true,
-	["AutoJoinRaid"] = false,
+	["LeaveSellWave"] = 31,
+        ["AutoJoinRaid"] = false,
 	["SelectChallengeWorld"] = {
 		["Cursed Academy"] = false,
 		["Blue Planet"] = false,
