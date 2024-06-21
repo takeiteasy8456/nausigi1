@@ -1,48 +1,95 @@
 getgenv().Config = {
-	["SelectChapter"] = "Infinite",
+	["LSBomb"] = 1,
 	["AutoSave"] = true,
 	["WH_MatchComplete"] = true,
 	["AutoSkip"] = true,
-	["AutoClaimQuest"] = true,
+	["AutoPlay"] = true,
+	["SelectWorld"] = "Windmill Village",
 	["TPLobbyIfPlayer"] = true,
+	["AutoJoinHoster"] = false,
+	["JoinerList"] = {
+		[1] = "No joiner in the list"
+	},
+	["SelectTowerMacro"] = {
+
+	},
+	["WaitForJoiner"] = false,
+	["SelectRaidMacro"] = {
+
+	},
+	["IgnoreMacroTiming"] = true,
+	["TeleportLobbyNewBanner"] = true,
+	["AutoJoinRaid"] = false,
 	["SelectChallengeWorld"] = {
 		["Cursed Academy"] = false,
 		["Blue Planet"] = false,
 		["Underwater Temple"] = false,
+		["Snowy Woods"] = false,
+		["Swordsman Dojo"] = false,
 		["Mob City"] = false,
 		["Windmill Village"] = false
 	},
-	["IgnoreMacroTiming"] = true,
-	["SelectMacro"] = "korekpantad",
-	["JoinerList"] = {
-		[1] = "No joiner in the list"
+	["AutoUseAbility"] = false,
+	["AutoPlayNext"] = false,
+	["PlayMacro"] = false,
+	["MiddlePos"] = {
+		["Windmill Village"] = "-1686.4979248046875, 24.114013671875, -541.6858520507812"
 	},
-	["AutoJoinRaid"] = false,
-	["PlayMacro"] = true,
-	["BoostFPS"] = false,
-	["AutoLeave"] = true,
-	["JoinerCooldown"] = 0,
+	["AutoLeave"] = false,
+	["HillHeight"] = {
+		["Cursed Academy"] = 2,
+		["Underwater Temple"] = 2,
+		["Blue Planet"] = 2,
+		["Tower of Eternity"] = 2,
+		["Snowy Woods"] = 2,
+		["Swordsman Dojo"] = 2,
+		["Mob City"] = 2,
+		["Windmill Village"] = 5
+	},
 	["AutoSell"] = false,
+	["SelectDifficulty"] = {
+		["All units lowered range"] = false,
+		["All enemies regen health"] = false,
+		["All units increased cost"] = false,
+		["All enemies +1 shield"] = false,
+		["All enemies 2x health"] = false,
+		["All enemies 2x speed"] = false
+	},
+	["JoinerCooldown"] = 0,
+	["UnselectIfSummoned"] = true,
+	["LSImplosion"] = 100000,
 	["AutoReplay"] = true,
 	["AutoReturnLobby"] = true,
+	["AutoRejoin"] = true,
+	["SelectChapter"] = "Infinite",
+	["LeaveSellWave"] = 1,
+	["AutoJoinWorld"] = true,
+	["WH_BannerSummoned"] = true,
+	["AutoJoinTower"] = false,
+	["SelectChallengeMacro"] = {
+
+	},
+	["UpgradeAndPlace"] = false,
+	["HardMode"] = false,
+	["AutoUpgrade"] = true,
 	["StandardSummonUnit"] = {
-		["Dragon Slayer"] = false,
-		["Shinobi Form 3"] = false,
-		["Vengeful Shinobi"] = false,
-		["Strongest Swordsman"] = false,
-		["Admiral Of Lava"] = false,
-		["The Gamer"] = false,
-		["Chance Taker"] = false,
-		["Ant King"] = false,
-		["Esper"] = false,
-		["Elf Wizardess"] = false,
-		["Cursed Fighter"] = false,
-		["Skull Warrior"] = false,
-		["Thunder Shinobi"] = false,
-		["Flame Dragon King"] = false,
-		["Curse Prince"] = false,
 		["Maxed Qi Master"] = false,
+		["Shinobi Form 3"] = false,
+		["The Gamer"] = false,
 		["Carp"] = false,
+		["Chance Taker"] = false,
+		["Admiral Of Lava"] = true,
+		["Strongest Swordsman"] = false,
+		["Vengeful Shinobi"] = false,
+		["Esper"] = false,
+		["Skull Warrior"] = false,
+		["Cursed Fighter"] = false,
+		["Flame Dragon King"] = false,
+		["Ant King"] = false,
+		["Elf Wizardess"] = false,
+		["The Beast"] = false,
+		["Thunder Shinobi"] = false,
+		["Curse Prince"] = false,
 		["Ascended Qi Master"] = false,
 		["Spirit Hybrid"] = false,
 		["Soulforce Reaper"] = false,
@@ -53,50 +100,55 @@ getgenv().Config = {
 		["Sharpshooter"] = false,
 		["Clay"] = false,
 		["Admiral Of Light"] = false,
-		["The Beast"] = false,
 		["Bloomer"] = false,
+		["Dragon Slayer"] = false,
 		["Master Swordsman"] = false
 	},
-	["HardMode"] = false,
-	["WH_BannerSummoned"] = true,
-	["SelectChallengeMacro"] = {
-
+	["LSLoop"] = 2,
+	["LSDelay"] = 0.4,
+	["AutoSummonLimited"] = false,
+	["LimitedSummonUnit"] = {
+		["Muscular Sorcerer"] = false,
+		["The Rift Sorcerer"] = false,
+		["Blood Demon"] = false,
+		["Beast Sorcerer"] = false,
+		["Cursed Archer"] = false
 	},
-	["AutoSummonStandard"] = false,
-	["SelectRaidMacro"] = {
-
+	["SelectRaidWorld"] = {
+		["Cursed Train"] = false,
+		["Cursed Dungeon"] = false
 	},
 	["AutoJoinChallenge"] = false,
-	["UnselectIfSummoned"] = false,
-	["AutoJoinWorld"] = true,
-	["SelectReward"] = {
-		["Trait Crystal"] = false,
-		["Risky Dice"] = false,
-		["Gold"] = false,
-		["Gems"] = false,
-		["Star Rift "] = false,
-		["Star Rift (Rainbow)"] = false
-	},
-	["LeaveSellWave"] = 31,
 	["JoinHighest"] = false,
-	["AutoRejoin"] = true,
+	["PlaceGap"] = {
+		["Cursed Academy"] = 3.25,
+		["Underwater Temple"] = 3.25,
+		["Blue Planet"] = 3.25,
+		["Tower of Eternity"] = 3.25,
+		["Snowy Woods"] = 3.25,
+		["Swordsman Dojo"] = 3.25,
+		["Mob City"] = 3.25,
+		["Windmill Village"] = 3
+	},
+	["DeleteMap"] = false,
 	["WebhookURL"] = "https://discord.com/api/webhooks/1092019705558081586/R2lNWxPBuJoaXRPpAGU9tJGUeIn2B5dZMZ3hXMWkZcCono_eSjyLpK74lpRriWNVeg1r",
 	["BlackScreen"] = false,
-	["WaitForJoiner"] = false,
+	["BoostFPS"] = true,
 	["DeleteRarity"] = {
 		["Epic"] = false,
 		["Legendary"] = false,
 		["Rare"] = false
 	},
-	["SelectWorld"] = "Windmill Village",
-	["AutoJoinHoster"] = false,
-	["SelectDifficulty"] = {
-		["All units lowered range"] = false,
-		["All enemies regen health"] = false,
-		["All units increased cost"] = false,
-		["All enemies +1 shield"] = false,
-		["All enemies 2x health"] = false,
-		["All enemies 2x speed"] = false
+	["AutoClaimQuest"] = true,
+	["AutoSummonStandard"] = true,
+	["SelectReward"] = {
+		["Gold"] = false,
+		["Trait Crystal"] = false,
+		["Star Rift "] = false,
+		["Star Rift (Rainbow)"] = false,
+		["Gems"] = false,
+		["Star Rift (Dark)"] = false,
+		["Risky Dice"] = false
 	}
 }
 
