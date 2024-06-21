@@ -139,7 +139,8 @@ getgenv().Config = {
 		["Legendary"] = false,
 		["Rare"] = false
 	},
-	["AutoClaimQuest"] = true,
+	["LeaveSellWave"] = 31,
+        ["AutoClaimQuest"] = true,
 	["AutoSummonStandard"] = true,
 	["SelectReward"] = {
 		["Gold"] = false,
