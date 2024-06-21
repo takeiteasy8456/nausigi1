@@ -36,7 +36,7 @@ getgenv().Config = {
 	["MiddlePos"] = {
 		["Windmill Village"] = "-1686.4979248046875, 24.114013671875, -541.6858520507812"
 	},
-	["AutoLeave"] = false,
+	["AutoLeave"] = true,
 	["HillHeight"] = {
 		["Cursed Academy"] = 2,
 		["Underwater Temple"] = 2,
