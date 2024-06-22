@@ -117,7 +117,7 @@ getgenv().Config = {
 		["Snowy Woods"] = 3.25,
 		["Swordsman Dojo"] = 3.25,
 		["Mob City"] = 3.25,
-		["Windmill Village"] = 3
+		["Windmill Village"] = 4
 	},
 	["UpgradeAndPlace"] = false,
 	["UnselectIfSummoned"] = false,
