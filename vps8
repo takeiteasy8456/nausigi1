@@ -57,7 +57,7 @@ getgenv().Config = {
 		["Snowy Woods"] = 2,
 		["Swordsman Dojo"] = 2,
 		["Mob City"] = 2,
-		["Windmill Village"] = 8
+		["Windmill Village"] = 2
 	},
 	["AutoPlay"] = true,
 	["AutoLeave"] = false,
