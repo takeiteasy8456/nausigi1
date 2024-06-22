@@ -30,7 +30,7 @@ getgenv().Config = {
 		["Windmill Village"] = false
 	},
 	["AutoUseAbility"] = false,
-	["LeaveSellWave"] = 31,
+	["LeaveSellWave"] = 41,
         ["AutoPlayNext"] = false,
 	["PlayMacro"] = false,
 	["MiddlePos"] = {
@@ -63,7 +63,7 @@ getgenv().Config = {
 	["AutoReturnLobby"] = true,
 	["AutoRejoin"] = true,
 	["SelectChapter"] = "Infinite",
-	["LeaveSellWave"] = 31,
+	["LeaveSellWave"] = 41,
 	["AutoJoinWorld"] = true,
 	["WH_BannerSummoned"] = true,
 	["AutoJoinTower"] = false,
