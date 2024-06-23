@@ -101,7 +101,7 @@ getgenv().Config = {
 		["Master Swordsman"] = false
 	},
 	["DeleteMap"] = false,
-	["AutoJoinWorld"] = false,
+	["AutoJoinWorld"] = true,
 	["LeaveSellWave"] = 1,
 	["SelectTrait"] = {
 		["Almighty 1"] = false,
