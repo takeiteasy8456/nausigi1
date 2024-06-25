@@ -1,10 +1,29 @@
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1247758771061788712/korekpantad.txt?ex=66799529&is=667843a9&hm=8fda923fb96ec380bd83829ae4f35b1edc4b05588fe5728c6989c686295cefa8&"
+getgenv().EquipMacroUnit = true
 getgenv().Config = {
 	["LSBomb"] = 1,
-	["AutoSave"] = true,
-	["WH_MatchComplete"] = false,
+	["AutoSave"] = false,
+	["WH_MatchComplete"] = true,
+	["SelectChapter"] = "Infinite",
 	["AutoSkip"] = true,
+	["SelectWorld"] = "Windmill Village",
 	["AutoClaimQuest"] = true,
 	["TPLobbyIfPlayer"] = true,
+	["AutoJoinHoster"] = false,
+	["IgnoreMacroTiming"] = true,
+	["SelectTowerMacro"] = {
+
+	},
+	["WaitForJoiner"] = false,
+	["SelectMacro"] = "korekpantad",
+	["SelectRaidMacro"] = {
+
+	},
+	["JoinerList"] = {
+		[1] = "No joiner in the list"
+	},
+	["TeleportLobbyNewBanner"] = true,
+	["AutoJoinRaid"] = false,
 	["SelectChallengeWorld"] = {
 		["Cursed Academy"] = false,
 		["Blue Planet"] = false,
@@ -14,31 +33,10 @@ getgenv().Config = {
 		["Mob City"] = false,
 		["Windmill Village"] = false
 	},
-	["SelectRaidMacro"] = {
-
-	},
-	["SelectTowerMacro"] = {
-
-	},
-	["WaitForJoiner"] = false,
-	["JoinerList"] = {
-		[1] = "No joiner in the list"
-	},
-	["IgnoreMacroTiming"] = true,
-	["TeleportLobbyNewBanner"] = false,
-	["AutoJoinRaid"] = false,
-	["SelectWorld"] = "Windmill Village",
 	["AutoUseAbility"] = false,
 	["AutoPlayNext"] = false,
-	["SelectReward"] = {
-		["Risky Dice"] = false,
-		["Trait Crystal"] = false,
-		["Gold"] = false,
-		["Star Rift"] = false,
-		["Gems"] = false,
-		["Star Rift (Dark)"] = false,
-		["Star Rift (Rainbow)"] = false
-	},
+	["PlayMacro"] = true,
+	["AutoPlay"] = false,
 	["SelectDifficulty"] = {
 		["All units lowered range"] = false,
 		["All enemies regen health"] = false,
@@ -47,8 +45,6 @@ getgenv().Config = {
 		["All enemies 2x health"] = false,
 		["All enemies 2x speed"] = false
 	},
-	["UpgradeMethod"] = "Lowest Level (Spread Upgrade)",
-	["SelectChapter"] = "Chapter 1",
 	["HillHeight"] = {
 		["Cursed Academy"] = 2,
 		["Underwater Temple"] = 2,
@@ -59,56 +55,77 @@ getgenv().Config = {
 		["Mob City"] = 2,
 		["Windmill Village"] = 2
 	},
-	["AutoPlay"] = true,
+	["BlackScreen"] = false,
 	["AutoLeave"] = false,
-	["JoinerCooldown"] = 0,
+	["JoinerCooldown"] = 1,
 	["AutoSell"] = false,
 	["LSImplosion"] = 100000,
-	["BlackScreen"] = false,
-	["AutoReturnLobby"] = false,
-	["MiddlePos"] = {
-		["Windmill Village"] = "-1687.0323486328125, 24.114013671875, -539.5991821289062"
-	},
+	["LSDelay"] = 0.4,
+	["AutoReturnLobby"] = true,
+	["AutoReplay"] = false,
 	["AutoRejoin"] = true,
-	["AutoJoinWorld"] = true,
+	["LSLoop"] = 2,
 	["JoinHighest"] = false,
-	["AutoUpgrade"] = true,
+	["SelectTrait"] = {
+		["Almighty 1"] = false,
+		["Brawler 2"] = false,
+		["Critical 2"] = false,
+		["Critical 1"] = false,
+		["Critical 3"] = false,
+		["Requiem 1"] = false,
+		["Bullseye 1"] = false,
+		["Sonic 1"] = false,
+		["Swiftness 2"] = false,
+		["Brawler 1"] = false,
+		["Hunter 2"] = false,
+		["Prodigy 1"] = false,
+		["Hunter 1"] = false,
+		["Hunter 3"] = false,
+		["Precision 1"] = false,
+		["Midas Touch 1"] = false,
+		["Swiftness 3"] = false,
+		["Brawler 3"] = false,
+		["Swiftness 1"] = false
+	},
 	["AutoJoinTower"] = false,
+	["AutoJoinWorld"] = true,
 	["StandardSummonUnit"] = {
 		["Dragon Slayer"] = false,
 		["Shinobi Form 3"] = false,
 		["The Gamer"] = false,
 		["Carp"] = false,
-		["Admiral Of Lava"] = false,
-		["Bloomer"] = false,
-		["The Beast"] = false,
 		["Admiral Of Light"] = false,
-		["Pink Rockstar"] = false,
-		["Clay"] = false,
+		["Admiral Of Lava"] = true,
+		["Strongest Swordsman"] = false,
+		["Vengeful Shinobi"] = false,
+		["Elf Wizardess"] = false,
+		["Skull Warrior"] = false,
 		["Cursed Fighter"] = false,
-		["Ascended Qi Master"] = false,
-		["Fire Leg Master"] = false,
+		["Curse Prince"] = false,
+		["Ant King"] = false,
 		["Esper"] = false,
 		["Maxed Qi Master"] = false,
+		["Ascended Qi Master"] = false,
 		["Flame Dragon King"] = false,
 		["Thunder Shinobi"] = false,
-		["Curse Prince"] = false,
 		["Spirit Hybrid"] = false,
 		["Soulforce Reaper"] = false,
 		["Admiral Of Ice"] = false,
 		["Inferno Commander"] = false,
-		["Elf Wizardess"] = false,
-		["Ant King"] = false,
+		["Bloomer"] = false,
+		["Fire Leg Master"] = false,
 		["Sharpshooter"] = false,
-		["Skull Warrior"] = false,
-		["Vengeful Shinobi"] = false,
-		["Strongest Swordsman"] = false,
+		["Clay"] = false,
 		["Chance Taker"] = false,
+		["Pink Rockstar"] = false,
+		["The Beast"] = false,
 		["Master Swordsman"] = false
 	},
-	["AutoSummonLimited"] = false,
-	["HardMode"] = false,
-	["WH_BannerSummoned"] = false,
+	["SelectRaidWorld"] = {
+		["Cursed Train"] = false,
+		["Cursed Dungeon"] = false
+	},
+	["AutoUpgrade"] = false,
 	["PlaceGap"] = {
 		["Cursed Academy"] = 3.25,
 		["Underwater Temple"] = 3.25,
@@ -117,11 +134,11 @@ getgenv().Config = {
 		["Snowy Woods"] = 3.25,
 		["Swordsman Dojo"] = 3.25,
 		["Mob City"] = 3.25,
-		["Windmill Village"] = 4
+		["Windmill Village"] = 3.25
 	},
 	["UpgradeAndPlace"] = false,
-	["UnselectIfSummoned"] = false,
 	["AutoJoinChallenge"] = false,
+	["AutoSummonLimited"] = false,
 	["LimitedSummonUnit"] = {
 		["Muscular Sorcerer"] = false,
 		["The Rift Sorcerer"] = false,
@@ -132,25 +149,33 @@ getgenv().Config = {
 	["SelectChallengeMacro"] = {
 
 	},
-	["SelectRaidWorld"] = {
-		["Cursed Train"] = false,
-		["Cursed Dungeon"] = false
-	},
+	["WH_BannerSummoned"] = true,
 	["LeaveSellWave"] = 1,
-	["LSDelay"] = 0.4,
+	["HardMode"] = false,
 	["DeleteMap"] = false,
-	["LSLoop"] = 2,
-	["AutoReplay"] = true,
-	["AutoJoinHoster"] = false,
+	["WebhookURL"] = "https://discord.com/api/webhooks/1251873620892979210/9dXffxGg7d06f0NnhC9JaXXw4xQpR4v4pDxhEFcHBGX7O4wHDUEJFiTf4c7Ol1MPsz5N",
+	["MiddlePos"] = {
+
+	},
+	["UnselectIfSummoned"] = true,
 	["DeleteRarity"] = {
 		["Epic"] = false,
 		["Legendary"] = false,
 		["Rare"] = true
 	},
-	["AutoSummonStandard"] = false,
-	["BoostFPS"] = false,
-	["PlayMacro"] = false
+	["AutoSummonStandard"] = true,
+	["SelectReward"] = {
+		["Risky Dice"] = false,
+		["Trait Crystal"] = false,
+		["Gold"] = false,
+		["Star Rift"] = false,
+		["Gems"] = false,
+		["Star Rift (Dark)"] = false,
+		["Star Rift (Rainbow)"] = false
+	},
+	["BoostFPS"] = false
 }
+
 getgenv().Key = "kc27ccf51cc87b7afae31a62"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
