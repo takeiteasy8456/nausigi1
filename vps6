@@ -1,42 +1,95 @@
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1247758771061788712/korekpantad.txt?ex=667ae6a9&is=66799529&hm=bceb41e21458367ba663240ceb61dae9e97eb09d7e17ade866f921ec898f147b&"
-getgenv().EquipMacroUnit = true
 getgenv().Config = {
-	["LSBomb"] = 1,
-	["AutoSave"] = false,
-	["WH_MatchComplete"] = true,
 	["SelectChapter"] = "Infinite",
+	["AutoSave"] = true,
+	["WH_MatchComplete"] = true,
 	["AutoSkip"] = true,
-	["SelectWorld"] = "Windmill Village",
 	["AutoClaimQuest"] = true,
 	["TPLobbyIfPlayer"] = true,
-	["AutoJoinHoster"] = false,
-	["IgnoreMacroTiming"] = true,
-	["SelectTowerMacro"] = {
-
-	},
-	["WaitForJoiner"] = false,
-	["SelectMacro"] = "korekpantad",
-	["SelectRaidMacro"] = {
-
-	},
-	["JoinerList"] = {
-		[1] = "No joiner in the list"
-	},
-	["TeleportLobbyNewBanner"] = true,
-	["AutoJoinRaid"] = false,
 	["SelectChallengeWorld"] = {
 		["Cursed Academy"] = false,
 		["Blue Planet"] = false,
 		["Underwater Temple"] = false,
-		["Snowy Woods"] = false,
-		["Swordsman Dojo"] = false,
 		["Mob City"] = false,
 		["Windmill Village"] = false
 	},
-	["AutoUseAbility"] = false,
-	["AutoPlayNext"] = false,
+	["IgnoreMacroTiming"] = true,
+	["SelectMacro"] = "korekpantad",
+	["JoinerList"] = {
+		[1] = "No joiner in the list"
+	},
+	["AutoJoinRaid"] = false,
 	["PlayMacro"] = true,
-	["AutoPlay"] = false,
+	["BoostFPS"] = false,
+	["AutoLeave"] = true,
+	["JoinerCooldown"] = 0,
+	["AutoSell"] = false,
+	["AutoReplay"] = true,
+	["AutoReturnLobby"] = true,
+	["StandardSummonUnit"] = {
+		["Dragon Slayer"] = false,
+		["Shinobi Form 3"] = false,
+		["Vengeful Shinobi"] = false,
+		["Strongest Swordsman"] = false,
+		["Admiral Of Lava"] = false,
+		["The Gamer"] = false,
+		["Chance Taker"] = false,
+		["Ant King"] = false,
+		["Esper"] = false,
+		["Elf Wizardess"] = false,
+		["Cursed Fighter"] = false,
+		["Skull Warrior"] = false,
+		["Thunder Shinobi"] = false,
+		["Flame Dragon King"] = false,
+		["Curse Prince"] = false,
+		["Maxed Qi Master"] = false,
+		["Carp"] = false,
+		["Ascended Qi Master"] = false,
+		["Spirit Hybrid"] = false,
+		["Soulforce Reaper"] = false,
+		["Admiral Of Ice"] = false,
+		["Inferno Commander"] = false,
+		["Pink Rockstar"] = false,
+		["Fire Leg Master"] = false,
+		["Sharpshooter"] = false,
+		["Clay"] = false,
+		["Admiral Of Light"] = false,
+		["The Beast"] = false,
+		["Bloomer"] = false,
+		["Master Swordsman"] = false
+	},
+	["HardMode"] = false,
+	["WH_BannerSummoned"] = true,
+	["SelectChallengeMacro"] = {
+
+	},
+	["AutoSummonStandard"] = false,
+	["SelectRaidMacro"] = {
+
+	},
+	["AutoJoinChallenge"] = false,
+	["UnselectIfSummoned"] = false,
+	["AutoJoinWorld"] = true,
+	["SelectReward"] = {
+		["Trait Crystal"] = false,
+		["Risky Dice"] = false,
+		["Gold"] = false,
+		["Gems"] = false,
+		["Star Rift "] = false,
+		["Star Rift (Rainbow)"] = false
+	},
+	["LeaveSellWave"] = 41,
+	["JoinHighest"] = false,
+	["AutoRejoin"] = true,
+	["WebhookURL"] = "https://discord.com/api/webhooks/1090910529658302464/gOtVs1OA1KZPAYtNm_R_aGeWcSEl8n8KbIeVSqusbIw6DXXfetVzrEOgKhOrWkHmBPvP",
+	["BlackScreen"] = false,
+	["WaitForJoiner"] = false,
+	["DeleteRarity"] = {
+		["Epic"] = false,
+		["Legendary"] = false,
+		["Rare"] = false
+	},
+	["SelectWorld"] = "Windmill Village",
+	["AutoJoinHoster"] = false,
 	["SelectDifficulty"] = {
 		["All units lowered range"] = false,
 		["All enemies regen health"] = false,
@@ -44,136 +97,7 @@ getgenv().Config = {
 		["All enemies +1 shield"] = false,
 		["All enemies 2x health"] = false,
 		["All enemies 2x speed"] = false
-	},
-	["HillHeight"] = {
-		["Cursed Academy"] = 2,
-		["Underwater Temple"] = 2,
-		["Blue Planet"] = 2,
-		["Tower of Eternity"] = 2,
-		["Snowy Woods"] = 2,
-		["Swordsman Dojo"] = 2,
-		["Mob City"] = 2,
-		["Windmill Village"] = 2
-	},
-	["BlackScreen"] = false,
-	["AutoLeave"] = false,
-	["JoinerCooldown"] = 1,
-	["AutoSell"] = false,
-	["LSImplosion"] = 100000,
-	["LSDelay"] = 0.4,
-	["AutoReturnLobby"] = true,
-	["AutoReplay"] = false,
-	["AutoRejoin"] = true,
-	["LSLoop"] = 2,
-	["JoinHighest"] = false,
-	["SelectTrait"] = {
-		["Almighty 1"] = false,
-		["Brawler 2"] = false,
-		["Critical 2"] = false,
-		["Critical 1"] = false,
-		["Critical 3"] = false,
-		["Requiem 1"] = false,
-		["Bullseye 1"] = false,
-		["Sonic 1"] = false,
-		["Swiftness 2"] = false,
-		["Brawler 1"] = false,
-		["Hunter 2"] = false,
-		["Prodigy 1"] = false,
-		["Hunter 1"] = false,
-		["Hunter 3"] = false,
-		["Precision 1"] = false,
-		["Midas Touch 1"] = false,
-		["Swiftness 3"] = false,
-		["Brawler 3"] = false,
-		["Swiftness 1"] = false
-	},
-	["AutoJoinTower"] = false,
-	["AutoJoinWorld"] = true,
-	["StandardSummonUnit"] = {
-		["Dragon Slayer"] = false,
-		["Shinobi Form 3"] = false,
-		["The Gamer"] = false,
-		["Carp"] = false,
-		["Admiral Of Light"] = false,
-		["Admiral Of Lava"] = true,
-		["Strongest Swordsman"] = false,
-		["Vengeful Shinobi"] = false,
-		["Elf Wizardess"] = false,
-		["Skull Warrior"] = false,
-		["Cursed Fighter"] = false,
-		["Curse Prince"] = false,
-		["Ant King"] = false,
-		["Esper"] = false,
-		["Maxed Qi Master"] = false,
-		["Ascended Qi Master"] = false,
-		["Flame Dragon King"] = false,
-		["Thunder Shinobi"] = false,
-		["Spirit Hybrid"] = false,
-		["Soulforce Reaper"] = false,
-		["Admiral Of Ice"] = false,
-		["Inferno Commander"] = false,
-		["Bloomer"] = false,
-		["Fire Leg Master"] = false,
-		["Sharpshooter"] = false,
-		["Clay"] = false,
-		["Chance Taker"] = false,
-		["Pink Rockstar"] = false,
-		["The Beast"] = false,
-		["Master Swordsman"] = false
-	},
-	["SelectRaidWorld"] = {
-		["Cursed Train"] = false,
-		["Cursed Dungeon"] = false
-	},
-	["AutoUpgrade"] = false,
-	["PlaceGap"] = {
-		["Cursed Academy"] = 3.25,
-		["Underwater Temple"] = 3.25,
-		["Blue Planet"] = 3.25,
-		["Tower of Eternity"] = 3.25,
-		["Snowy Woods"] = 3.25,
-		["Swordsman Dojo"] = 3.25,
-		["Mob City"] = 3.25,
-		["Windmill Village"] = 3.25
-	},
-	["UpgradeAndPlace"] = false,
-	["AutoJoinChallenge"] = false,
-	["AutoSummonLimited"] = false,
-	["LimitedSummonUnit"] = {
-		["Muscular Sorcerer"] = false,
-		["The Rift Sorcerer"] = false,
-		["Blood Demon"] = false,
-		["Beast Sorcerer"] = false,
-		["Cursed Archer"] = false
-	},
-	["SelectChallengeMacro"] = {
-
-	},
-	["WH_BannerSummoned"] = true,
-	["LeaveSellWave"] = 1,
-	["HardMode"] = false,
-	["DeleteMap"] = false,
-	["WebhookURL"] = "https://discord.com/api/webhooks/1090910529658302464/gOtVs1OA1KZPAYtNm_R_aGeWcSEl8n8KbIeVSqusbIw6DXXfetVzrEOgKhOrWkHmBPvP",
-	["MiddlePos"] = {
-
-	},
-	["UnselectIfSummoned"] = true,
-	["DeleteRarity"] = {
-		["Epic"] = false,
-		["Legendary"] = false,
-		["Rare"] = true
-	},
-	["AutoSummonStandard"] = true,
-	["SelectReward"] = {
-		["Risky Dice"] = false,
-		["Trait Crystal"] = false,
-		["Gold"] = false,
-		["Star Rift"] = false,
-		["Gems"] = false,
-		["Star Rift (Dark)"] = false,
-		["Star Rift (Rainbow)"] = false
-	},
-	["BoostFPS"] = false
+	}
 }
 getgenv().Key = "kfb9f7ea4f20ba1834ea918c"
 
