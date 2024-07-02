@@ -19,7 +19,7 @@ getgenv().Config = {
 	},
 	["AutoJoinRaid"] = false,
 	["PlayMacro"] = true,
-	["BoostFPS"] = false,
+	["BoostFPS"] = true,
 	["AutoLeave"] = true,
 	["JoinerCooldown"] = 0,
 	["AutoSell"] = false,
