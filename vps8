@@ -1,3 +1,4 @@
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1257590240521224243/korekpantad2.txt?ex=6684f5ae&is=6683a42e&hm=0f292477b5f1de906a94a41a5712dd70cb400cd9a994b2a2e267008777b91966&"
 getgenv().Config = {
 	["SelectChapter"] = "Infinite",
 	["AutoSave"] = true,
@@ -13,15 +14,16 @@ getgenv().Config = {
 		["Windmill Village"] = false
 	},
 	["IgnoreMacroTiming"] = true,
-	["SelectMacro"] = "korekpantad",
+	["SelectMacro"] = "korekpantad2",
 	["JoinerList"] = {
 		[1] = "No joiner in the list"
 	},
 	["AutoJoinRaid"] = false,
 	["PlayMacro"] = true,
-	["BoostFPS"] = false,
+	["BoostFPS"] = true,
 	["AutoLeave"] = true,
-	["JoinerCooldown"] = 0,
+	["DeleteMap"] = true,
+        ["JoinerCooldown"] = 0,
 	["AutoSell"] = false,
 	["AutoReplay"] = true,
 	["AutoReturnLobby"] = true,
@@ -77,7 +79,7 @@ getgenv().Config = {
 		["Star Rift "] = false,
 		["Star Rift (Rainbow)"] = false
 	},
-	["LeaveSellWave"] = 41,
+	["LeaveSellWave"] = 32,
 	["JoinHighest"] = false,
 	["AutoRejoin"] = true,
 	["WebhookURL"] = "https://discord.com/api/webhooks/1251873620892979210/9dXffxGg7d06f0NnhC9JaXXw4xQpR4v4pDxhEFcHBGX7O4wHDUEJFiTf4c7Ol1MPsz5N",
