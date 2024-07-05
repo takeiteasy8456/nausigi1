@@ -1,4 +1,4 @@
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1257590240521224243/korekpantad2.txt?ex=6684f5ae&is=6683a42e&hm=0f292477b5f1de906a94a41a5712dd70cb400cd9a994b2a2e267008777b91966&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1257590240521224243/korekpantad2.txt?ex=668992ee&is=6688416e&hm=217ecec88d3f8febcc246a10f063bdba35225cce98cffdf3f55cdef7d2bfe936&"
 getgenv().EquipMacroUnit = true
 getgenv().Config = {
 	["LSBomb"] = 1,
