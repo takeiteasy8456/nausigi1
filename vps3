@@ -79,7 +79,7 @@ getgenv().Config = {
 		["Star Rift "] = false,
 		["Star Rift (Rainbow)"] = false
 	},
-	["LeaveSellWave"] = 32,
+	["LeaveSellWave"] = 31,
 	["JoinHighest"] = false,
 	["AutoRejoin"] = true,
 	["WebhookURL"] = "https://discord.com/api/webhooks/1092019705558081586/R2lNWxPBuJoaXRPpAGU9tJGUeIn2B5dZMZ3hXMWkZcCono_eSjyLpK74lpRriWNVeg1r",
