@@ -1,38 +1,23 @@
-getgenv().Config = {
-    ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = true,
-    ["TPLobbyIfPlayer"] = true,
-    ["SelectMap"] = "Egg Island",
-    ["AutoVoteDifficulty"] = "true",
-    ["SelectDifficulty"] = "Endless",
-    ["SelectMacro"] = "Nousigi Hub/Macro/lili5",
-    ["AutoSkip"] = true,
-    ["DeleteMap"] = true,
-    ["PlayMacro"] = true,
-    ["AutoSave"] = true,
-    ["BoostFPS"] = true,
-    ["AutoClaimQuest"] = true,
-    ["AutoClaimEasterQuest"] = true,
-    ["AutoClaimEventPass"] = true,
-    ["WhiteScreen"] = false,
-    ["DelayJoin"] = "10",
-    ["PlacingFailsafe"] = true,
-    ["IgnoreTiming"] = true,
-    ["ExchangeTier"] = "1",
-    ["AutoExchangeEgg"] = "true",
-    ["MailName"] = "kayu777777777",
-    ["RequiredGem"] = 1000,
-    ["AutoMail"] = true,
-    ["WH_MatchComplete"] = true,
-    ["IgnoreMacroTiming"] = true,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/1073957496252813332/chEA7SEhrmnwJ9dS-DYiJNxWfozLrpxGL0wLK7VjZ3hWjZUeJSamp4z4px8OXh-fO2zm",
-        ["AutoUseBoost"] = true,
-    ["UseBoosts"] = {
-        ["2xCoinsBoost"] = true,
-        ["2xEggsBoost"] = true,
-    },
-    ["UseAll"] = true,
-}
-_G.key = "2e08ee8a67a045c6a71d8656a05b142e"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind", true))()
 
-loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
+
+-- made by CypherM#8368 (if you take anything from this script then make sure to add credits!) (you are not allowed to sell this / add it to your paid script unless if you ask me)
+ 
+--[[
+how to use:
+ 
+simply put this script in autoexec and it will automatically rejoin games if your network disconnects or if you get kicked,ect
+]]
+ 
+repeat wait() until game.CoreGui:FindFirstChild('RobloxPromptGui')
+ 
+local lp,po,ts = game:GetService('Players').LocalPlayer,game.CoreGui.RobloxPromptGui.promptOverlay,game:GetService('TeleportService')
+ 
+po.ChildAdded:connect(function(a)
+    if a.Name == 'ErrorPrompt' then
+        repeat
+            ts:Teleport(game.PlaceId)
+            wait(2)
+        until false
+    end
+end)
