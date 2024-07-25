@@ -1,4 +1,3 @@
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1257590240521224243/korekpantad2.txt?ex=668992ee&is=6688416e&hm=217ecec88d3f8febcc246a10f063bdba35225cce98cffdf3f55cdef7d2bfe936&"
 getgenv().Config = {
 	["SelectChapter"] = "Infinite",
 	["AutoSave"] = true,
@@ -14,15 +13,14 @@ getgenv().Config = {
 		["Windmill Village"] = false
 	},
 	["IgnoreMacroTiming"] = true,
-	["SelectMacro"] = "korekpantad2",
+	["SelectMacro"] = "korekpantad",
 	["JoinerList"] = {
 		[1] = "No joiner in the list"
 	},
 	["AutoJoinRaid"] = false,
 	["PlayMacro"] = true,
-	["BoostFPS"] = true,
-	["DeleteMap"] = true,
-        ["AutoLeave"] = true,
+	["BoostFPS"] = false,
+	["AutoLeave"] = true,
 	["JoinerCooldown"] = 0,
 	["AutoSell"] = false,
 	["AutoReplay"] = true,
@@ -101,7 +99,6 @@ getgenv().Config = {
 		["All enemies 2x speed"] = false
 	}
 }
-
 getgenv().Key = "kfaf8345c495403121e1466a"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
