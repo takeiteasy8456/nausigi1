@@ -1,4 +1,3 @@
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1257590240521224243/korekpantad2.txt?ex=668992ee&is=6688416e&hm=217ecec88d3f8febcc246a10f063bdba35225cce98cffdf3f55cdef7d2bfe936&"
 getgenv().Config = {
 	["SelectChapter"] = "Infinite",
 	["AutoSave"] = true,
@@ -20,8 +19,7 @@ getgenv().Config = {
 	},
 	["AutoJoinRaid"] = false,
 	["PlayMacro"] = true,
-	["DeleteMap"] = true,
-        ["BoostFPS"] = true,
+	["BoostFPS"] = false,
 	["AutoLeave"] = true,
 	["JoinerCooldown"] = 0,
 	["AutoSell"] = false,
@@ -82,7 +80,7 @@ getgenv().Config = {
 	["LeaveSellWave"] = 31,
 	["JoinHighest"] = false,
 	["AutoRejoin"] = true,
-	["WebhookURL"] = "https://discord.com/api/webhooks/1245029878638706729/jq0p2gGQuzBzaDl-2KW5703szC83eSKn81EGZsX4XLZg2b8wIQulp5dQ3Ygw_VXEfjew",
+	["WebhookURL"] = "https://discord.com/api/webhooks/1224296488906264738/JQQJZpr5yffjM62i2MplsRoNk_PBPjriluM2gdrEffwD9SfTaFFApuqEUEXnDyqkoli9",
 	["BlackScreen"] = false,
 	["WaitForJoiner"] = false,
 	["DeleteRarity"] = {
