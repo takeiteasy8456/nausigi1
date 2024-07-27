@@ -99,7 +99,7 @@ getgenv().Config = {
 		["All enemies 2x speed"] = false
 	}
 }
-getgenv().Key = "kc27ccf51cc87b7afae31a62"
+getgenv().Key = "ke16acda82c23c5f27534727"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
 
