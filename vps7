@@ -1,56 +1,123 @@
 getgenv().Config = {
-    ["SellRarities"] = {
-        ["Legendary"] = false,
-        ["Basic"] = false,
-        ["Epic"] = false,
-        ["Uncommon"] = false,
-        ["Rare"] = false,
-    },
-    ["SelectCase"] = "JesterCrate",
-    ["AutoSummonTroop"] = false,
-    ["Summonx10"] = false,
-    ["RequireRoll"] = 50,
-    ["AutoUseBoost"] = false,
-    ["UseBoosts"] = {
-        ["2xLuckBoost"] = false,
-    },
-    ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = true,
-    ["ABE_Gift"] = true,
-    ["AutoBuyEvent"] = true,
-    ["BuyEventName"] = "kayu666666666",
-    ["TPLobbyIfPlayer"] = true,
-    ["SelectMap"] = "TimeFactory (Rewind)",
-    ["AutoVoteDifficulty"] = "true",
-    ["SelectDifficulty"] = "Endless",
-    ["SelectMacro"] = "message",
-    ["AutoSkip"] = true,
-    ["DeleteMap"] = true,
-    ["PlayMacro"] = true,
-    ["AutoSave"] = true,
-    ["BoostFPS"] = true,
-    ["AutoClaimQuest"] = true,
-    ["AutoClaimEasterQuest"] = true,
-    ["AutoClaimEventPass"] = true,
-    ["WhiteScreen"] = false,
-    ["DelayJoin"] = "10",
-    ["PlacingFailsafe"] = true,
-    ["IgnoreTiming"] = true,
-    ["ExchangeTier"] = "1",
-    ["AutoExchangeEvent"] = false,
-    ["MailName"] = "kayu777777777",
-    ["RequiredGem"] = 1000,
-    ["AutoMail"] = true,
-    ["WH_MatchComplete"] = true,
-    ["IgnoreMacroTiming"] = true,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/1224296488906264738/JQQJZpr5yffjM62i2MplsRoNk_PBPjriluM2gdrEffwD9SfTaFFApuqEUEXnDyqkoli9",
-        ["AutoUseBoost"] = true,
-    ["UseBoosts"] = {
-        ["2xCoinsBoost"] = true,
-        ["2xEggsBoost"] = true,
-    },
-    ["UseAll"] = true,
+	["SelectChapter"] = "Infinite",
+	["AutoSave"] = true,
+	["WH_MatchComplete"] = true,
+	["AutoSkip"] = true,
+	["AutoClaimQuest"] = true,
+	["TPLobbyIfPlayer"] = true,
+	["SelectChallengeWorld"] = {
+		["Cursed Academy"] = false,
+		["Blue Planet"] = false,
+		["Underwater Temple"] = false,
+		["Mob City"] = false,
+		["Windmill Village"] = false
+	},
+	["IgnoreMacroTiming"] = true,
+	["SelectMacro"] = "korekpantad2",
+	["JoinerList"] = {
+		[1] = "No joiner in the list"
+	},
+	["AutoJoinRaid"] = false,
+	["PlayMacro"] = true,
+	["BoostFPS"] = false,
+	["AutoLeave"] = true,
+	["JoinerCooldown"] = 0,
+	["AutoSell"] = false,
+	["AutoReplay"] = true,
+	["AutoReturnLobby"] = true,
+	["StandardSummonUnit"] = {
+		["Dragon Slayer"] = false,
+		["Shinobi Form 3"] = false,
+		["Vengeful Shinobi"] = false,
+		["Strongest Swordsman"] = false,
+		["Admiral Of Lava"] = false,
+		["The Gamer"] = false,
+		["Chance Taker"] = false,
+		["Ant King"] = false,
+		["Esper"] = false,
+		["Elf Wizardess"] = false,
+		["Cursed Fighter"] = false,
+		["Skull Warrior"] = false,
+		["Thunder Shinobi"] = false,
+		["Flame Dragon King"] = false,
+		["Curse Prince"] = false,
+		["Maxed Qi Master"] = false,
+		["Carp"] = false,
+		["Ascended Qi Master"] = false,
+		["Spirit Hybrid"] = false,
+		["Soulforce Reaper"] = false,
+		["Admiral Of Ice"] = false,
+		["Inferno Commander"] = false,
+		["Pink Rockstar"] = false,
+		["Fire Leg Master"] = false,
+		["Sharpshooter"] = false,
+		["Clay"] = false,
+		["Admiral Of Light"] = false,
+		["The Beast"] = false,
+		["Bloomer"] = false,
+		["Master Swordsman"] = false
+	},
+	["HardMode"] = false,
+	["WH_BannerSummoned"] = true,
+	["SelectChallengeMacro"] = {
+
+	},
+	["AutoSummonStandard"] = false,
+	["SelectRaidMacro"] = {
+
+	},
+	["AutoJoinChallenge"] = false,
+	["UnselectIfSummoned"] = false,
+	["AutoJoinWorld"] = true,
+	["SelectReward"] = {
+		["Trait Crystal"] = false,
+		["Risky Dice"] = false,
+		["Gold"] = false,
+		["Gems"] = false,
+		["Star Rift "] = false,
+		["Star Rift (Rainbow)"] = false
+	},
+	["LeaveSellWave"] = 31,
+	["JoinHighest"] = false,
+	["AutoRejoin"] = true,
+	["WebhookURL"] = "https://discord.com/api/webhooks/1224296488906264738/JQQJZpr5yffjM62i2MplsRoNk_PBPjriluM2gdrEffwD9SfTaFFApuqEUEXnDyqkoli9",
+	["BlackScreen"] = false,
+	["WaitForJoiner"] = false,
+	["DeleteRarity"] = {
+		["Epic"] = false,
+		["Legendary"] = false,
+		["Rare"] = false
+	},
+	["SelectWorld"] = "Windmill Village",
+	["AutoJoinHoster"] = false,
+	["SelectDifficulty"] = {
+		["All units lowered range"] = false,
+		["All enemies regen health"] = false,
+		["All units increased cost"] = false,
+		["All enemies +1 shield"] = false,
+		["All enemies 2x health"] = false,
+		["All enemies 2x speed"] = false
+	}
 }
-getgenv().Key = "k82ae6713d33a61b4b2b5dac"
+getgenv().Key = "kfed1afd6a25dd6f00089ea9"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
+
+
+
+
+
+
+
+repeat wait() until game.CoreGui:FindFirstChild('RobloxPromptGui')
+ 
+local lp,po,ts = game:GetService('Players').LocalPlayer,game.CoreGui.RobloxPromptGui.promptOverlay,game:GetService('TeleportService')
+ 
+po.ChildAdded:connect(function(a)
+    if a.Name == 'ErrorPrompt' then
+        repeat
+            ts:Teleport(game.PlaceId)
+            wait(2)
+        until false
+    end
+end)
