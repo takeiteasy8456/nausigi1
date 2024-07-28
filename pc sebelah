@@ -1,56 +1,18 @@
-getgenv().Config = {
-    ["SellRarities"] = {
-        ["Legendary"] = false,
-        ["Basic"] = false,
-        ["Epic"] = false,
-        ["Uncommon"] = false,
-        ["Rare"] = false,
-    },
-    ["SelectCase"] = "JesterCrate",
-    ["AutoSummonTroop"] = false,
-    ["Summonx10"] = false,
-    ["RequireRoll"] = 50,
-    ["AutoUseBoost"] = false,
-    ["UseBoosts"] = {
-        ["2xLuckBoost"] = false,
-    },
-    ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = true,
-    ["ABE_Gift"] = true,
-    ["AutoBuyEvent"] = true,
-    ["BuyEventName"] = "kayu666666666",
-    ["TPLobbyIfPlayer"] = true,
-    ["SelectMap"] = "TimeFactory (Rewind)",
-    ["AutoVoteDifficulty"] = "true",
-    ["SelectDifficulty"] = "Endless",
-    ["SelectMacro"] = "message",
-    ["AutoSkip"] = true,
-    ["DeleteMap"] = true,
-    ["PlayMacro"] = true,
-    ["AutoSave"] = true,
-    ["BoostFPS"] = true,
-    ["AutoClaimQuest"] = true,
-    ["AutoClaimEasterQuest"] = true,
-    ["AutoClaimEventPass"] = true,
-    ["WhiteScreen"] = false,
-    ["DelayJoin"] = "10",
-    ["PlacingFailsafe"] = true,
-    ["IgnoreTiming"] = true,
-    ["ExchangeTier"] = "1",
-    ["AutoExchangeEvent"] = false,
-    ["MailName"] = "kayu777777777",
-    ["RequiredGem"] = 1000,
-    ["AutoMail"] = true,
-    ["WH_MatchComplete"] = true,
-    ["IgnoreMacroTiming"] = true,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/1224296488906264738/JQQJZpr5yffjM62i2MplsRoNk_PBPjriluM2gdrEffwD9SfTaFFApuqEUEXnDyqkoli9",
-        ["AutoUseBoost"] = true,
-    ["UseBoosts"] = {
-        ["2xCoinsBoost"] = true,
-        ["2xEggsBoost"] = true,
-    },
-    ["UseAll"] = true,
-}
-getgenv().Key = "k82ae6713d33a61b4b2b5dac"
+script_key = "LSArkPPNGLIXvhZBUcrulJGMshDmCXeY"
+    getgenv().SelectedPlayer = "bokirkekar066" -- Main Account/ Account To Send Gem
+    getgenv().MainAccount = false --Set True if it's the account to receive game, false if the account send gem
+    getgenv().AccountForMainToFolow = ""
 
-loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
+    getgenv().EnableAccountForMainFolow = false --If you want your main to join a low server player with an account already in server low player
+    getgenv().MainAccountSetting = { -- Unit To Sell
+        Units = {"Electric Cyborg","Magic Arrow"},
+        ManuallyClaimBooth = true,
+    }
+    getgenv().AltAccountSetting = {
+        Trade = true,
+        NotSendGem = false,
+        TradeItems = {"Trait Crystal","Risky Dice"},
+        GiveBackUnit=true,
+        KickAfterDoneTrade=false,
+    }
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3051457467c11f25288cfe2de3708373.lua"))()
