@@ -1,124 +1,18 @@
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1257590240521224243/korekpantad2.txt?ex=66a7e56e&is=66a693ee&hm=ac482d16933c551864fca0154c268e133c5e21476c9d8818943234eca5cb28e3&"
-getgenv().Config = {
-	["SelectChapter"] = "Infinite",
-	["AutoSave"] = true,
-	["WH_MatchComplete"] = true,
-	["AutoSkip"] = true,
-	["AutoClaimQuest"] = true,
-	["TPLobbyIfPlayer"] = true,
-	["SelectChallengeWorld"] = {
-		["Cursed Academy"] = false,
-		["Blue Planet"] = false,
-		["Underwater Temple"] = false,
-		["Mob City"] = false,
-		["Windmill Village"] = false
-	},
-	["IgnoreMacroTiming"] = true,
-	["SelectMacro"] = "korekpantad2",
-	["JoinerList"] = {
-		[1] = "No joiner in the list"
-	},
-	["AutoJoinRaid"] = false,
-	["PlayMacro"] = true,
-	["BoostFPS"] = false,
-	["AutoLeave"] = true,
-	["JoinerCooldown"] = 0,
-	["AutoSell"] = false,
-	["AutoReplay"] = true,
-	["AutoReturnLobby"] = true,
-	["StandardSummonUnit"] = {
-		["Dragon Slayer"] = false,
-		["Shinobi Form 3"] = false,
-		["Vengeful Shinobi"] = false,
-		["Strongest Swordsman"] = false,
-		["Admiral Of Lava"] = false,
-		["The Gamer"] = false,
-		["Chance Taker"] = false,
-		["Ant King"] = false,
-		["Esper"] = false,
-		["Elf Wizardess"] = false,
-		["Cursed Fighter"] = false,
-		["Skull Warrior"] = false,
-		["Thunder Shinobi"] = false,
-		["Flame Dragon King"] = false,
-		["Curse Prince"] = false,
-		["Maxed Qi Master"] = false,
-		["Carp"] = false,
-		["Ascended Qi Master"] = false,
-		["Spirit Hybrid"] = false,
-		["Soulforce Reaper"] = false,
-		["Admiral Of Ice"] = false,
-		["Inferno Commander"] = false,
-		["Pink Rockstar"] = false,
-		["Fire Leg Master"] = false,
-		["Sharpshooter"] = false,
-		["Clay"] = false,
-		["Admiral Of Light"] = false,
-		["The Beast"] = false,
-		["Bloomer"] = false,
-		["Master Swordsman"] = false
-	},
-	["HardMode"] = false,
-	["WH_BannerSummoned"] = true,
-	["SelectChallengeMacro"] = {
 
-	},
-	["AutoSummonStandard"] = false,
-	["SelectRaidMacro"] = {
-
-	},
-	["AutoJoinChallenge"] = false,
-	["UnselectIfSummoned"] = false,
-	["AutoJoinWorld"] = true,
-	["SelectReward"] = {
-		["Trait Crystal"] = false,
-		["Risky Dice"] = false,
-		["Gold"] = false,
-		["Gems"] = false,
-		["Star Rift "] = false,
-		["Star Rift (Rainbow)"] = false
-	},
-	["LeaveSellWave"] = 31,
-	["JoinHighest"] = false,
-	["AutoRejoin"] = true,
-	["WebhookURL"] = "https://discord.com/api/webhooks/1224296488906264738/JQQJZpr5yffjM62i2MplsRoNk_PBPjriluM2gdrEffwD9SfTaFFApuqEUEXnDyqkoli9",
-	["BlackScreen"] = false,
-	["WaitForJoiner"] = false,
-	["DeleteRarity"] = {
-		["Epic"] = false,
-		["Legendary"] = false,
-		["Rare"] = false
-	},
-	["SelectWorld"] = "Windmill Village",
-	["AutoJoinHoster"] = false,
-	["SelectDifficulty"] = {
-		["All units lowered range"] = false,
-		["All enemies regen health"] = false,
-		["All units increased cost"] = false,
-		["All enemies +1 shield"] = false,
-		["All enemies 2x health"] = false,
-		["All enemies 2x speed"] = false
-	}
-}
-getgenv().Key = "kfed1afd6a25dd6f00089ea9"
-
-loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
-
-
-
-
-
-
-
-repeat wait() until game.CoreGui:FindFirstChild('RobloxPromptGui')
- 
-local lp,po,ts = game:GetService('Players').LocalPlayer,game.CoreGui.RobloxPromptGui.promptOverlay,game:GetService('TeleportService')
- 
-po.ChildAdded:connect(function(a)
-    if a.Name == 'ErrorPrompt' then
-        repeat
-            ts:Teleport(game.PlaceId)
-            wait(2)
-        until false
-    end
-end)
+script_key = "LSArkPPNGLIXvhZBUcrulJGMshDmCXeY"
+    getgenv().SelectedPlayer = "bokirkekar066" -- Main Account/ Account To Send Gem
+    getgenv().MainAccount = false --Set True if it's the account to receive game, false if the account send gem
+    getgenv().AccountForMainToFolow = ""
+    getgenv().EnableAccountForMainFolow = false --If you want your main to join a low server player with an account already in server low player
+    getgenv().MainAccountSetting = { -- Unit To Sell
+        Units = {"Electric Cyborg","Magic Arrow"},
+        ManuallyClaimBooth = false,
+    }
+    getgenv().AltAccountSetting = {
+        Trade = true,
+        NotSendGem = false,
+        TradeItems = {"Trait Crystal","Risky Dice","Frost Bind"},
+        GiveBackUnit=true,
+        KickAfterDoneTrade=false,
+    }
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3051457467c11f25288cfe2de3708373.lua"))()
