@@ -12,15 +12,9 @@ script_key = "LSArkPPNGLIXvhZBUcrulJGMshDmCXeY"
         NotSendGem = false,
         TradeItems = {"Trait Crystal","Risky Dice","Frost Bind"},
         GiveBackUnit=true,
-        KickAfterDoneTrade=false,
+        KickAfterDoneTrade=true,
     }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3051457467c11f25288cfe2de3708373.lua"))()
 
 
 
-_G.Config = {
-    UserID = "6b5cf9a0-d9e3-411e-b907-df8c2133b9bc",
-    discord_id = 853137678341373982,
-    Note = "memek",
-}
-loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/main/animedefender"))()
