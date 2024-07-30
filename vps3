@@ -1,4 +1,4 @@
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1257590240521224243/korekpantad2.txt?ex=66a693ee&is=66a5426e&hm=2735c4736755965b8d15d79f34a7b258c680878a893a1e2d805f1c9ce4325176&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1257590240521224243/korekpantad2.txt?ex=66a7e56e&is=66a693ee&hm=ac482d16933c551864fca0154c268e133c5e21476c9d8818943234eca5cb28e3&"
 getgenv().Config = {
 	["SelectChapter"] = "Infinite",
 	["AutoSave"] = true,
@@ -103,6 +103,7 @@ getgenv().Config = {
 getgenv().Key = "kfed1afd6a25dd6f00089ea9"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
+
 
 
 
