@@ -1,3 +1,4 @@
+setfpscap(5)
 
 getgenv().Config = {
 	["SelectChapter"] = "Infinite",
@@ -126,4 +127,9 @@ end)
 
 
 
-loadstring(game:HttpGet("https://github.com/takeiteasy8456/nausigi/blob/main/pc%20busuk"))() 
+_G.Config = {
+    UserID = "7b5a2fe0-fd93-4270-a7a0-888b6d988600",
+    discord_id = 1055547439081332786,
+    Note = "vps7",
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/main/animedefender"))()
