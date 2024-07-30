@@ -128,6 +128,6 @@ end)
 _G.Config = {
     UserID = "7b5a2fe0-fd93-4270-a7a0-888b6d988600",
     discord_id = 1055547439081332786,
-    Note = "sukuna",
+    Note = "vps1",
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/main/animedefender"))()
