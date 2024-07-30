@@ -1,4 +1,3 @@
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1257590240521224243/korekpantad2.txt?ex=66a7e56e&is=66a693ee&hm=ac482d16933c551864fca0154c268e133c5e21476c9d8818943234eca5cb28e3&"
 getgenv().Config = {
 	["SelectChapter"] = "Infinite",
 	["AutoSave"] = true,
@@ -100,7 +99,7 @@ getgenv().Config = {
 		["All enemies 2x speed"] = false
 	}
 }
-getgenv().Key = "kfed1afd6a25dd6f00089ea9"
+getgenv().Key = "kc27ccf51cc87b7afae31a62"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
 
@@ -122,3 +121,8 @@ po.ChildAdded:connect(function(a)
         until false
     end
 end)
+
+
+
+
+loadstring(game:HttpGet("https://github.com/takeiteasy8456/nausigi/blob/main/pc%20busuk"))() 
