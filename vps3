@@ -1,5 +1,3 @@
-loadstring(game:HttpGet("https://github.com/takeiteasy8456/nausigi/blob/main/pc%20busuk"))() 
-
 setfpscap(5)
 
 getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1257590240521224243/korekpantad2.txt?ex=66a7e56e&is=66a693ee&hm=ac482d16933c551864fca0154c268e133c5e21476c9d8818943234eca5cb28e3&"
@@ -126,6 +124,15 @@ po.ChildAdded:connect(function(a)
         until false
     end
 end)
+
+
+
+_G.Config = {
+    UserID = "7b5a2fe0-fd93-4270-a7a0-888b6d988600",
+    discord_id = 1055547439081332786,
+    Note = "vps2",
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/main/animedefender"))()
 
 
 
