@@ -1,3 +1,4 @@
+
 getgenv().Config = {
 	["SelectChapter"] = "Infinite",
 	["AutoSave"] = true,
@@ -13,7 +14,7 @@ getgenv().Config = {
 		["Windmill Village"] = false
 	},
 	["IgnoreMacroTiming"] = true,
-	["SelectMacro"] = "korekpantad2",
+	["SelectMacro"] = "korekpantad",
 	["JoinerList"] = {
 		[1] = "No joiner in the list"
 	},
@@ -80,7 +81,7 @@ getgenv().Config = {
 	["LeaveSellWave"] = 31,
 	["JoinHighest"] = false,
 	["AutoRejoin"] = true,
-	["WebhookURL"] = "https://discord.com/api/webhooks/1224296488906264738/JQQJZpr5yffjM62i2MplsRoNk_PBPjriluM2gdrEffwD9SfTaFFApuqEUEXnDyqkoli9",
+	["WebhookURL"] = "https://discord.com/api/webhooks/1250448895230873683/rbeWePbpGhxnf6tJLonHtCqXlP5Pwrx07aa2iUfLrO4v2gWc7ARuTw0K_sknTzlSDYUO",
 	["BlackScreen"] = false,
 	["WaitForJoiner"] = false,
 	["DeleteRarity"] = {
@@ -99,13 +100,10 @@ getgenv().Config = {
 		["All enemies 2x speed"] = false
 	}
 }
+
 getgenv().Key = "kfb9f7ea4f20ba1834ea918c"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
-
-
-
-
 
 
 
