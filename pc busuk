@@ -1,6 +1,17 @@
-_G.Config = {
-    UserID = "7b5a2fe0-fd93-4270-a7a0-888b6d988600",
-    discord_id = 1055547439081332786,
-    Note = "sukuna",
-}
-loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/main/animedefender"))()
+script_key = "LSArkPPNGLIXvhZBUcrulJGMshDmCXeY"
+    getgenv().SelectedPlayer = "hobby990creeping" -- Main Account/ Account To Send Gem
+    getgenv().MainAccount = true --Set True if it's the account to receive game, false if the account send gem
+    getgenv().AccountForMainToFolow = ""
+    getgenv().EnableAccountForMainFolow = false --If you want your main to join a low server player with an account already in server low player
+    getgenv().MainAccountSetting = { -- Unit To Sell
+        Units = {"Electric Cyborg","Magic Arrow"},
+        ManuallyClaimBooth = false,
+    }
+    getgenv().AltAccountSetting = {
+        Trade = true,
+        NotSendGem = false,
+        TradeItems = {"Trait Crystal","Risky Dice","Frost Bind"},
+        GiveBackUnit=true,
+        KickAfterDoneTrade=false,
+    }
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3051457467c11f25288cfe2de3708373.lua"))()
