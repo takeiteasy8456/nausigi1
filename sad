@@ -9,7 +9,7 @@ script_key = "LSArkPPNGLIXvhZBUcrulJGMshDmCXeY"
     }
     getgenv().AltAccountSetting = {
         Trade = true,
-        NotSendGem = false,
+        NotSendGem = true,
         TradeItems = {"Trait Crystal","Risky Dice","Frost Bind"},
         GiveBackUnit=true,
         KickAfterDoneTrade=true,
