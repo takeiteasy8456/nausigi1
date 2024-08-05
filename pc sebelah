@@ -5,7 +5,7 @@ script_key = "LSArkPPNGLIXvhZBUcrulJGMshDmCXeY"
     getgenv().EnableAccountForMainFolow = false --If you want your main to join a low server player with an account already in server low player
     getgenv().MainAccountSetting = { -- Unit To Sell
         Units = {"Electric Cyborg","Magic Arrow"},
-        ManuallyClaimBooth = true,
+        ManuallyClaimBooth = false,
     }
     getgenv().AltAccountSetting = {
         Trade = true,
