@@ -1,5 +1,5 @@
 script_key = "LSArkPPNGLIXvhZBUcrulJGMshDmCXeY"
-    getgenv().SelectedPlayer = "bokirkekar069" -- Main Account/ Account To Send Gem
+    getgenv().SelectedPlayer = "bokirkekar070" -- Main Account/ Account To Send Gem
     getgenv().MainAccount = false --Set True if it's the account to receive game, false if the account send gem
     getgenv().AccountForMainToFolow = ""
     getgenv().EnableAccountForMainFolow = false --If you want your main to join a low server player with an account already in server low player
