@@ -1,4 +1,29 @@
-task.wait(420)
-local module = loadstring(game:HttpGet"https://raw.githubusercontent.com/LeoKholYt/roblox/main/lk_serverhop.lua")()
+task.wait(6)
+getgenv().RngEvent = {
+    Selected_RngEgg = "First",
+    Rolling_Enabled = true,
+    Rolling_Delay = 0.1,
+    Visible_Rolling = false, -- Visible Rolling is Slower by ~1s; but you can see it :P
 
-module:Teleport(game.PlaceId)
+    Selected_Upgrades = {"RNGHugeLuck", "RNGEggLuck", "RNGHatchSpeed", "RNGBonusLuck"},
+    AutoUpgrades_Enabled = true,
+    AutoMerchant_Enabled = true,
+    Lucky_Dice_Enabled = true,
+    Lucky_Dice_Config = {
+        ["Lucky Dice"] = {Craft = true, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = nil},
+        ["Lucky Dice II"] = {Craft = true, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = nil},
+        ["Mega Lucky Dice"] = {Craft = true, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = nil},
+        ["Mega Lucky Dice II"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = 9},
+    },
+
+    Webhook_Url = "https://discord.com/api/webhooks/1224296488906264738/JQQJZpr5yffjM62i2MplsRoNk_PBPjriluM2gdrEffwD9SfTaFFApuqEUEXnDyqkoli9",
+    Discord_UserID = "1055547439081332786",
+    Huge_Mail_User = "hobby990creeping",
+    Huge_Mail_Enabled = false, -- Warning: Using auto has a 1% Chance of donating to KiTTYWARE Devs
+
+    fps_boost = true, -- erm makes game shtuff invisible
+    fps_boost2 = true, -- erm disables game scripts so will break some in-game functionality like inventory Gui etc
+    gui_stats_enabled = true,
+    print_all_info = false, -- Will Print All Egg & Upgrade Names; for future updates (mainly for kw devs) :P
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/661ba97429a1d20f02880d1e9eeced08.lua"))()
