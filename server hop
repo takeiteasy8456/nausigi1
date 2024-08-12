@@ -27,3 +27,18 @@ getgenv().RngEvent = {
     print_all_info = false, -- Will Print All Egg & Upgrade Names; for future updates (mainly for kw devs) :P
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/661ba97429a1d20f02880d1e9eeced08.lua"))()
+
+
+
+
+getgenv().LuckyDiceMerchant = true
+
+local Remote = game.ReplicatedStorage.Network.Merchant_RequestPurchase
+
+while getgenv().LuckyDiceMerchant do task.wait()
+    local count = 1
+    for i = 1,6 do
+        Remote:InvokeServer("LuckyDiceMerchant", count)
+        count = count + 1
+    end
+end
