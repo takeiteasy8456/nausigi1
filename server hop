@@ -6,7 +6,7 @@ getgenv().RngEvent = {
     Visible_Rolling = false, -- Visible Rolling is Slower by ~1s; but you can see it :P
 
     Selected_Upgrades = {"RNGHugeLuck", "RNGEggLuck", "RNGHatchSpeed", "RNGBonusLuck"},
-    AutoUpgrades_Enabled = true,
+    AutoUpgrades_Enabled = false,
     AutoMerchant_Enabled = true,
     Lucky_Dice_Enabled = true,
     Lucky_Dice_Config = {
