@@ -1,6 +1,44 @@
-getgenv().ScriptSettings = [[{"AutoDigsite":false,"AutoMerchant":false,"TapPerTime":3,"MerchantTF":{"RegularMerchant":false,"GardenMerchant":false,"AdvancedMerchant":false},"AutoClaimFreeReward":true,"TNTRebirth":true,"TapTime":1,"ReEnableIfHardstuck":300,"AutoFruit":true,"AutoRebirth":true,"FarmingMode":"All","AutoClaimMail":true,"AutoPotion":true,"RebirthTime":4,"AutoOpenMap":true,"AutoTap":true,"HopIfGoPopUp":false,"AutoBuyPetSlot":true,"IgnoreUpgrade":{"Magnet":false,"Drops":false,"LessGold":false,"Pet Speed":false,"Pet Damage":false,"LessRainbow":false,"Luck":false,"Ultimates":false,"Walkspeed":false,"Coins":false,"Diamonds":false,"Tap Damage":false},"SelectBest":true,"Potions":["Damage","Coins"],"DigsiteHopp":false,"MinTier":1,"SpawnObby":false,"AutoWorld2":false,"OpenGiftBag":true,"DigsiteLevel":3,"ClaimRankReward":true,"AutoUltimate":false,"CauCa":false,"MaxMap":205,"AutoBuyUpdrage":true,"ListSendMail":[{"Enabled":false,"MinItem":1,"Username":""},{"Enabled":false,"MinItem":1,"Username":""}],"HiddenPresent":false,"FarmCoin":true,"DelayHopIfHardstuck":60,"AutoCoinFlag":false,"EquippedEnchant":[{"slot":1,"name":"Coins","tier":5},{"slot":2,"name":"Coins","tier":1},{"slot":3,"name":"Coins","tier":5}],"DigsiteZone":"Advanced Digsite","Minefield":false,"Fruits":["Watermelon","Apple","Pineapple","Orange","Banana"],"AutoEquipEnchant":true,"MinZoneUseFlag":1,"Atlantis":false}]]
+task.wait(6)
+getgenv().RngEvent = {
+    Selected_RngEgg = "First",
+    Rolling_Enabled = true,
+    Rolling_Delay = 0.1,
+    Visible_Rolling = false, -- Visible Rolling is Slower by ~1s; but you can see it :P
+
+    Selected_Upgrades = {""RNGHatchSpeed"},
+    AutoUpgrades_Enabled = true,
+    AutoMerchant_Enabled = false,
+    Lucky_Dice_Enabled = true,
+    Lucky_Dice_Config = {
+        ["Lucky Dice"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
+        ["Lucky Dice II"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
+        ["Mega Lucky Dice"] = {Craft = true, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = nil},
+        ["Mega Lucky Dice II"] = {Craft = true, Use = true, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = 9},
+    },
+
+    Webhook_Url = "https://discord.com/api/webhooks/1224296488906264738/JQQJZpr5yffjM62i2MplsRoNk_PBPjriluM2gdrEffwD9SfTaFFApuqEUEXnDyqkoli9",
+    Discord_UserID = "1055547439081332786",
+    Huge_Mail_User = "hobby990creeping",
+    Huge_Mail_Enabled = false, -- Warning: Using auto has a 1% Chance of donating to KiTTYWARE Devs
+
+    fps_boost = false, -- erm makes game shtuff invisible
+    fps_boost2 = false, -- erm disables game scripts so will break some in-game functionality like inventory Gui etc
+    gui_stats_enabled = true,
+    print_all_info = false, -- Will Print All Egg & Upgrade Names; for future updates (mainly for kw devs) :P
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/661ba97429a1d20f02880d1e9eeced08.lua"))()
 
 
-getgenv().Key = "k0ba3ceeb1c11b6f62aebedd"
 
-loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
+
+getgenv().LuckyDiceMerchant = true
+
+local Remote = game.ReplicatedStorage.Network.Merchant_RequestPurchase
+
+while getgenv().LuckyDiceMerchant do task.wait()
+    local count = 1
+    for i = 1,6 do
+        Remote:InvokeServer("LuckyDiceMerchant", count)
+        count = count + 1
+    end
+end
