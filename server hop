@@ -7,7 +7,7 @@ getgenv().RngEvent = {
 
     Selected_Upgrades = {"RNGHugeLuck", "RNGEggLuck", "RNGHatchSpeed", "RNGBonusLuck"},
     AutoUpgrades_Enabled = true,
-    AutoMerchant_Enabled = false,
+    AutoMerchant_Enabled = true,
     Lucky_Dice_Enabled = true,
     Lucky_Dice_Config = {
         ["Lucky Dice"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
@@ -31,14 +31,4 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/661ba97429a1d2
 
 
 
-getgenv().LuckyDiceMerchant = true
 
-local Remote = game.ReplicatedStorage.Network.Merchant_RequestPurchase
-
-while getgenv().LuckyDiceMerchant do task.wait()
-    local count = 1
-    for i = 1,6 do
-        Remote:InvokeServer("LuckyDiceMerchant", count)
-        count = count + 1
-    end
-end
