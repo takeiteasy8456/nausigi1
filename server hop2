@@ -18,7 +18,7 @@ getgenv().RngEvent = {
 
     Webhook_Url = "https://discord.com/api/webhooks/1224296488906264738/JQQJZpr5yffjM62i2MplsRoNk_PBPjriluM2gdrEffwD9SfTaFFApuqEUEXnDyqkoli9",
     Discord_UserID = "1055547439081332786",
-    Huge_Mail_User = "hobby990creeping",
+    Huge_Mail_User = "feffysmlfan922",
     Huge_Mail_Enabled = true, -- Warning: Using auto has a 1% Chance of donating to KiTTYWARE Devs
 
     fps_boost = true, -- erm makes game shtuff invisible
