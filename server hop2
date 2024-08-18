@@ -6,7 +6,7 @@ getgenv().RngEvent = {
 
     Selected_Upgrades = {"RNGHugeLuck", "RNGEggLuck", "RNGHatchSpeed", "RNGBonusLuck", "RNGExtraEgg"},
     AutoUpgrades_Enabled = true,
-    AutoMerchant_Enabled = false,
+    AutoMerchant_Enabled = true,
     AutoSellPets_Enabled = true,
     AutoSell_OnlyEventPets = true, -- if false, will sell any pet not only pets gained from event
     AutoBreakChests_Enabled = true, -- semi blatant teleporting
