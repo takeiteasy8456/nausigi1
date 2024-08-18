@@ -1,7 +1,7 @@
 getgenv().RngEvent = {
     Selected_RngEgg = "First",
     Rolling_Enabled = true,
-    Rolling_Delay = 0.4,
+    Rolling_Delay = 0.3,
     Visible_Rolling = false, -- Visible Rolling is Slower by ~1s; but you can see it if you don't have gui enabled :P
 
     Selected_Upgrades = {"RNGHugeLuck", "RNGEggLuck", "RNGHatchSpeed", "RNGBonusLuck", "RNGExtraEgg"},
@@ -9,20 +9,20 @@ getgenv().RngEvent = {
     AutoMerchant_Enabled = true,
     AutoSellPets_Enabled = true,
     AutoSell_OnlyEventPets = true, -- if false, will sell any pet not only pets gained from event
-    AutoBreakChests_Enabled = false, -- semi blatant teleporting
+    AutoBreakChests_Enabled = true, -- semi blatant teleporting
     Lucky_Dice_Enabled = true,
     Lucky_Dice_Config = {
         ["Fire Dice"] = {Craft = false, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
-        ["Lucky Dice"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
+        ["Lucky Dice"] = {Craft = false, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
         ["Lucky Dice II"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
         ["Lucky Dice III"] = {Craft = true, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = nil},
         ["Mega Lucky Dice"] = {Craft = true, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = nil},
-        ["Mega Lucky Dice II"] = {Craft = true, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = 9},
+        ["Mega Lucky Dice II"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = 9},
     },
 
-    Webhook_Url = "https://discord.com/api/webhooks/1224296488906264738/JQQJZpr5yffjM62i2MplsRoNk_PBPjriluM2gdrEffwD9SfTaFFApuqEUEXnDyqkoli9",
-    Discord_UserID = "1055547439081332786",
-    Huge_Mail_User = "feffysmlfan922",
+    Webhook_Url = "",
+    Discord_UserID = "",
+    Huge_Mail_User = "",
     Huge_Mail_Enabled = false, -- Warning: Using auto has a 1% Chance of donating to KiTTYWARE Devs
 
     fps_boost = false, -- makes game shtuff invisible
