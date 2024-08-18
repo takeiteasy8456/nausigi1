@@ -25,8 +25,8 @@ getgenv().RngEvent = {
     Huge_Mail_User = "feffysmlfan922",
     Huge_Mail_Enabled = false, -- Warning: Using auto has a 1% Chance of donating to KiTTYWARE Devs
 
-    fps_boost = true, -- makes game shtuff invisible
-    fps_boost2 = true, -- disables game scripts so will break some in-game functionality like inventory Gui etc
+    fps_boost = false, -- makes game shtuff invisible
+    fps_boost2 = false, -- disables game scripts so will break some in-game functionality like inventory Gui etc
     gui_stats_enabled = true,
     print_all_info = false, -- Will Print All Egg & Upgrade Names; for future updates (mainly for kw devs)
 }
