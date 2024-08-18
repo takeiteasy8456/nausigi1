@@ -12,7 +12,7 @@ local function makePurchase(number)
 end
 
 while true do
-    for number = 1, 6 do
+    for number = 5, 6 do
         makePurchase(number)
         wait(0.5)
     end
