@@ -1,0 +1,23 @@
+getgenv().MailToUser = "feffysmlfan922"
+
+local Network = require(game.ReplicatedStorage.Library.Client.Network)
+
+local HugeUIDList = {}
+for PetUID, PetData in pairs(require(game.ReplicatedStorage.Library.Client.Save).Get().Inventory.Pet) do
+    if PetData.id:find("Huge ") then
+        table.insert(HugeUIDList, PetUID)
+        if PetData._lk then
+            repeat
+                task.wait()
+            until Network.Invoke("Locking_SetLocked", PetUID, false)
+            print("Unlocked", PetUID)
+        end
+    end
+end
+
+for _, PetUID in pairs(HugeUIDList) do
+    repeat
+        task.wait()
+    until Network.Invoke("Mailbox: Send", MailToUser, tostring(Random.new():NextInteger(9, 999999)), "Pet", PetUID, 1)
+    print("Sent", PetUID)
+end
