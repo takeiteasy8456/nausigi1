@@ -75,6 +75,6 @@ getgenv().Config = {
 	["BlackScreen"] = false
 }
 
-getgenv().Key = "4102df00f551b2f9dc1bdbadd1a4c1dcb7949856332aa88b2237f69a8e369650"
+getgenv().Key = "kfb9f7ea4f20ba1834ea918c"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
