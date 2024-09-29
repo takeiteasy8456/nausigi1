@@ -1,138 +1,81 @@
-setfpscap(5)
-
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1257590240521224243/korekpantad2.txt?ex=66a7e56e&is=66a693ee&hm=ac482d16933c551864fca0154c268e133c5e21476c9d8818943234eca5cb28e3&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1289840356749217792/gacor3.txt?ex=66fa48f1&is=66f8f771&hm=3c0c41041016870d792d95927b6663cb57e8524d554a956ce53896f9a07d4a50&"
+getgenv().EquipMacroTroop = true
 getgenv().Config = {
-	["SelectChapter"] = "Infinite",
-	["AutoSave"] = true,
+	["AutoVoteDifficulty"] = false,
+	["RequiredGem"] = 1000,
+	["SellRarities"] = {
+		["Legendary"] = false,
+		["Basic"] = false,
+		["Epic"] = false,
+		["Uncommon"] = false,
+		["Rare"] = false
+	},
+	["DelayReplay"] = 5,
 	["WH_MatchComplete"] = true,
 	["AutoSkip"] = true,
 	["AutoClaimQuest"] = true,
-	["TPLobbyIfPlayer"] = true,
-	["SelectChallengeWorld"] = {
-		["Cursed Academy"] = false,
-		["Blue Planet"] = false,
-		["Underwater Temple"] = false,
-		["Mob City"] = false,
-		["Windmill Village"] = false
-	},
-	["IgnoreMacroTiming"] = true,
-	["SelectMacro"] = "korekpantad2",
-	["JoinerList"] = {
-		[1] = "No joiner in the list"
-	},
-	["AutoJoinRaid"] = false,
+	["TPLobbyIfPlayer"] = false,
+	["WH_MailSent"] = false,
+	["IgnoreMacroTiming"] = false,
+	["SelectMacro"] = "gacor2",
+	["ALFS_DelayHop"] = 30,
+	["PlaceFailsafe"] = false,
+	["AutoJoinEndless"] = false,
 	["PlayMacro"] = true,
-	["BoostFPS"] = false,
-	["AutoLeave"] = true,
-	["JoinerCooldown"] = 0,
-	["AutoSell"] = false,
+	["AutoMail"] = false,
+	["AutoUseBoost"] = false,
+	["AutoSummonTroop"] = false,
 	["AutoReplay"] = true,
-	["AutoReturnLobby"] = true,
-	["StandardSummonUnit"] = {
-		["Dragon Slayer"] = false,
-		["Shinobi Form 3"] = false,
-		["Vengeful Shinobi"] = false,
-		["Strongest Swordsman"] = false,
-		["Admiral Of Lava"] = false,
-		["The Gamer"] = false,
-		["Chance Taker"] = false,
-		["Ant King"] = false,
-		["Esper"] = false,
-		["Elf Wizardess"] = false,
-		["Cursed Fighter"] = false,
-		["Skull Warrior"] = false,
-		["Thunder Shinobi"] = false,
-		["Flame Dragon King"] = false,
-		["Curse Prince"] = false,
-		["Maxed Qi Master"] = false,
-		["Carp"] = false,
-		["Ascended Qi Master"] = false,
-		["Spirit Hybrid"] = false,
-		["Soulforce Reaper"] = false,
-		["Admiral Of Ice"] = false,
-		["Inferno Commander"] = false,
-		["Pink Rockstar"] = false,
-		["Fire Leg Master"] = false,
-		["Sharpshooter"] = false,
-		["Clay"] = false,
-		["Admiral Of Light"] = false,
-		["The Beast"] = false,
-		["Bloomer"] = false,
-		["Master Swordsman"] = false
+	["BoostFPS"] = true,
+	["SellWave"] = 1,
+	["AutoClaimEventPass"] = true,
+	["Summon10"] = true,
+	["RequireRoll"] = 0,
+	["UseAll"] = false,
+	["AutoJoinMatch"] = true,
+	["ALFS_HopServer"] = false,
+	["AutoClaimPlaytimeReward"] = true,
+	["SelectMap"] = "DrillWorld (Rewind)",
+	["AutoSellOW"] = false,
+	["JoinFailsafe"] = false,
+	["SelectCase"] = "BasicCrate",
+	["DelayJoin"] = 5,
+	["AutoClaimVIP"] = false,
+	["AutoRejoin"] = false,
+	["AutoListForSale"] = false,
+	["AutoBuyEvent"] = false,
+	["AutoClaimEventQuest"] = true,
+	["DeleteMap"] = true,
+	["WebhookURL"] = "https://discord.com/api/webhooks/1245029873764798505/_Hfuy7riuRRSJuEqHtWtGXV6312W2CgVZhAUETzgEgkQBTUiP_mHk3a5jEkJulCrAvpV",
+	["SummonDelay"] = 0.3,
+	["ABE_Gift"] = false,
+	["AutoClaimDailyReward"] = true,
+	["AutoSave"] = true,
+	["UseBoosts"] = {
+		["2xDrillXPBoost"] = false,
+		["2xEggsBoost"] = false,
+		["2xLuckBoost_10"] = false,
+		["2xEventXPBoost"] = false,
+		["2xXPBoost"] = false,
+		["2xClocksBoost"] = false,
+		["2xCoinsBoost_1"] = false,
+		["2xEventXPBoost_1"] = false,
+		["2xEventXPBoost_10"] = false,
+		["2xXPBoost_10"] = false,
+		["2xCoinsBoost_10"] = false,
+		["2xXPBoost_Easter2024"] = false,
+		["2xCloversBoost"] = false,
+		["Weekend_2xEndlessXPBoost"] = false,
+		["Weekend_2xCoinsBoost"] = false,
+		["2xLuckBoost"] = false,
+		["2xDrillBoost"] = false,
+		["2xLuckBoost_1"] = false,
+		["2xXPBoost_1"] = false,
+		["2xCoinsBoost"] = false
 	},
-	["HardMode"] = false,
-	["WH_BannerSummoned"] = true,
-	["SelectChallengeMacro"] = {
-
-	},
-	["AutoSummonStandard"] = false,
-	["SelectRaidMacro"] = {
-
-	},
-	["AutoJoinChallenge"] = false,
-	["UnselectIfSummoned"] = false,
-	["AutoJoinWorld"] = true,
-	["SelectReward"] = {
-		["Trait Crystal"] = false,
-		["Risky Dice"] = false,
-		["Gold"] = false,
-		["Gems"] = false,
-		["Star Rift "] = false,
-		["Star Rift (Rainbow)"] = false
-	},
-	["LeaveSellWave"] = 31,
-	["JoinHighest"] = false,
-	["AutoRejoin"] = true,
-	["WebhookURL"] = "https://discord.com/api/webhooks/1224325789537800283/UYJohxt6xl7IYLSeVFefWoYnbtv3tKkL5BIUHaCU7k38L0S0zeswE4acc0umpKG6ZHUj",
-	["BlackScreen"] = false,
-	["WaitForJoiner"] = false,
-	["DeleteRarity"] = {
-		["Epic"] = false,
-		["Legendary"] = false,
-		["Rare"] = false
-	},
-	["SelectWorld"] = "Windmill Village",
-	["AutoJoinHoster"] = false,
-	["SelectDifficulty"] = {
-		["All units lowered range"] = false,
-		["All enemies regen health"] = false,
-		["All units increased cost"] = false,
-		["All enemies +1 shield"] = false,
-		["All enemies 2x health"] = false,
-		["All enemies 2x speed"] = false
-	}
+	["BlackScreen"] = false
 }
-getgenv().Key = "kfed1afd6a25dd6f00089ea9"
+
+getgenv().Key = "kfb9f7ea4f20ba1834ea918c"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
-
-
-
-
-
-
-
-repeat wait() until game.CoreGui:FindFirstChild('RobloxPromptGui')
- 
-local lp,po,ts = game:GetService('Players').LocalPlayer,game.CoreGui.RobloxPromptGui.promptOverlay,game:GetService('TeleportService')
- 
-po.ChildAdded:connect(function(a)
-    if a.Name == 'ErrorPrompt' then
-        repeat
-            ts:Teleport(game.PlaceId)
-            wait(2)
-        until false
-    end
-end)
-
-
-
-_G.Config = {
-    UserID = "7b5a2fe0-fd93-4270-a7a0-888b6d988600",
-    discord_id = 1055547439081332786,
-    Note = "vps2",
-}
-loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/main/animedefender"))()
-
-
-
