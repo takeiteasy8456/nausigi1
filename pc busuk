@@ -1,17 +1,80 @@
-script_key = "LSArkPPNGLIXvhZBUcrulJGMshDmCXeY"
-    getgenv().SelectedPlayer = "bokirkekar070" -- Main Account/ Account To Send Gem
-    getgenv().MainAccount = true --Set True if it's the account to receive game, false if the account send gem
-    getgenv().AccountForMainToFolow = ""
-    getgenv().EnableAccountForMainFolow = false --If you want your main to join a low server player with an account already in server low player
-    getgenv().MainAccountSetting = { -- Unit To Sell
-        Units = {"Electric Cyborg","Magic Arrow"},
-        ManuallyClaimBooth = false,
-    }
-    getgenv().AltAccountSetting = {
-        Trade = true,
-        NotSendGem = true,
-        TradeItems = {"Trait Crystal","Risky Dice","Frost Bind"},
-        GiveBackUnit=false,
-        KickAfterDoneTrade=false,
-    }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3051457467c11f25288cfe2de3708373.lua"))()
+getgenv().EquipMacroTroop = true
+getgenv().Config = {
+	["AutoVoteDifficulty"] = false,
+	["RequiredGem"] = 1000,
+	["SellRarities"] = {
+		["Legendary"] = false,
+		["Basic"] = false,
+		["Epic"] = false,
+		["Uncommon"] = false,
+		["Rare"] = false
+	},
+	["DelayReplay"] = 5,
+	["WH_MatchComplete"] = true,
+	["AutoSkip"] = true,
+	["AutoClaimQuest"] = true,
+	["TPLobbyIfPlayer"] = false,
+	["WH_MailSent"] = false,
+	["IgnoreMacroTiming"] = false,
+	["SelectMacro"] = "gacor3",
+	["ALFS_DelayHop"] = 30,
+	["PlaceFailsafe"] = false,
+	["AutoJoinEndless"] = false,
+	["PlayMacro"] = true,
+	["AutoMail"] = false,
+	["AutoUseBoost"] = false,
+	["AutoSummonTroop"] = false,
+	["AutoReplay"] = true,
+	["BoostFPS"] = true,
+	["SellWave"] = 1,
+	["AutoClaimEventPass"] = true,
+	["Summon10"] = true,
+	["RequireRoll"] = 0,
+	["UseAll"] = false,
+	["AutoJoinMatch"] = true,
+	["ALFS_HopServer"] = false,
+	["AutoClaimPlaytimeReward"] = true,
+	["SelectMap"] = "DrillWorld (Rewind)",
+	["AutoSellOW"] = false,
+	["JoinFailsafe"] = false,
+	["SelectCase"] = "BasicCrate",
+	["DelayJoin"] = 5,
+	["AutoClaimVIP"] = false,
+	["AutoRejoin"] = false,
+	["AutoListForSale"] = false,
+	["AutoBuyEvent"] = false,
+	["AutoClaimEventQuest"] = true,
+	["DeleteMap"] = true,
+	["WebhookURL"] = "https://discord.com/api/webhooks/1245029873764798505/_Hfuy7riuRRSJuEqHtWtGXV6312W2CgVZhAUETzgEgkQBTUiP_mHk3a5jEkJulCrAvpV",
+	["SummonDelay"] = 0.3,
+	["ABE_Gift"] = false,
+	["AutoClaimDailyReward"] = true,
+	["AutoSave"] = true,
+	["UseBoosts"] = {
+		["2xDrillXPBoost"] = true,
+		["2xEggsBoost"] = false,
+		["2xLuckBoost_10"] = false,
+		["2xEventXPBoost"] = false,
+		["2xXPBoost"] = false,
+		["2xClocksBoost"] = false,
+		["2xCoinsBoost_1"] = false,
+		["2xEventXPBoost_1"] = false,
+		["2xEventXPBoost_10"] = false,
+		["2xXPBoost_10"] = false,
+		["2xCoinsBoost_10"] = false,
+		["2xXPBoost_Easter2024"] = false,
+		["2xCloversBoost"] = false,
+		["Weekend_2xEndlessXPBoost"] = false,
+		["Weekend_2xCoinsBoost"] = false,
+		["2xLuckBoost"] = false,
+		["2xDrillBoost"] = true,
+		["2xLuckBoost_1"] = false,
+		["2xXPBoost_1"] = false,
+		["2xCoinsBoost"] = false
+	},
+	["BlackScreen"] = false
+}
+
+getgenv().Key = "kfb9f7ea4f20ba1834ea918c"
+
+loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
