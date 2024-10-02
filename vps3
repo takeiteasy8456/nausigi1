@@ -70,13 +70,23 @@ for i = 1, 50 do
 local args = {
     [1] = {
         [1] = {
-            [1] = "\226\129\130\\",
-            [2] = "UltraDrillCrate",
-            [3] = "Buy1",
-            [4] = 5695070529
+            [1] = "\226\129\130^",
+            [2] = "2xDrillBoost"
         }
     }
 }
 
 game:GetService("ReplicatedStorage").NetworkingContainer.DataRemote:FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        [1] = {
+            [1] = "\226\129\130^",
+            [2] = "2xDrillXPBoost"
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage").NetworkingContainer.DataRemote:FireServer(unpack(args))
+
 end
