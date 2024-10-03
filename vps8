@@ -1,3 +1,4 @@
+task.wait(4)
 getgenv().ImportMacro = "Macro file URL"
 getgenv().EquipMacroTroop = true
 getgenv().Config = {
