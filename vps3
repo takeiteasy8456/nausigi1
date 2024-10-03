@@ -9,7 +9,7 @@ getgenv().Config = {
 		["Rare"] = false
 	},
 	["DelayReplay"] = 5,
-	["WH_MatchComplete"] = false,
+	["WH_MatchComplete"] = true,
 	["AutoSkip"] = true,
 	["AutoClaimQuest"] = true,
 	["TPLobbyIfPlayer"] = true,
