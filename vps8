@@ -1,7 +1,7 @@
 
 
 task.wait(4)
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1094375113312444526/1289701000239910944/gacor2.txt?ex=66fe6467&is=66fd12e7&hm=c108202499ce6b7da3179caf9f4e5e8e68a51910db0e59dc2d70340e9f5cb33a&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1291482231675555961/gacor4.txt?ex=6700420e&is=66fef08e&hm=b8105905f80fd4001cd2ea14e35f46a7286eec587fde7a2ce560c7aad3176050&"
 getgenv().EquipMacroTroop = true
 getgenv().Config = {
 	["AutoVoteDifficulty"] = false,
@@ -20,7 +20,7 @@ getgenv().Config = {
 	["TPLobbyIfPlayer"] = true,
 	["WH_MailSent"] = false,
 	["Summon10"] = true,
-	["SelectMacro"] = "gacor2",
+	["SelectMacro"] = "gacor4",
 	["ALFS_DelayHop"] = 30,
 	["PlaceFailsafe"] = false,
 	["AutoJoinEndless"] = false,
