@@ -1,3 +1,13 @@
+local args = {
+    [1] = {
+        [1] = {
+            [1] = "\226\129\130\146"
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage").NetworkingContainer.DataRemote:FireServer(unpack(args))
+
 task.wait(4)
 getgenv().ImportMacro = "Macro file URL"
 getgenv().EquipMacroTroop = true
