@@ -1,7 +1,7 @@
 
 
 task.wait(4)
-getgenv().ImportMacro = "Macro file URL"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1094375113312444526/1289701000239910944/gacor2.txt?ex=66fe6467&is=66fd12e7&hm=c108202499ce6b7da3179caf9f4e5e8e68a51910db0e59dc2d70340e9f5cb33a&"
 getgenv().EquipMacroTroop = true
 getgenv().Config = {
 	["AutoVoteDifficulty"] = false,
