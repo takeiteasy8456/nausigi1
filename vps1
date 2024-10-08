@@ -80,3 +80,20 @@ getgenv().Config = {
 getgenv().Key = "kfb9f7ea4f20ba1834ea918c"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
+
+
+
+
+local args = {
+    [1] = {
+        [1] = {
+            [1] = "\226\129\130\\",
+            [2] = "PencilCrate",
+            [3] = "Buy1",
+            [4] = 5695070529
+        }
+    }
+}
+
+game:GetService("ReplicatedStorage").NetworkingContainer.DataRemote:FireServer(unpack(args))
+
