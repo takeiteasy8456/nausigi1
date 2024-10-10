@@ -1,23 +1,82 @@
-getgenv().MailToUser = "NewPS005"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1094375113312444526/1286528654712766464/message.txt?ex=6707492d&is=6705f7ad&hm=34778b51e3b60a652c6aebef939d490f8b8c469363f8922fc2c3c485a8d5614f&"
+getgenv().EquipMacroTroop = true
+getgenv().Config = {
+	["AutoVoteDifficulty"] = false,
+	["AutoSave"] = true,
+	["SellRarities"] = {
+		["Legendary"] = false,
+		["Basic"] = false,
+		["Epic"] = false,
+		["Uncommon"] = false,
+		["Rare"] = false
+	},
+	["DelayReplay"] = 5,
+	["WH_MatchComplete"] = true,
+	["AutoSkip"] = true,
+	["AutoClaimQuest"] = true,
+	["TPLobbyIfPlayer"] = false,
+	["WH_MailSent"] = false,
+	["Summon10"] = true,
+	["SelectMacro"] = "message",
+	["ALFS_DelayHop"] = 30,
+	["PlaceFailsafe"] = true,
+	["AutoJoinEndless"] = false,
+	["PlayMacro"] = true,
+	["AutoMail"] = true,
+	["AutoRejoin"] = true,
+	["AutoUseBoost"] = false,
+	["AutoSummonTroop"] = false,
+	["IgnoreMacroTiming"] = true,
+	["DelayJoin"] = 5,
+	["JoinFailsafe"] = false,
+	["SellWave"] = 1,
+	["AutoClaimEventPass"] = true,
+	["BlackScreen"] = false,
+	["BuyEventName"] = "bokirkekar066",
+	["RequireRoll"] = 0,
+	["AutoJoinMatch"] = true,
+	["ALFS_HopServer"] = false,
+	["RequiredGem"] = 100,
+	["AutoReturnToLobby"] = false,
+	["AutoSellOW"] = false,
+	["ABE_Gift"] = true,
+	["MailName"] = "bokirkekar067",
+	["AutoReplay"] = true,
+	["AutoClaimVIP"] = false,
+	["AutoBuyEvent"] = true,
+	["AutoListForSale"] = false,
+	["UseAll"] = false,
+	["AutoClaimEventQuest"] = true,
+	["DeleteMap"] = true,
+	["WebhookURL"] = "https://discord.com/api/webhooks/1095151049398038599/Wlp27fv6kxEgjyTjA-szlVc91f5wPD9Wmc1DRe1YPF6_RlH0bJQBDf_vh_PLh5wJR3xV",
+	["SummonDelay"] = 0.3,
+	["SelectMap"] = "PencilWorld",
+	["AutoClaimDailyReward"] = true,
+	["AutoClaimPlaytimeReward"] = true,
+	["UseBoosts"] = {
+		["2xDrillXPBoost"] = false,
+		["2xEggsBoost"] = false,
+		["2xLuckBoost_10"] = false,
+		["2xEventXPBoost"] = false,
+		["2xXPBoost"] = false,
+		["2xClocksBoost"] = false,
+		["2xCoinsBoost_1"] = false,
+		["2xXPBoost_Easter2024"] = false,
+		["Weekend_2xCoinsBoost"] = false,
+		["2xXPBoost_10"] = false,
+		["2xCoinsBoost_10"] = false,
+		["2xEventXPBoost_1"] = false,
+		["2xCloversBoost"] = false,
+		["2xLuckBoost_1"] = false,
+		["Weekend_2xEndlessXPBoost"] = false,
+		["2xEventXPBoost_10"] = false,
+		["2xDrillBoost"] = false,
+		["2xLuckBoost"] = false,
+		["2xXPBoost_1"] = false,
+		["2xCoinsBoost"] = false
+	},
+	["BoostFPS"] = true
+}
+getgenv().Key = "kfb9f7ea4f20ba1834ea918c"
 
-local Network = require(game.ReplicatedStorage.Library.Client.Network)
-
-local HugeUIDList = {}
-for PetUID, PetData in pairs(require(game.ReplicatedStorage.Library.Client.Save).Get().Inventory.Pet) do
-    if PetData.id:find("Huge ") then
-        table.insert(HugeUIDList, PetUID)
-        if PetData._lk then
-            repeat
-                task.wait()
-            until Network.Invoke("Locking_SetLocked", PetUID, false)
-            print("Unlocked", PetUID)
-        end
-    end
-end
-
-for _, PetUID in pairs(HugeUIDList) do
-    repeat
-        task.wait()
-    until Network.Invoke("Mailbox: Send", MailToUser, tostring(Random.new():NextInteger(9, 999999)), "Pet", PetUID, 1)
-    print("Sent", PetUID)
-end
+loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
