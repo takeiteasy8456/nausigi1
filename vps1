@@ -81,13 +81,14 @@ getgenv().Key = "kfb9f7ea4f20ba1834ea918c"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
 
-for i = 1, 20 do
+for i = 1, 10 do
+task.wait(3)
 local args = {
     [1] = {
         [1] = {
             [1] = "\226\129\130\\",
             [2] = "PencilCrate",
-            [3] = "Buy10",
+            [3] = "Buy3",
             [4] = 5695070529
         }
     }
