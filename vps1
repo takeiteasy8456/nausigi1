@@ -1,8 +1,11 @@
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1094375113312444526/1286528654712766464/message.txt?ex=670b3dad&is=6709ec2d&hm=b16ad67b7b483abb2671b686f6ca8e122f53a09485735a35445bea3ce4cce86b&"
+
+
+task.wait(4)
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1291482231675555961/gacor4.txt?ex=670b76ce&is=670a254e&hm=04ec50aa89d073c38fa554346fc895b2d397061544c8828b6eaaaaba95ea186c&"
 getgenv().EquipMacroTroop = true
 getgenv().Config = {
 	["AutoVoteDifficulty"] = false,
-	["AutoSave"] = true,
+	["RequiredGem"] = 1000,
 	["SellRarities"] = {
 		["Legendary"] = false,
 		["Basic"] = false,
@@ -12,84 +15,83 @@ getgenv().Config = {
 	},
 	["DelayReplay"] = 5,
 	["WH_MatchComplete"] = true,
+        ["RequiredGem"] = 100,
 	["AutoSkip"] = true,
 	["AutoClaimQuest"] = true,
-	["TPLobbyIfPlayer"] = false,
+	["TPLobbyIfPlayer"] = true,
 	["WH_MailSent"] = false,
 	["Summon10"] = true,
-	["SelectMacro"] = "message",
+	["SelectMacro"] = "gacor4",
 	["ALFS_DelayHop"] = 30,
-	["PlaceFailsafe"] = true,
+	["PlaceFailsafe"] = false,
 	["AutoJoinEndless"] = false,
 	["PlayMacro"] = true,
+	["AutoReturnToLobby"] = false,
+	["SelectMap"] = "DrillWorld (Rewind)",
 	["AutoMail"] = true,
-	["AutoRejoin"] = true,
+        ["MailName"] = "bokirkekar067",
+	["DeleteMap"] = true,
 	["AutoUseBoost"] = false,
 	["AutoSummonTroop"] = false,
-	["IgnoreMacroTiming"] = true,
-	["DelayJoin"] = 5,
-	["JoinFailsafe"] = false,
+	["BlackScreen"] = false,
+	["BoostFPS"] = true,
 	["SellWave"] = 1,
 	["AutoClaimEventPass"] = true,
-	["BlackScreen"] = false,
-	["BuyEventName"] = "bokirkekar066",
-	["RequireRoll"] = 0,
+	["BuyEventName"] = "hobby990creeping",
+	["UseAll"] = true,
 	["AutoJoinMatch"] = true,
 	["ALFS_HopServer"] = false,
-	["RequiredGem"] = 100,
-	["AutoReturnToLobby"] = false,
-	["AutoSellOW"] = false,
-	["ABE_Gift"] = true,
-	["MailName"] = "bokirkekar067",
-	["AutoReplay"] = true,
-	["AutoClaimVIP"] = false,
-	["AutoBuyEvent"] = true,
-	["AutoListForSale"] = false,
-	["UseAll"] = false,
-	["AutoClaimEventQuest"] = true,
-	["DeleteMap"] = true,
-	["WebhookURL"] = "https://discord.com/api/webhooks/1095151049398038599/Wlp27fv6kxEgjyTjA-szlVc91f5wPD9Wmc1DRe1YPF6_RlH0bJQBDf_vh_PLh5wJR3xV",
-	["SummonDelay"] = 0.3,
-	["SelectMap"] = "PencilWorld",
-	["AutoClaimDailyReward"] = true,
+	["JoinFailsafe"] = false,
 	["AutoClaimPlaytimeReward"] = true,
+	["AutoSellOW"] = false,
+	["AutoReplay"] = true,
+	["AutoSave"] = true,
+	["AutoClaimVIP"] = false,
+	["AutoRejoin"] = true,
+	["AutoListForSale"] = false,
+	["DelayJoin"] = 5,
+	["AutoClaimEventQuest"] = true,
+	["AutoBuyEvent"] = true,
+	["WebhookURL"] = "https://discord.com/api/webhooks/1245029873764798505/_Hfuy7riuRRSJuEqHtWtGXV6312W2CgVZhAUETzgEgkQBTUiP_mHk3a5jEkJulCrAvpV",
+	["SummonDelay"] = 0.3,
+	["ABE_Gift"] = true,
+	["AutoClaimDailyReward"] = true,
+	["RequireRoll"] = 0,
 	["UseBoosts"] = {
-		["2xDrillXPBoost"] = false,
+		["2xLuckBoost_1"] = false,
 		["2xEggsBoost"] = false,
 		["2xLuckBoost_10"] = false,
 		["2xEventXPBoost"] = false,
 		["2xXPBoost"] = false,
 		["2xClocksBoost"] = false,
 		["2xCoinsBoost_1"] = false,
-		["2xXPBoost_Easter2024"] = false,
-		["Weekend_2xCoinsBoost"] = false,
+		["2xDrillXPBoost"] = true,
+		["Weekend_2xEndlessXPBoost"] = false,
 		["2xXPBoost_10"] = false,
 		["2xCoinsBoost_10"] = false,
-		["2xEventXPBoost_1"] = false,
+		["2xXPBoost_Easter2024"] = false,
 		["2xCloversBoost"] = false,
-		["2xLuckBoost_1"] = false,
-		["Weekend_2xEndlessXPBoost"] = false,
-		["2xEventXPBoost_10"] = false,
-		["2xDrillBoost"] = false,
+		["2xEventXPBoost_10"] = true,
+		["Weekend_2xCoinsBoost"] = false,
 		["2xLuckBoost"] = false,
+		["2xDrillBoost"] = true,
+		["2xEventXPBoost_1"] = true,
 		["2xXPBoost_1"] = false,
 		["2xCoinsBoost"] = false
 	},
-	["BoostFPS"] = true
+	["IgnoreMacroTiming"] = false
 }
+
 getgenv().Key = "kfb9f7ea4f20ba1834ea918c"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
 
-for i = 1, 10 do
-task.wait(3)
+for i = 1, 50 do
 local args = {
     [1] = {
         [1] = {
-            [1] = "\226\129\130\\",
-            [2] = "PencilCrate",
-            [3] = "Buy3",
-            [4] = 5695070529
+            [1] = "\226\129\130^",
+            [2] = "2xDrillBoost"
         }
     }
 }
@@ -97,4 +99,3 @@ local args = {
 game:GetService("ReplicatedStorage").NetworkingContainer.DataRemote:FireServer(unpack(args))
 
 end
-
