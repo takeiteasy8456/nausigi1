@@ -1,34 +1,40 @@
-
-getgenv().RngEvent = {
-    Selected_RngEgg = "First",
-    Rolling_Enabled = true,
-    Rolling_Delay = 0.3,
-    Visible_Rolling = false,
-
-    Selected_Upgrades = {"RNGHugeLuck", "RNGEggLuck", "RNGHatchSpeed", "RNGBonusLuck"},
-    AutoUpgrades_Enabled = true,
-    AutoMerchant_Enabled = true,
-    AutoSellPets_Enabled = true,
-    AutoSell_OnlyEventPets = false,
-    AutoBreakChests_Enabled = true,
-    Lucky_Dice_Enabled = true,
-    Lucky_Dice_Config = {
-        ["Fire Dice"] = {Craft = false, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = nil},
-        ["Lucky Dice"] = {Craft = false, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
-        ["Lucky Dice II"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
-        ["Lucky Dice III"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
-        ["Mega Lucky Dice"] = {Craft = true, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = nil},
-        ["Mega Lucky Dice II"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = 9},
-    },
-
-    Webhook_Url = "https://discord.com/api/webhooks/1224296488906264738/JQQJZpr5yffjM62i2MplsRoNk_PBPjriluM2gdrEffwD9SfTaFFApuqEUEXnDyqkoli9",
-    Discord_UserID = "",
-    Huge_Mail_User = "feffysmlfan922",
-    Huge_Mail_Enabled = false,
-
-    fps_boost = true,
-    fps_boost2 = true,
-    gui_stats_enabled = true,
-    print_all_info = false,
+getgenv().Config = {
+	["Interface"] = {
+		["Auto Upgrade"] = true,
+		["Auto Roll"] = true
+	},
+	["AutoSave"] = true,
+	["Resource"] = {
+		["Auto Hidden Gift"] = true,
+		["Auto Farm"] = true,
+		["Auto Dig"] = true
+	},
+	["Crafter"] = {
+		["Enable"] = true,
+		["Potion"] = {
+			["Coins Potion II"] = true,
+			["The Cocktail"] = true,
+			["Rainbow Dice Potion"] = true,
+			["Walkspeed Potion II"] = true,
+			["Lucky Potion II"] = true,
+			["Coins Potion III"] = true,
+			["Coins Potion V"] = true,
+			["Instant Luck Potion II"] = true,
+			["Items Potion II"] = true,
+			["Breakables Potion I"] = true,
+			["Golden Dice Potion"] = true,
+			["Items Potion III"] = true,
+			["Instant Luck Potion I"] = true,
+			["Walkspeed Potion III"] = true,
+			["Faster Rolls Potion"] = true,
+			["Breakables Potion II"] = true,
+			["Lucky Potion III"] = true,
+			["Coins Potion IV"] = true,
+			["Lucky Potion IV"] = true,
+			["Instant Luck Potion III"] = true,
+			["Lucky Potion V"] = true,
+			["Items Potion I"] = true,
+			["Walkspeed Potion I"] = true
+		}
+	}
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/661ba97429a1d20f02880d1e9eeced08.lua"))()
