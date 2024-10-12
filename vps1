@@ -1,4 +1,4 @@
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1094375113312444526/1286528654712766464/message.txt?ex=670a94ed&is=6709436d&hm=c42d45963ab1df5d426fb78a57b56c49050b9984ef42abec93e03f7e799bfb2f&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1094375113312444526/1286528654712766464/message.txt?ex=670b3dad&is=6709ec2d&hm=b16ad67b7b483abb2671b686f6ca8e122f53a09485735a35445bea3ce4cce86b&"
 getgenv().EquipMacroTroop = true
 getgenv().Config = {
 	["AutoVoteDifficulty"] = false,
