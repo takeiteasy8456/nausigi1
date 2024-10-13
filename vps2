@@ -1,63 +1,82 @@
 getgenv().Config = {
-	["AutoVoteDifficulty"] = false,
 	["AutoSave"] = true,
-	["SellRarities"] = {
-		["Legendary"] = false,
-		["Basic"] = false,
-		["Epic"] = false,
-		["Uncommon"] = false,
-		["Rare"] = false
+	["Webhook"] = {
+		["Minimum Chance"] = 1000000,
+		["Pet Rolled"] = true,
+		["URL"] = "https://discord.com/api/webhooks/1262340733902393396/GGmUNlk76wyLKKXuDnPIXstuc-SgOgis9M7tWzu-CteLFR2zNT2xY1F242uPutt5PCf6"
 	},
-	["DelayReplay"] = 5,
-	["HopMinPlayer"] = 60,
-	["WH_MatchComplete"] = false,
-	["GemPrice"] = "55",
-	["AutoClaimQuest"] = true,
-	["TPLobbyIfPlayer"] = false,
-	["WH_MailSent"] = false,
-	["IgnoreMacroTiming"] = false,
-	["ALFS_DelayHop"] = 10,
-	["PlaceFailsafe"] = true,
-	["AutoJoinEndless"] = false,
-	["PlayMacro"] = false,
-	["AutoMail"] = false,
-	["AutoUseBoost"] = false,
-	["AutoSummonTroop"] = false,
-	["AutoReplay"] = false,
-	["SellWave"] = 1,
-	["AutoClaimEventPass"] = true,
-	["SelectProduct"] = "PencilCrate",
-	["UseAll"] = false,
-	["AutoJoinMatch"] = false,
-	["ALFS_HopServer"] = true,
-	["Summon10"] = true,
-	["BlackScreen"] = false,
-	["AutoSellOW"] = false,
-	["RequiredGem"] = 1000,
-	["SelectCase"] = "BasicCrate",
-	["JoinFailsafe"] = false,
-	["AutoClaimVIP"] = false,
-	["DelayJoin"] = 5,
-	["AutoListForSale"] = true,
-	["AutoRejoin"] = false,
-	["AutoClaimEventQuest"] = true,
-	["AutoBuyEvent"] = false,
-	["DeleteMap"] = false,
-	["SummonDelay"] = 0.3,
-	["ABE_Gift"] = false,
-	["AutoSkip"] = false,
-	["RequireRoll"] = 0,
-	["UseBoosts"] = {
-		["2xCoinsBoost_1"] = false,
-		["2xLuckBoost_1"] = false,
-		["2xLuckBoost_10"] = false,
-		["2xEventXPBoost_10"] = false,
-		["2xCoinsBoost_10"] = false,
-		["2xXPBoost_10"] = false,
-		["2xXPBoost_1"] = false,
-		["2xEventXPBoost_1"] = false
+	["Consumer"] = {
+		["Potion"] = {
+			["Enable"] = true,
+			["Potion"] = {
+				["Lucky Potion IV"] = true,
+				["Lucky Potion V"] = true,
+				["Items Potion III"] = true,
+				["Coins Potion V"] = true,
+				["Coins Potion IV"] = true,
+				["Rainbow Dice Potion"] = true,
+				["Breakables Potion I"] = true
+			}
+		},
+		["Fruit"] = {
+			["Enable"] = true,
+			["Fruit"] = {
+				["Watermelon"] = true,
+				["Pineapple"] = true,
+				["Rainbow"] = true,
+				["Apple"] = true,
+				["Orange"] = true,
+				["Banana"] = true
+			}
+		}
 	},
-	["BoostFPS"] = false
+	["Upgrader"] = {
+		["Enable"] = true,
+		["Keep Amount"] = 100
+	},
+	["Interface"] = {
+		["Auto Upgrade"] = true,
+		["Auto Roll"] = true
+	},
+	["Performance"] = {
+		["Boost FPS"] = true
+	},
+	["Resource"] = {
+		["Auto Hidden Gift"] = true,
+		["Auto Farm"] = true,
+		["Auto Dig"] = true
+	},
+	["Buyer"] = {
+		["Potion Vending"] = true
+	},
+	["Crafter"] = {
+		["Enable"] = true,
+		["Potion"] = {
+			["Coins Potion II"] = true,
+			["The Cocktail"] = true,
+			["Lucky Potion V"] = true,
+			["Walkspeed Potion II"] = true,
+			["Lucky Potion II"] = true,
+			["Coins Potion III"] = true,
+			["Coins Potion V"] = true,
+			["Instant Luck Potion II"] = true,
+			["Items Potion II"] = true,
+			["Breakables Potion I"] = true,
+			["Instant Luck Potion I"] = true,
+			["Rainbow Dice Potion"] = true,
+			["Lucky Potion IV"] = true,
+			["Faster Rolls Potion"] = true,
+			["Walkspeed Potion III"] = true,
+			["Breakables Potion II"] = true,
+			["Lucky Potion III"] = true,
+			["Coins Potion IV"] = true,
+			["Golden Dice Potion"] = true,
+			["Instant Luck Potion III"] = true,
+			["Items Potion III"] = true,
+			["Items Potion I"] = true,
+			["Walkspeed Potion I"] = true
+		}
+	}
 }
 getgenv().Key = "kfb9f7ea4f20ba1834ea918c"
 
