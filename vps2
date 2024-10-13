@@ -9,24 +9,21 @@ getgenv().Config = {
 		["Potion"] = {
 			["Enable"] = true,
 			["Potion"] = {
-				["Lucky Potion IV"] = true,
-				["Lucky Potion V"] = true,
 				["Items Potion III"] = true,
 				["Coins Potion V"] = true,
-				["Coins Potion IV"] = true,
-				["Rainbow Dice Potion"] = true,
-				["Breakables Potion I"] = true
+				["Breakables Potion I"] = true,
+				["Coins Potion IV"] = true
 			}
 		},
 		["Fruit"] = {
 			["Enable"] = true,
 			["Fruit"] = {
 				["Watermelon"] = true,
-				["Pineapple"] = true,
+				["Banana"] = true,
 				["Rainbow"] = true,
 				["Apple"] = true,
 				["Orange"] = true,
-				["Banana"] = true
+				["Pineapple"] = true
 			}
 		}
 	},
@@ -34,12 +31,33 @@ getgenv().Config = {
 		["Enable"] = true,
 		["Keep Amount"] = 100
 	},
-	["Interface"] = {
-		["Auto Upgrade"] = true,
-		["Auto Roll"] = true
-	},
-	["Performance"] = {
-		["Boost FPS"] = true
+	["Crafter"] = {
+		["Enable"] = true,
+		["Potion"] = {
+			["Coins Potion II"] = true,
+			["The Cocktail"] = true,
+			["Rainbow Dice Potion"] = true,
+			["Walkspeed Potion II"] = true,
+			["Lucky Potion II"] = true,
+			["Coins Potion III"] = true,
+			["Coins Potion V"] = true,
+			["Faster Rolls Potion"] = true,
+			["Items Potion II"] = true,
+			["Walkspeed Potion I"] = true,
+			["Items Potion III"] = true,
+			["Instant Luck Potion I"] = true,
+			["Lucky Potion IV"] = true,
+			["Instant Luck Potion II"] = true,
+			["Coins Potion IV"] = true,
+			["Breakables Potion II"] = true,
+			["Lucky Potion III"] = true,
+			["Walkspeed Potion III"] = true,
+			["Golden Dice Potion"] = true,
+			["Instant Luck Potion III"] = true,
+			["Lucky Potion V"] = true,
+			["Items Potion I"] = true,
+			["Breakables Potion I"] = true
+		}
 	},
 	["Resource"] = {
 		["Auto Hidden Gift"] = true,
@@ -49,33 +67,9 @@ getgenv().Config = {
 	["Buyer"] = {
 		["Potion Vending"] = true
 	},
-	["Crafter"] = {
-		["Enable"] = true,
-		["Potion"] = {
-			["Coins Potion II"] = true,
-			["The Cocktail"] = true,
-			["Lucky Potion V"] = true,
-			["Walkspeed Potion II"] = true,
-			["Lucky Potion II"] = true,
-			["Coins Potion III"] = true,
-			["Coins Potion V"] = true,
-			["Instant Luck Potion II"] = true,
-			["Items Potion II"] = true,
-			["Breakables Potion I"] = true,
-			["Instant Luck Potion I"] = true,
-			["Rainbow Dice Potion"] = true,
-			["Lucky Potion IV"] = true,
-			["Faster Rolls Potion"] = true,
-			["Walkspeed Potion III"] = true,
-			["Breakables Potion II"] = true,
-			["Lucky Potion III"] = true,
-			["Coins Potion IV"] = true,
-			["Golden Dice Potion"] = true,
-			["Instant Luck Potion III"] = true,
-			["Items Potion III"] = true,
-			["Items Potion I"] = true,
-			["Walkspeed Potion I"] = true
-		}
+	["Interface"] = {
+		["Auto Upgrade"] = true,
+		["Auto Roll"] = true
 	}
 }
 getgenv().Key = "kfb9f7ea4f20ba1834ea918c"
