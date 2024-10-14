@@ -1,81 +1,74 @@
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1094375113312444526/1286528654712766464/message.txt?ex=6707492d&is=6705f7ad&hm=34778b51e3b60a652c6aebef939d490f8b8c469363f8922fc2c3c485a8d5614f&"
-getgenv().EquipMacroTroop = true
+-- mode santai
 getgenv().Config = {
-	["AutoVoteDifficulty"] = false,
 	["AutoSave"] = true,
-	["SellRarities"] = {
-		["Legendary"] = false,
-		["Basic"] = false,
-		["Epic"] = false,
-		["Uncommon"] = false,
-		["Rare"] = false
+	["Webhook"] = {
+		["Minimum Chance"] = 1000000,
+		["Pet Rolled"] = true,
+		["URL"] = "https://discord.com/api/webhooks/1262340733902393396/GGmUNlk76wyLKKXuDnPIXstuc-SgOgis9M7tWzu-CteLFR2zNT2xY1F242uPutt5PCf6"
 	},
-	["DelayReplay"] = 5,
-	["WH_MatchComplete"] = true,
-	["AutoSkip"] = true,
-	["AutoClaimQuest"] = true,
-	["TPLobbyIfPlayer"] = false,
-	["WH_MailSent"] = false,
-	["Summon10"] = true,
-	["SelectMacro"] = "message",
-	["ALFS_DelayHop"] = 30,
-	["PlaceFailsafe"] = true,
-	["AutoJoinEndless"] = false,
-	["PlayMacro"] = true,
-	["AutoMail"] = true,
-	["AutoRejoin"] = true,
-	["AutoUseBoost"] = false,
-	["AutoSummonTroop"] = false,
-	["IgnoreMacroTiming"] = true,
-	["DelayJoin"] = 5,
-	["JoinFailsafe"] = false,
-	["SellWave"] = 1,
-	["AutoClaimEventPass"] = true,
-	["BlackScreen"] = false,
-	["BuyEventName"] = "bokirkekar066",
-	["RequireRoll"] = 0,
-	["AutoJoinMatch"] = true,
-	["ALFS_HopServer"] = false,
-	["RequiredGem"] = 100,
-	["AutoReturnToLobby"] = false,
-	["AutoSellOW"] = false,
-	["ABE_Gift"] = true,
-	["MailName"] = "bokirkekar067",
-	["AutoReplay"] = true,
-	["AutoClaimVIP"] = false,
-	["AutoBuyEvent"] = true,
-	["AutoListForSale"] = false,
-	["UseAll"] = false,
-	["AutoClaimEventQuest"] = true,
-	["DeleteMap"] = true,
-	["WebhookURL"] = "https://discord.com/api/webhooks/1095151049398038599/Wlp27fv6kxEgjyTjA-szlVc91f5wPD9Wmc1DRe1YPF6_RlH0bJQBDf_vh_PLh5wJR3xV",
-	["SummonDelay"] = 0.3,
-	["SelectMap"] = "PencilWorld",
-	["AutoClaimDailyReward"] = true,
-	["AutoClaimPlaytimeReward"] = true,
-	["UseBoosts"] = {
-		["2xDrillXPBoost"] = false,
-		["2xEggsBoost"] = false,
-		["2xLuckBoost_10"] = false,
-		["2xEventXPBoost"] = false,
-		["2xXPBoost"] = false,
-		["2xClocksBoost"] = false,
-		["2xCoinsBoost_1"] = false,
-		["2xXPBoost_Easter2024"] = false,
-		["Weekend_2xCoinsBoost"] = false,
-		["2xXPBoost_10"] = false,
-		["2xCoinsBoost_10"] = false,
-		["2xEventXPBoost_1"] = false,
-		["2xCloversBoost"] = false,
-		["2xLuckBoost_1"] = false,
-		["Weekend_2xEndlessXPBoost"] = false,
-		["2xEventXPBoost_10"] = false,
-		["2xDrillBoost"] = false,
-		["2xLuckBoost"] = false,
-		["2xXPBoost_1"] = false,
-		["2xCoinsBoost"] = false
+	["Consumer"] = {
+		["Potion"] = {
+			["Potion"] = {
+				["Coins Potion II"] = true,
+				["Walkspeed Potion II"] = true,
+				["Items Potion III"] = true,
+				["Coins Potion I"] = true,
+				["Coins Potion V"] = true,
+				["Faster Rolls Potion"] = true,
+				["Items Potion II"] = true,
+				["Walkspeed Potion I"] = true,
+				["Walkspeed Potion III"] = true,
+				["Breakables Potion II"] = true,
+				["Coins Potion IV"] = true,
+				["Breakables Potion I"] = true,
+				["Items Potion I"] = true,
+				["Coins Potion III"] = true
+			},
+			["Enable"] = true
+		},
+		["Fruit"] = {
+			["Enable"] = true,
+			["Fruit"] = {
+				["Watermelon"] = true,
+				["Pineapple"] = true,
+				["Rainbow"] = true,
+				["Apple"] = true,
+				["Orange"] = true,
+				["Banana"] = true
+			}
+		}
 	},
-	["BoostFPS"] = true
+	["Upgrader"] = {
+		["Enable"] = true,
+		["Keep Amount"] = 100
+	},
+	["Interface"] = {
+		["Auto Upgrade"] = true,
+		["Auto Roll"] = true
+	},
+	["Performance"] = {
+		["Boost FPS"] = true
+	},
+	["Resource"] = {
+		["Auto Farm"] = true,
+		["Auto Hidden Gift"] = true
+	},
+	["Buyer"] = {
+		["Potion Vending"] = true
+	},
+	["Crafter"] = {
+		["Enable"] = true,
+		["Potion"] = {
+			["Lucky Potion V"] = true,
+			["Lucky Potion II"] = true,
+			["Instant Luck Potion I"] = true,
+			["Lucky Potion IV"] = true,
+			["Lucky Potion III"] = true,
+			["Instant Luck Potion II"] = true,
+			["Instant Luck Potion III"] = true,
+			["Rainbow Dice Potion"] = true
+		}
+	}
 }
 getgenv().Key = "kfb9f7ea4f20ba1834ea918c"
 
