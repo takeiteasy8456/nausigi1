@@ -9,10 +9,10 @@ getgenv().Config = {
 		["Potion"] = {
 			["Enable"] = true,
 			["Potion"] = {
+				["Items Potion III"] = true,
 				["Coins Potion V"] = true,
-				["Coins Potion IV"] = true,
-				["Breakables Potion I"] = true,
-				["Items Potion III"] = true
+				["Faster Rolls Potion"] = true,
+				["Breakables Potion II"] = true
 			}
 		},
 		["Fruit"] = {
@@ -34,6 +34,9 @@ getgenv().Config = {
 	["Interface"] = {
 		["Auto Upgrade"] = true,
 		["Auto Roll"] = true
+	},
+	["Performance"] = {
+		["Boost FPS"] = true
 	},
 	["Resource"] = {
 		["Auto Hidden Gift"] = true,
@@ -63,7 +66,6 @@ getgenv().Config = {
 			["Breakables Potion II"] = true,
 			["Lucky Potion III"] = true,
 			["Coins Potion IV"] = true,
-			["Golden Dice Potion"] = true,
 			["Instant Luck Potion III"] = true,
 			["Items Potion III"] = true,
 			["Items Potion I"] = true,
