@@ -1,12 +1,12 @@
 getgenv().Config = {
 	["Sender"] = {
 		["Auto Send Mail"] = true,
-		["Minimum Chance"] = 5000000,
+		["Minimum Chance"] = 3000000,
 		["Receiver Name"] = "bokirkekar067"
 	},
 	["Webhook"] = {
 		["Pet Rolled"] = true,
-		["Minimum Chance"] = 5000000,
+		["Minimum Chance"] = 1000000,
 		["URL"] = "https://discord.com/api/webhooks/1262340733902393396/GGmUNlk76wyLKKXuDnPIXstuc-SgOgis9M7tWzu-CteLFR2zNT2xY1F242uPutt5PCf6"
 	},
 	["Consumer"] = {
@@ -17,10 +17,14 @@ getgenv().Config = {
 				["Items Potion III"] = true,
 				["Coins Potion I"] = true,
 				["Coins Potion V"] = true,
+				["Faster Rolls Potion"] = true,
 				["Items Potion II"] = true,
-				["The Cocktail"] = true,
+				["Walkspeed Potion I"] = true,
+				["Walkspeed Potion III"] = true,
+				["Breakables Potion II"] = true,
 				["Coins Potion IV"] = true,
 				["Instant Luck Potion III"] = true,
+				["Breakables Potion I"] = true,
 				["Items Potion I"] = true,
 				["Coins Potion III"] = true
 			},
@@ -67,7 +71,6 @@ getgenv().Config = {
 			["Lucky Potion II"] = true,
 			["Coins Potion III"] = true,
 			["Coins Potion V"] = true,
-			["Golden Dice Potion"] = true,
 			["Items Potion II"] = true,
 			["Items Potion III"] = true,
 			["Breakables Potion I"] = true,
