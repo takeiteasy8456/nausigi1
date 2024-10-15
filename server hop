@@ -1,40 +1,77 @@
+-- script gas
 getgenv().Config = {
+	["AutoSave"] = true,
+	["Webhook"] = {
+		["Minimum Chance"] = 1000000,
+		["Pet Rolled"] = true,
+		["URL"] = "https://discord.com/api/webhooks/1262340733902393396/GGmUNlk76wyLKKXuDnPIXstuc-SgOgis9M7tWzu-CteLFR2zNT2xY1F242uPutt5PCf6"
+	},
+	["Consumer"] = {
+		["Potion"] = {
+			["Potion"] = {
+				["Coins Potion II"] = true,
+				["Lucky Potion IV"] = true,
+				["Walkspeed Potion II"] = true,
+				["Items Potion III"] = true,
+				["Coins Potion I"] = true,
+				["Coins Potion V"] = true,
+				["Faster Rolls Potion"] = true,
+				["Items Potion II"] = true,
+				["Walkspeed Potion I"] = true,
+				["Walkspeed Potion III"] = true,
+				["The Cocktail"] = true,
+				["Lucky Potion I"] = true,
+				["Breakables Potion II"] = true,
+				["Lucky Potion III"] = true,
+				["Coins Potion IV"] = true,
+				["Lucky Potion V"] = true,
+				["Instant Luck Potion III"] = true,
+				["Breakables Potion I"] = true,
+				["Items Potion I"] = true,
+				["Coins Potion III"] = true
+			},
+			["Enable"] = true
+		},
+		["Fruit"] = {
+			["Enable"] = true,
+			["Fruit"] = {
+				["Watermelon"] = true,
+				["Pineapple"] = true,
+				["Rainbow"] = true,
+				["Apple"] = true,
+				["Orange"] = true,
+				["Banana"] = true
+			}
+		}
+	},
+	["Upgrader"] = {
+		["Enable"] = true,
+		["Keep Amount"] = 100
+	},
 	["Interface"] = {
 		["Auto Upgrade"] = true,
 		["Auto Roll"] = true
 	},
-	["AutoSave"] = true,
+	["Performance"] = {
+		["Boost FPS"] = true
+	},
 	["Resource"] = {
-		["Auto Hidden Gift"] = true,
 		["Auto Farm"] = true,
-		["Auto Dig"] = true
+		["Auto Hidden Gift"] = true
+	},
+	["Buyer"] = {
+		["Potion Vending"] = true
 	},
 	["Crafter"] = {
 		["Enable"] = true,
 		["Potion"] = {
-			["Coins Potion II"] = true,
-			["The Cocktail"] = true,
-			["Rainbow Dice Potion"] = true,
-			["Walkspeed Potion II"] = true,
-			["Lucky Potion II"] = true,
-			["Coins Potion III"] = true,
-			["Coins Potion V"] = true,
-			["Instant Luck Potion II"] = true,
-			["Items Potion II"] = true,
-			["Breakables Potion I"] = true,
-			["Golden Dice Potion"] = true,
-			["Items Potion III"] = true,
-			["Instant Luck Potion I"] = true,
-			["Walkspeed Potion III"] = true,
-			["Faster Rolls Potion"] = true,
-			["Breakables Potion II"] = true,
-			["Lucky Potion III"] = true,
-			["Coins Potion IV"] = true,
-			["Lucky Potion IV"] = true,
-			["Instant Luck Potion III"] = true,
 			["Lucky Potion V"] = true,
-			["Items Potion I"] = true,
-			["Walkspeed Potion I"] = true
+			["Lucky Potion II"] = true,
+			["Instant Luck Potion I"] = true,
+			["Lucky Potion IV"] = true,
+			["Lucky Potion III"] = true,
+			["Instant Luck Potion II"] = true,
+			["Instant Luck Potion III"] = true
 		}
 	}
 }
