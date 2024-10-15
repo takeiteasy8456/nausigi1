@@ -9,6 +9,7 @@ getgenv().Config = {
 		["Potion"] = {
 			["Potion"] = {
 				["Coins Potion II"] = true,
+				["Lucky Potion IV"] = true,
 				["Walkspeed Potion II"] = true,
 				["Items Potion III"] = true,
 				["Coins Potion I"] = true,
@@ -17,8 +18,13 @@ getgenv().Config = {
 				["Items Potion II"] = true,
 				["Walkspeed Potion I"] = true,
 				["Walkspeed Potion III"] = true,
+				["The Cocktail"] = true,
+				["Lucky Potion I"] = true,
 				["Breakables Potion II"] = true,
+				["Lucky Potion III"] = true,
 				["Coins Potion IV"] = true,
+				["Lucky Potion V"] = true,
+				["Instant Luck Potion III"] = true,
 				["Breakables Potion I"] = true,
 				["Items Potion I"] = true,
 				["Coins Potion III"] = true
@@ -64,8 +70,7 @@ getgenv().Config = {
 			["Lucky Potion IV"] = true,
 			["Lucky Potion III"] = true,
 			["Instant Luck Potion II"] = true,
-			["Instant Luck Potion III"] = true,
-			["Rainbow Dice Potion"] = true
+			["Instant Luck Potion III"] = true
 		}
 	}
 }
