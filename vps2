@@ -1,42 +1,30 @@
 getgenv().Config = {
 	["Sender"] = {
 		["Auto Send Mail"] = true,
-		["Minimum Chance"] = 1000000,
+		["Minimum Chance"] = 5000000,
 		["Receiver Name"] = "bokirkekar067"
 	},
 	["Webhook"] = {
 		["Pet Rolled"] = true,
-		["Minimum Chance"] = 1000000,
+		["Minimum Chance"] = 5000000,
 		["URL"] = "https://discord.com/api/webhooks/1262340733902393396/GGmUNlk76wyLKKXuDnPIXstuc-SgOgis9M7tWzu-CteLFR2zNT2xY1F242uPutt5PCf6"
 	},
 	["Consumer"] = {
 		["Potion"] = {
 			["Potion"] = {
 				["Coins Potion II"] = true,
-				["Lucky Potion IV"] = true,
-				["Rainbow Dice Potion"] = true,
 				["Walkspeed Potion II"] = true,
-				["Lucky Potion II"] = true,
 				["Items Potion III"] = true,
-				["Instant Luck Potion I"] = true,
 				["Coins Potion I"] = true,
 				["Coins Potion V"] = true,
-				["Faster Rolls Potion"] = true,
 				["Items Potion II"] = true,
-				["Golden Dice Potion"] = true,
-				["Walkspeed Potion I"] = true,
-				["Instant Luck Potion II"] = true,
-				["Walkspeed Potion III"] = true,
-				["Lucky Potion I"] = true,
-				["Breakables Potion II"] = true,
-				["Lucky Potion III"] = true,
+				["The Cocktail"] = true,
 				["Coins Potion IV"] = true,
-				["Lucky Potion V"] = true,
 				["Instant Luck Potion III"] = true,
-				["Breakables Potion I"] = true,
 				["Items Potion I"] = true,
 				["Coins Potion III"] = true
-			}
+			},
+			["Enable"] = true
 		},
 		["Fruit"] = {
 			["Enable"] = true,
@@ -51,6 +39,7 @@ getgenv().Config = {
 		}
 	},
 	["Upgrader"] = {
+		["Enable"] = true,
 		["Keep Amount"] = 100
 	},
 	["Interface"] = {
@@ -73,7 +62,6 @@ getgenv().Config = {
 		["Enable"] = true,
 		["Potion"] = {
 			["Coins Potion II"] = true,
-			["The Cocktail"] = true,
 			["Lucky Potion V"] = true,
 			["Walkspeed Potion II"] = true,
 			["Lucky Potion II"] = true,
