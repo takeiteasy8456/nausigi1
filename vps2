@@ -1,7 +1,8 @@
 getgenv().Config = {
 	["Sender"] = {
 		["Auto Send Mail"] = true,
-		["Minimum Chance"] = 3000000
+		["Minimum Chance"] = 3000000,
+		["Receiver Name"] = "bokirkekar067"
 	},
 	["Webhook"] = {
 		["Pet Rolled"] = true,
@@ -93,7 +94,15 @@ getgenv().Config = {
 	},
 	["AutoSave"] = true,
 	["Buyer"] = {
-		["Potion Vending"] = true
+		["Potion Vending"] = true,
+		["Item"] = {
+			["Instant Luck Potion II"] = true,
+			["Lucky Potion V"] = true,
+			["Instant Luck Potion III"] = true
+		},
+		["Index Shop"] = {
+			["Enable"] = true
+		}
 	},
 	["Interface"] = {
 		["Auto Upgrade"] = true,
