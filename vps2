@@ -96,8 +96,11 @@ getgenv().Config = {
 	["Buyer"] = {
 		["Potion Vending"] = true,
 		["Item"] = {
+			["Lucky Potion IV"] = true,
+			["Rainbow Dice Potion"] = true,
+			["Instant Luck Potion I"] = true,
 			["Instant Luck Potion II"] = true,
-			["Lucky Potion V"] = true,
+			["Golden Dice Potion"] = true,
 			["Instant Luck Potion III"] = true
 		},
 		["Index Shop"] = {
