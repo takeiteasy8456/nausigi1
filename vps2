@@ -1,16 +1,18 @@
--- script gas
 getgenv().Config = {
-	["AutoSave"] = true,
+	["Sender"] = {
+		["Auto Send Mail"] = true,
+		["Minimum Chance"] = 3000000,
+		["Receiver Name"] = "bokirkekar067"
+	},
 	["Webhook"] = {
-		["Minimum Chance"] = 1000000,
 		["Pet Rolled"] = true,
+		["Minimum Chance"] = 1000000,
 		["URL"] = "https://discord.com/api/webhooks/1262340733902393396/GGmUNlk76wyLKKXuDnPIXstuc-SgOgis9M7tWzu-CteLFR2zNT2xY1F242uPutt5PCf6"
 	},
 	["Consumer"] = {
 		["Potion"] = {
 			["Potion"] = {
 				["Coins Potion II"] = true,
-				["Lucky Potion IV"] = true,
 				["Walkspeed Potion II"] = true,
 				["Items Potion III"] = true,
 				["Coins Potion I"] = true,
@@ -19,12 +21,8 @@ getgenv().Config = {
 				["Items Potion II"] = true,
 				["Walkspeed Potion I"] = true,
 				["Walkspeed Potion III"] = true,
-				["The Cocktail"] = true,
-				["Lucky Potion I"] = true,
 				["Breakables Potion II"] = true,
-				["Lucky Potion III"] = true,
 				["Coins Potion IV"] = true,
-				["Lucky Potion V"] = true,
 				["Instant Luck Potion III"] = true,
 				["Breakables Potion I"] = true,
 				["Items Potion I"] = true,
@@ -50,28 +48,44 @@ getgenv().Config = {
 	},
 	["Interface"] = {
 		["Auto Upgrade"] = true,
-		["Auto Roll"] = true
-	},
-	["Performance"] = {
-		["Boost FPS"] = true
+		["Auto Roll"] = true,
+		["Fast Roll"] = true
 	},
 	["Resource"] = {
 		["Auto Farm"] = true,
 		["Auto Hidden Gift"] = true
 	},
+	["Performance"] = {
+		["Boost FPS"] = true
+	},
+	["AutoSave"] = true,
 	["Buyer"] = {
 		["Potion Vending"] = true
 	},
 	["Crafter"] = {
 		["Enable"] = true,
 		["Potion"] = {
+			["Coins Potion II"] = true,
 			["Lucky Potion V"] = true,
+			["Walkspeed Potion II"] = true,
 			["Lucky Potion II"] = true,
+			["Coins Potion III"] = true,
+			["Coins Potion V"] = true,
+			["Items Potion II"] = true,
+			["Items Potion III"] = true,
+			["Breakables Potion I"] = true,
+			["Faster Rolls Potion"] = true,
 			["Instant Luck Potion I"] = true,
 			["Lucky Potion IV"] = true,
+			["Walkspeed Potion III"] = true,
+			["Breakables Potion II"] = true,
 			["Lucky Potion III"] = true,
+			["Coins Potion IV"] = true,
 			["Instant Luck Potion II"] = true,
-			["Instant Luck Potion III"] = true
+			["Instant Luck Potion III"] = true,
+			["Rainbow Dice Potion"] = true,
+			["Items Potion I"] = true,
+			["Walkspeed Potion I"] = true
 		}
 	}
 }
