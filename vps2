@@ -31,7 +31,7 @@ getgenv().Config = {
 				["Breakables Potion II"] = true,
 				["Lucky Potion III"] = false,
 				["Walkspeed Potion III"] = true,
-				["Lucky Potion V"] = false,
+				["Lucky Potion V"] = true,
 				["Instant Luck Potion III"] = false,
 				["Lucky Potion II"] = false,
 				["Items Potion I"] = true,
@@ -88,7 +88,8 @@ getgenv().Config = {
 		["Auto Hidden Gift"] = true
 	},
 	["Performance"] = {
-		["Boost FPS"] = true
+		["Boost FPS"] = true,
+                ["Black Screen"] = true
 	},
 	["AutoSave"] = true,
 	["Buyer"] = {
