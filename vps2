@@ -83,7 +83,7 @@ getgenv().Config = {
 			["Coins Potion IV"] = true,
 			["Instant Luck Potion II"] = true,
 			["Instant Luck Potion III"] = true,
-			["Rainbow Dice Potion"] = true,
+			["Rainbow Dice Potion"] = false,
 			["Items Potion I"] = true,
 			["Walkspeed Potion I"] = true
 		}
