@@ -1,101 +1,135 @@
-
-
-task.wait(4)
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1055549789976154252/1291482231675555961/gacor4.txt?ex=670b76ce&is=670a254e&hm=04ec50aa89d073c38fa554346fc895b2d397061544c8828b6eaaaaba95ea186c&"
-getgenv().EquipMacroTroop = true
 getgenv().Config = {
-	["AutoVoteDifficulty"] = false,
-	["RequiredGem"] = 1000,
-	["SellRarities"] = {
-		["Legendary"] = false,
-		["Basic"] = false,
-		["Epic"] = false,
-		["Uncommon"] = false,
-		["Rare"] = false
-	},
-	["DelayReplay"] = 5,
-	["WH_MatchComplete"] = true,
-        ["RequiredGem"] = 100,
-	["AutoSkip"] = true,
-	["AutoClaimQuest"] = true,
-	["TPLobbyIfPlayer"] = true,
-	["WH_MailSent"] = false,
-	["Summon10"] = true,
-	["SelectMacro"] = "gacor4",
-	["ALFS_DelayHop"] = 30,
-	["PlaceFailsafe"] = false,
-	["AutoJoinEndless"] = false,
-	["PlayMacro"] = true,
-	["AutoReturnToLobby"] = false,
-	["SelectMap"] = "DrillWorld (Rewind)",
-	["AutoMail"] = true,
-        ["MailName"] = "bokirkekar067",
-	["DeleteMap"] = true,
-	["AutoUseBoost"] = false,
-	["AutoSummonTroop"] = false,
-	["BlackScreen"] = false,
-	["BoostFPS"] = true,
-	["SellWave"] = 1,
-	["AutoClaimEventPass"] = true,
-	["BuyEventName"] = "hobby990creeping",
-	["UseAll"] = true,
-	["AutoJoinMatch"] = true,
-	["ALFS_HopServer"] = false,
-	["JoinFailsafe"] = false,
-	["AutoClaimPlaytimeReward"] = true,
-	["AutoSellOW"] = false,
-	["AutoReplay"] = true,
 	["AutoSave"] = true,
-	["AutoClaimVIP"] = false,
-	["AutoRejoin"] = true,
-	["AutoListForSale"] = false,
-	["DelayJoin"] = 5,
-	["AutoClaimEventQuest"] = true,
-	["AutoBuyEvent"] = true,
-	["WebhookURL"] = "https://discord.com/api/webhooks/1245029873764798505/_Hfuy7riuRRSJuEqHtWtGXV6312W2CgVZhAUETzgEgkQBTUiP_mHk3a5jEkJulCrAvpV",
-	["SummonDelay"] = 0.3,
-	["ABE_Gift"] = true,
-	["AutoClaimDailyReward"] = true,
-	["RequireRoll"] = 0,
-	["UseBoosts"] = {
-		["2xLuckBoost_1"] = false,
-		["2xEggsBoost"] = false,
-		["2xLuckBoost_10"] = false,
-		["2xEventXPBoost"] = false,
-		["2xXPBoost"] = false,
-		["2xClocksBoost"] = false,
-		["2xCoinsBoost_1"] = false,
-		["2xDrillXPBoost"] = true,
-		["Weekend_2xEndlessXPBoost"] = false,
-		["2xXPBoost_10"] = false,
-		["2xCoinsBoost_10"] = false,
-		["2xXPBoost_Easter2024"] = false,
-		["2xCloversBoost"] = false,
-		["2xEventXPBoost_10"] = true,
-		["Weekend_2xCoinsBoost"] = false,
-		["2xLuckBoost"] = false,
-		["2xDrillBoost"] = true,
-		["2xEventXPBoost_1"] = true,
-		["2xXPBoost_1"] = false,
-		["2xCoinsBoost"] = false
+	["Webhook"] = {
+		["Pet Rolled"] = true,
+		["Minimum Chance"] = 3000000,
+		["Mail Sent"] = true,
+		["URL"] = "https://discord.com/api/webhooks/1262340733902393396/GGmUNlk76wyLKKXuDnPIXstuc-SgOgis9M7tWzu-CteLFR2zNT2xY1F242uPutt5PCf6"
 	},
-	["IgnoreMacroTiming"] = false
+	["Consumer"] = {
+		["Potion"] = {
+			["Enable"] = true,
+			["Potion"] = {
+				["Coins Potion II"] = false,
+				["Lucky Potion IV"] = false,
+				["Lucky Potion V"] = false,
+				["Walkspeed Potion II"] = false,
+				["Items Potion III"] = true,
+				["Lucky Potion II"] = false,
+				["Instant Luck Potion I"] = false,
+				["Coins Potion III"] = false,
+				["Coins Potion V"] = true,
+				["Faster Rolls Potion"] = true,
+				["Items Potion II"] = false,
+				["Golden Dice Potion"] = false,
+				["Walkspeed Potion I"] = false,
+				["The Cocktail"] = false,
+				["Walkspeed Potion III"] = true,
+				["Instant Luck Potion II"] = false,
+				["Lucky Potion I"] = false,
+				["Breakables Potion II"] = true,
+				["Lucky Potion III"] = false,
+				["Coins Potion IV"] = false,
+				["Rainbow Dice Potion"] = false,
+				["Instant Luck Potion III"] = false,
+				["Breakables Potion I"] = false,
+				["Items Potion I"] = false,
+				["Coins Potion I"] = false
+			}
+		},
+		["Fruit"] = {
+			["Enable"] = true,
+			["Fruit"] = {
+				["Watermelon"] = true,
+				["Pineapple"] = true,
+				["Rainbow"] = true,
+				["Apple"] = true,
+				["Orange"] = true,
+				["Banana"] = true
+			}
+		}
+	},
+	["Upgrader"] = {
+		["Enable"] = true,
+		["Keep Amount"] = 1000
+	},
+	["Crafter"] = {
+		["Enable"] = true,
+		["Potion"] = {
+			["Coins Potion II"] = false,
+			["The Cocktail"] = false,
+			["Rainbow Dice Potion"] = true,
+			["Walkspeed Potion II"] = false,
+			["Lucky Potion II"] = true,
+			["Coins Potion III"] = true,
+			["Coins Potion V"] = true,
+			["Instant Luck Potion II"] = true,
+			["Items Potion II"] = true,
+			["Breakables Potion I"] = false,
+			["Golden Dice Potion"] = false,
+			["Items Potion III"] = true,
+			["Instant Luck Potion I"] = true,
+			["Walkspeed Potion III"] = true,
+			["Faster Rolls Potion"] = false,
+			["Breakables Potion II"] = true,
+			["Lucky Potion III"] = true,
+			["Coins Potion IV"] = true,
+			["Lucky Potion IV"] = true,
+			["Instant Luck Potion III"] = true,
+			["Lucky Potion V"] = false,
+			["Items Potion I"] = false,
+			["Walkspeed Potion I"] = true
+		}
+	},
+	["Resource"] = {
+		["Auto Farm"] = true,
+		["Auto Hidden Gift"] = true
+	},
+	["Performance"] = {
+		["Boost FPS"] = true,
+		["Black Screen"] = false
+	},
+	["Sender"] = {
+		["Auto Send Mail"] = true,
+		["Minimum Chance"] = 5000000,
+		["Receiver Name"] = "bokirkekar067"
+	},
+	["Buyer"] = {
+		["Potion Vending"] = true,
+		["Item"] = {
+			["Coins Potion II"] = false,
+			["Lucky Potion IV"] = false,
+			["Rainbow Dice Potion"] = true,
+			["Instant Luck Potion I"] = true,
+			["Coins Potion I"] = false,
+			["Breakables Potion I"] = false,
+			["Faster Rolls Potion"] = false,
+			["Ice Cream Hoverboard"] = false,
+			["Coins Potion III"] = false,
+			["Coins Potion V"] = false,
+			["Instant Luck Potion II"] = true,
+			["Ice Cream Booth"] = false,
+			["Lucky Potion V"] = true,
+			["Rave Crab Booth"] = false,
+			["Rave Crab Hoverboard"] = false,
+			["Lucky Potion III"] = false,
+			["Coins Potion IV"] = false,
+			["Golden Dice Potion"] = false,
+			["Instant Luck Potion III"] = true,
+			["Breakables Potion II"] = false,
+			["Lucky Potion I"] = false,
+			["Lucky Potion II"] = false
+		},
+		["Index Shop"] = {
+			["Enable"] = true
+		}
+	},
+	["Interface"] = {
+		["Auto Upgrade"] = true,
+		["Auto Roll"] = true,
+		["Fast Roll"] = true
+	}
 }
-
 getgenv().Key = "kfb9f7ea4f20ba1834ea918c"
 
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
-
-for i = 1, 50 do
-local args = {
-    [1] = {
-        [1] = {
-            [1] = "\226\129\130^",
-            [2] = "2xDrillBoost"
-        }
-    }
-}
-
-game:GetService("ReplicatedStorage").NetworkingContainer.DataRemote:FireServer(unpack(args))
-
-end
