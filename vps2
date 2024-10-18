@@ -1,4 +1,90 @@
-getgenv().LoadSettings = {["Items"] = {["Fruits"] = {["Max"] = 30, ["Fruits"] = {"Watermelon", "Apple", "Rainbow", "Pineapple", "Orange", "Banana"}, ["Craft"] = true, ["Use"] = true}, ["Potions"] = {["Potions"] = {"Breakables Potion", "Faster Rolls Potion", "Items Potion"}, ["CraftPotions"] = {"Lucky Potion", "Instant Luck Potion", "Rainbow Dice Potion"}, ["Tier"] = 0, ["Craft"] = true, ["Use"] = true}, ["Relics"] = true}, ["Farming"] = {["UpgradeGroups"] = {"Luckier", "Root", "Trading", "Fruit", "Hoverboard", "Leveling", "Lucky Potion", "Small Coin Piles"}, ["Index"] = true, ["Upgrades"] = false, ["RAPToMail"] = 10000, ["Rarities"] = {"Exclusive", "Exotic", "Celestial", "Superior", "Secret", "Divine"}, ["IndexWebhook"] = "https://discord.com/api/webhooks/1251873620892979210/9dXffxGg7d06f0NnhC9JaXXw4xQpR4v4pDxhEFcHBGX7O4wHDUEJFiTf4c7Ol1MPsz5N", ["MailWebhook"] = "Enter your Discord Webhook", ["IndexOffers"] = {"AdvancedIndexMerchant - Instant Luck Potion I", "AdvancedIndexMerchant - Instant Luck Potion II", "AdvancedIndexMerchant - Instant Luck Potion III", "AdvancedIndexMerchant - Rainbow Dice Potion", "AdvancedIndexMerchant - Golden Dice Potion", "AdvancedIndexMerchant - Lucky Potion IV", "AdvancedIndexMerchant - Lucky Potion V"}, ["Vending"] = true, ["Gifts"] = true, ["Method"] = "Single", ["Digging"] = true, ["SendIndex"] = true, ["InstaLucks"] = {}, ["UseInstaLuckForCombo"] = false, ["PetsPerBreakable"] = 1, ["Webhook"] = "https://discord.com/api/webhooks/1251873620892979210/9dXffxGg7d06f0NnhC9JaXXw4xQpR4v4pDxhEFcHBGX7O4wHDUEJFiTf4c7Ol1MPsz5N", ["MailHatches"] = false, ["ForceComboForInstaLuck"] = false, ["Roll"] = true, ["Start"] = true, ["Prio"] = false, ["SendHatches"] = true, ["Username"] = "Enter your Username to Mail"}, ["ForceVIP"] = false, ["UIScale"] = 0.75, ["LoadSettings"] = true, ["Optimize"] = {["Pets"] = true, ["Drops"] = true, ["Breakables"] = true, ["Scripts"] = true, ["GUIs"] = true, ["World"] = false}}
+getgenv().Config = {
+	["AutoSave"] = true,
+	["Webhook"] = {
+		["Pet Rolled"] = true,
+		["Minimum Chance"] = 10000000,
+		["Mail Sent"] = true,
+		["URL"] = "https://discord.com/api/webhooks/1262340733902393396/GGmUNlk76wyLKKXuDnPIXstuc-SgOgis9M7tWzu-CteLFR2zNT2xY1F242uPutt5PCf6"
+	},
+	["Consumer"] = {
+		["Potion"] = {
+			["Enable"] = true,
+			["Potion"] = {
+				["Breakables Potion II"] = true,
+				["Walkspeed Potion III"] = true,
+				["Coins Potion V"] = true,
+				["Faster Rolls Potion"] = true,
+				["Items Potion III"] = true
+			}
+		},
+		["Fruit"] = {
+			["Enable"] = true,
+			["Fruit"] = {
+				["Watermelon"] = true,
+				["Pineapple"] = true,
+				["Rainbow"] = true,
+				["Apple"] = true,
+				["Orange"] = true,
+				["Banana"] = true
+			}
+		}
+	},
+	["Upgrader"] = {
+		["Enable"] = true,
+		["Keep Amount"] = 1000
+	},
+	["Interface"] = {
+		["Auto Upgrade"] = true,
+		["Auto Roll"] = true,
+		["Fast Roll"] = true
+	},
+	["Resource"] = {
+		["Auto Farm"] = true,
+		["Auto Hidden Gift"] = true
+	},
+	["Performance"] = {
+		["Boost FPS"] = true
+	},
+	["Sender"] = {
+		["Auto Send Mail"] = true,
+		["Minimum Chance"] = 10000000,
+		["Receiver Name"] = "bokirkekar067"
+	},
+	["Buyer"] = {
+		["Potion Vending"] = true,
+		["Item"] = {
+			["Rainbow Dice Potion"] = true,
+			["Instant Luck Potion I"] = true,
+			["Lucky Potion V"] = true,
+			["Instant Luck Potion II"] = true,
+			["Instant Luck Potion III"] = true
+		},
+		["Index Shop"] = {
+			["Enable"] = true
+		}
+	},
+	["Crafter"] = {
+		["Enable"] = true,
+		["Potion"] = {
+			["Lucky Potion II"] = true,
+			["Coins Potion III"] = true,
+			["Rainbow Dice Potion"] = true,
+			["Instant Luck Potion I"] = true,
+			["Walkspeed Potion I"] = true,
+			["Coins Potion V"] = true,
+			["Instant Luck Potion II"] = true,
+			["Items Potion II"] = true,
+			["Items Potion III"] = true,
+			["Lucky Potion IV"] = true,
+			["Walkspeed Potion III"] = true,
+			["Breakables Potion II"] = true,
+			["Lucky Potion III"] = true,
+			["Coins Potion IV"] = true,
+			["Instant Luck Potion III"] = true
+		}
+	}
+}
 
-script_key = "YKRYPMemFQaKBnPgllocFNfulSeJBBYR";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b22aae7d03041699ada62f6a4fb519fd.lua"))()
+getgenv().Key = "kfb9f7ea4f20ba1834ea918c"
+
+loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
