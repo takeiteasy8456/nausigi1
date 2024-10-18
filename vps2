@@ -1,9 +1,9 @@
 getgenv().Config = {
 	["AutoSave"] = true,
 	["Webhook"] = {
-		["Pet Rolled"] = true,
-		["Minimum Chance"] = 10000000,
 		["Mail Sent"] = true,
+		["Minimum Chance"] = 10000000,
+		["Pet Rolled"] = true,
 		["URL"] = "https://discord.com/api/webhooks/1262340733902393396/GGmUNlk76wyLKKXuDnPIXstuc-SgOgis9M7tWzu-CteLFR2zNT2xY1F242uPutt5PCf6"
 	},
 	["Consumer"] = {
@@ -12,20 +12,24 @@ getgenv().Config = {
 			["Potion"] = {
 				["Breakables Potion II"] = true,
 				["Walkspeed Potion III"] = true,
-				["Coins Potion V"] = true,
+				["Instant Luck Potion III"] = true,
+				["The Cocktail"] = true,
+				["Lucky Potion VII"] = true,
 				["Faster Rolls Potion"] = true,
-				["Items Potion III"] = true
+				["Coins Potion V"] = true,
+				["Items Potion III"] = true,
+				["Blazing Dice Potion"] = true
 			}
 		},
 		["Fruit"] = {
 			["Enable"] = true,
 			["Fruit"] = {
 				["Watermelon"] = true,
-				["Pineapple"] = true,
+				["Banana"] = true,
 				["Rainbow"] = true,
 				["Apple"] = true,
 				["Orange"] = true,
-				["Banana"] = true
+				["Pineapple"] = true
 			}
 		}
 	},
@@ -33,10 +37,25 @@ getgenv().Config = {
 		["Enable"] = true,
 		["Keep Amount"] = 1000
 	},
-	["Interface"] = {
-		["Auto Upgrade"] = true,
-		["Auto Roll"] = true,
-		["Fast Roll"] = true
+	["Crafter"] = {
+		["Enable"] = true,
+		["Potion"] = {
+			["Rainbow Dice Potion"] = true,
+			["Instant Luck Potion II"] = true,
+			["Lucky Potion II"] = true,
+			["Coins Potion IV"] = true,
+			["Walkspeed Potion I"] = true,
+			["Coins Potion V"] = true,
+			["Items Potion II"] = true,
+			["Items Potion III"] = true,
+			["Walkspeed Potion III"] = true,
+			["Lucky Potion IV"] = true,
+			["Breakables Potion II"] = true,
+			["Lucky Potion III"] = true,
+			["Instant Luck Potion III"] = true,
+			["Coins Potion III"] = true,
+			["Instant Luck Potion I"] = true
+		}
 	},
 	["Resource"] = {
 		["Auto Farm"] = true,
@@ -51,37 +70,22 @@ getgenv().Config = {
 		["Receiver Name"] = "bokirkekar067"
 	},
 	["Buyer"] = {
-		["Potion Vending"] = true,
-		["Item"] = {
-			["Rainbow Dice Potion"] = true,
-			["Instant Luck Potion I"] = true,
-			["Lucky Potion V"] = true,
-			["Instant Luck Potion II"] = true,
-			["Instant Luck Potion III"] = true
-		},
 		["Index Shop"] = {
 			["Enable"] = true
-		}
-	},
-	["Crafter"] = {
-		["Enable"] = true,
-		["Potion"] = {
-			["Lucky Potion II"] = true,
-			["Coins Potion III"] = true,
-			["Rainbow Dice Potion"] = true,
+		},
+		["Item"] = {
+			["Lucky Potion V"] = true,
 			["Instant Luck Potion I"] = true,
-			["Walkspeed Potion I"] = true,
-			["Coins Potion V"] = true,
 			["Instant Luck Potion II"] = true,
-			["Items Potion II"] = true,
-			["Items Potion III"] = true,
-			["Lucky Potion IV"] = true,
-			["Walkspeed Potion III"] = true,
-			["Breakables Potion II"] = true,
-			["Lucky Potion III"] = true,
-			["Coins Potion IV"] = true,
-			["Instant Luck Potion III"] = true
-		}
+			["Instant Luck Potion III"] = true,
+			["Rainbow Dice Potion"] = true
+		},
+		["Potion Vending"] = true
+	},
+	["Interface"] = {
+		["Auto Upgrade"] = true,
+		["Auto Roll"] = true,
+		["Fast Roll"] = true
 	}
 }
 
