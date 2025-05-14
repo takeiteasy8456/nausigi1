@@ -1,3 +1,139 @@
-getgenv().LoadSettings = {["Items"] = {["Fruits"] = {["Max"] = 30, ["Fruits"] = {"Watermelon", "Apple", "Rainbow", "Pineapple", "Orange", "Banana"}, ["Craft"] = true, ["Use"] = true}, ["Potions"] = {["Potions"] = {"Coins Potion", "Breakables Potion", "Faster Rolls Potion", "Walkspeed Potion", "Items Potion"}, ["CraftPotions"] = {"Instant Luck Potion", "The Cocktail", "Lucky Potion"}, ["Tier"] = 0, ["Craft"] = false, ["Use"] = true}, ["Relics"] = false}, ["Farming"] = {["UpgradeGroups"] = {"Leveling", "Luckier", "Trading", "Root", "Fruit", "Hoverboard", "Small Coin Piles", "Lucky Potion", "Merchant", "Flying Gifts"}, ["Index"] = true, ["Upgrades"] = false, ["Rarities"] = {"Exclusive", "Exotic", "Celestial", "Secret", "Superior", "Divine"}, ["Balloons"] = true, ["IndexWebhook"] = "Enter your Discord Webhook", ["MailWebhook"] = "", ["IndexOffers"] = {"AdvancedIndexMerchant - Instant Luck Potion I", "AdvancedIndexMerchant - Instant Luck Potion II", "AdvancedIndexMerchant - Instant Luck Potion III", "AdvancedIndexMerchant - Lucky Potion V", "AdvancedIndexMerchant - Rainbow Dice Potion", "AdvancedIndexMerchant - Golden Dice Potion", "AdvancedIndexMerchant - Faster Rolls Potion I", "IndexMerchant - Faster Rolls Potion I", "AdvancedIndexMerchant - Lucky Potion IV"}, ["Gifts"] = true, ["Digging"] = true, ["Vending"] = true, ["Custom"] = true, ["SendIndex"] = false, ["Method"] = "Multi", ["Username"] = "bokirkekar067", ["InstaLucks"] = {"Insta Luck III"}, ["DifficultyToMail"] = 9000000, ["UseInstaLuckForCombo"] = true, ["PetsPerBreakable"] = 1, ["Webhook"] = "https://discord.com/api/webhooks/1262340733902393396/GGmUNlk76wyLKKXuDnPIXstuc-SgOgis9M7tWzu-CteLFR2zNT2xY1F242uPutt5PCf6", ["MailHatches"] = true, ["ForceComboForInstaLuck"] = true, ["Roll"] = true, ["Start"] = true, ["Prio"] = false, ["SendHatches"] = true, ["CustomOffers"] = {"StandardMerchant - Instant Luck Potion III", "StandardMerchant - The Cocktail", "StandardMerchant - Instant Luck Potion II", "StandardMerchant - Instant Luck Potion I", "StandardMerchant - Blazing Dice Potion", "StandardMerchant - Rainbow Dice Potion", "StandardMerchant - Golden Dice Potion", "StandardMerchant - Faster Rolls Potion II", "StandardMerchant - Faster Rolls Potion I", "StandardMerchant - Items Potion II", "StandardMerchant - Breakables Potion II", "StandardMerchant - Coins Potion V", "StandardMerchant - Coins Potion IV", "StandardMerchant - Coins Potion III", "StandardMerchant - Coins Potion II", "StandardMerchant - Lucky Potion V", "StandardMerchant - Lucky Potion IV", "StandardMerchant - Lucky Potion III", "StandardMerchant - Lucky Potion II", "StandardMerchant - Items Potion I", "StandardMerchant - Breakables Potion I", "StandardMerchant - Lucky Potion I", "StandardMerchant - Coins Potion I"}}, ["ForceVIP"] = false, ["UIScale"] = 0.75, ["LoadSettings"] = true, ["Optimize"] = {["Pets"] = true, ["Drops"] = true, ["Breakables"] = true, ["Scripts"] = false, ["GUIs"] = true, ["World"] = true}}
-script_key = "YKRYPMemFQaKBnPgllocFNfulSeJBBYR";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b22aae7d03041699ada62f6a4fb519fd.lua"))()
+local playerGui = game:GetService("Players").LocalPlayer.PlayerGui
+
+-- Daftar path yang akan dihapus
+local pathsToRemove = {
+    playerGui.Top.ShowBoosts,
+    playerGui.Top.SendQueue,
+    playerGui.Top.PVPHealth,
+    playerGui.Top.Health,
+    playerGui.Top.GameBoosts,
+    playerGui.Top.ChristmasModifiers,
+    playerGui.Top.BossRaidModifiers,
+    playerGui.Top.BossBar,
+    playerGui.Top.Wave,
+    playerGui.Top.Power,
+    playerGui.Top.MaxPlacement,
+    playerGui.UnitManager.MainFrame.Main,
+    playerGui.Settings.Settings,
+    playerGui.Settings.ConfirmLeave,
+    playerGui.Save.Save,
+    playerGui.Placement.Placed,
+    playerGui.Placement.ViewCameras,
+    playerGui.Placement.UnitManager,
+    playerGui.Placement.SettingsButton,
+    playerGui.Placement.SendButton,
+    playerGui.Placement.Save,
+    playerGui.Placement.Panel,
+    playerGui.Placement.MobileRotate,
+    playerGui.Placement.ConfirmPlacement,
+    playerGui.Placement.Hotbar.BG,
+    playerGui.Placement.Hotbar.Arrow,
+    playerGui.Placement.Camera.BG,
+    playerGui.Placement.Camera.Night2,
+    playerGui.Placement.Camera.Night1,
+    playerGui.Panel,
+    playerGui.Messages.Notifies,
+    playerGui.GameSelection.WaitingFrame.Waiting,
+    playerGui.GameSelection.PowerModeGameSelection.Main.LoadSave,
+    playerGui.GameSelection.PowerModeGameSelection.Main.BG,
+    playerGui.GameSelection.PowerModeGameSelection.Main,
+    playerGui.GameSelection.PowerModeGameSelection,
+    playerGui.GameSelection.PVPGameSelection,
+    playerGui.GameSelection.EndlessGameSelection,
+    playerGui.GameSelection.PowerModeGameSelection.Main.Title,
+    playerGui.GameSelection.PowerModeGameSelection.Main.NightTitle,
+    playerGui.GameSelection.PowerModeGameSelection.Main:GetChildren()[12],
+    playerGui.GameSelection.PowerModeGameSelection.Main.Rewards,
+    playerGui.GameSelection.PowerModeGameSelection.Main.Leaderboard,
+    playerGui.GameSelection.PowerModeGameSelection.Main.ENDLESS,
+    playerGui.GameSelection.PowerModeGameSelection.Main.Vote,
+    playerGui.GameSelection.PowerModeGameSelection.Main.UIAspectRatioConstraint,
+    playerGui.GameSelection.PowerModeGameSelection.Main.NightSelector["1"],
+    playerGui.GameSelection.SpaceGameSelectionFrame.Main.Title,
+    playerGui.GameSelection.SpaceGameSelectionFrame,
+    playerGui.GameSelection.VotesFrame,
+    playerGui.GameSelection.WaitingFrame,
+    playerGui.Endless.TowerImage,
+    playerGui.Endless.Rewards,
+    playerGui.Endless.Frame,
+    playerGui.Endless.Main,
+    playerGui.Endless.Present,
+    playerGui.Completed.NightShift,
+    playerGui.GameSelection.GameSelectionFrame,
+    playerGui.UnitManager.MainFrame,
+    playerGui.Placement.Hotbar.Main,
+    playerGui.Placement.Camera,
+    playerGui.Placement.Hotbar
+}
+
+-- Fungsi untuk menghapus objek
+local function removeObject(obj)
+    pcall(function()
+        if obj and obj.Parent then
+            obj:Destroy()
+        end
+    end)
+end
+
+-- Hapus semua path dalam daftar menggunakan task.spawn
+task.spawn(function()
+    for _, path in ipairs(pathsToRemove) do
+        task.spawn(function()
+            removeObject(path)
+        end)
+    end
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local whitelist = {
+	game:GetService("CoreGui").FoundationCursorContainer,
+	game:GetService("CoreGui").CursorContainer,
+	game:GetService("CoreGui").RobloxPromptGui,
+}
+
+local function isWhitelisted(obj)
+	for _, whitelistedObj in pairs(whitelist) do
+		if obj == whitelistedObj then
+			return true
+		end
+	end
+	return false
+end
+
+local function cleanCoreGui()
+	while true do
+		for _, child in pairs(game:GetService("CoreGui"):GetChildren()) do
+			if not isWhitelisted(child) then
+				task.spawn(function()
+					pcall(function()
+						child:Destroy()
+						print("[DELETED]: " .. child.Name)
+					end)
+				end)
+			else
+				print("[SKIPPED]: " .. child.Name)
+			end
+		end
+		task.wait(5) -- Delay agar tidak terlalu cepat loopingnya
+	end
+end
+
+task.spawn(cleanCoreGui)
+
